@@ -191,6 +191,7 @@
     .banner-content {
         padding-top: 120px;
         margin-top: 0; 
+        margin-left: 9px;
         h1 {
             font-size: 35px;
             max-width: 100%;
@@ -751,6 +752,9 @@
     }
     .clients-content {
         padding: 30px 15px;
+        iframe {
+            max-width: 100%;
+        }
     }
     .clients-area {
         .owl-nav {

@@ -630,6 +630,9 @@
   .clients-content {
     padding: 30px 15px;
   }
+  .clients-content iframe {
+    max-width: 100%;
+  }
   .clients-area .owl-nav {
     margin-top: 0;
     margin-bottom: 30px;
@@ -745,14 +748,12 @@
   }
   /* Footer Area End */
 }
-
 @media only screen and (max-width: 575px) {
   .banner-item-content {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .build-play-img .play-area {
     top: 27%;
@@ -800,7 +801,6 @@
   }
   /* Footer Area End */
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* Default CSS */
   .ptb-100 {
@@ -1129,7 +1129,6 @@
   }
   /* Error Area CSS End */
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-nav .navbar .navbar-brand img {
     max-width: 140px;
@@ -1376,7 +1375,6 @@
     font-size: 13px;
   }
 }
-
 @media only screen and (min-width: 1800px) {
   .service-shape img {
     max-width: 500px;
@@ -1412,7 +1410,6 @@
     right: 20%;
   }
 }
-
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
   .clients-area .owl-nav .owl-prev {
     left: -2%;
@@ -1427,7 +1424,6 @@
     right: -10px;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1170px;
@@ -1437,7 +1433,6 @@
     margin: 0 auto;
   }
 }
-
 @media only screen and (min-width: 1400px) {
   .client-circle .client-circle-1 {
     left: 5%;
@@ -1462,10 +1457,8 @@
     right: 45%;
   }
 }
-
 @media only screen and (max-width: 991px) {
   .mobile-nav nav .navbar-nav {
-   
     overflow-y: scroll;
   }
   .side-bar-area {
@@ -1513,4 +1506,3 @@
     margin-right: 0;
   }
 }
-/*# sourceMappingURL=responsive.css.map */

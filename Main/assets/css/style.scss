@@ -38,6 +38,8 @@ $optional-color-2:#0071dc;
 $optional-bg:#070b3b;
 $paragraph-color: #444444;
 $color-white: #ffffff;
+$bright-blue: #0d6efd;
+$charcoal-gray: #616160;
 
 body {
     font-size: 15px;
@@ -161,11 +163,40 @@ Section Title Style
         color: $paragraph-color;
     }
 }
+.sections-title {
+    h2 {
+        font-size: 45px;
+        font-weight: 600!important;
+        margin-top: 0;
+        line-height: 1.2;
+        color: #ffffff;
+        margin-bottom: 0;
+    }
+    span {
+        font-size: 20px;
+        font-weight: 400!important;
+        margin-top: 0;
+        line-height: 1.2;
+        color: #ffffff;
+        margin-bottom: 0;
+    }
+}
 .sp-color1 {
     color: $optional-color;
 }
+.sp-colora {
+    color: #ffffff;
+}
+
+.sp-colorb {
+    color: #ffc221;
+}
+
+.sp-colorc {
+    color: #303030;
+}
 .sp-color2 {
-    color: $optional-color-2;
+    color: $bright-blue;
 }
 /*================================
 Section Title Style End
@@ -934,6 +965,7 @@ Main Banner Area
         margin-top: 0px !important;
         position: absolute;
         display: grid;
+        display: -ms-grid;
         right: 7%;
         top: 50%;
         transform: translateY(-50%);
@@ -1112,7 +1144,7 @@ Main Banner Area
     }
     .content {
         padding-bottom: 10px;
-        h3 {
+        p {
             font-size: 45px;
             color: $optional-color;
             font-weight: 700;
@@ -1410,7 +1442,7 @@ About Area
     }
 }
 .about-bg {
-    background-color: $optional-bg;
+    background-color: $optional-color-2;
 }
 .about-img-2 {
     margin-bottom: 30px;
@@ -1440,7 +1472,7 @@ About Area
                 top: 10px;
                 left: 0;
                 font-size: 55px;
-                color: $optional-color-2;
+                color: $color-white;
                 line-height: 1;
             }
             h3 {
@@ -2282,10 +2314,8 @@ Build Area
             border-radius: 50%;
         }
         &:hover {
-            border-radius: 0;
             transform: scale(1);
             &::before{
-                border-radius: 0;
                 animation: none;
             }
         }
@@ -2897,7 +2927,7 @@ Brand Area
 
 .brand-area-two {
     position: relative;
-    background-color: $optional-color-2;
+    background-color: $color-white;
     &::before {
         content: '';
         position: absolute;
@@ -2930,7 +2960,7 @@ Clients Area
 .clients-area {
     position: relative;
     z-index: 1;
-    background-color: #15163b;
+    background-color: $optional-color;
     &::before {
         content: '';
         position: absolute;
@@ -2967,11 +2997,12 @@ Clients Area
             border-radius: 50px;
             line-height: 47px !important;
             background-color: transparent !important;
-            color: $optional-color-2 !important;
-            border: 1px solid $optional-color-2 !important;
+            color: $color-white !important;
+            border: 1px solid $color-white !important;
             &:hover {
                 color: $color-white !important;
                 background-color: $optional-color-2 !important;
+                border: 1px solid #0071dc !important;
             }
         }
         .owl-next {
@@ -2987,11 +3018,12 @@ Clients Area
             line-height: 47px !important;
             border-radius: 50px;
             background-color: transparent !important;
-            color: $optional-color-2 !important;
-            border: 1px solid $optional-color-2 !important;
+            color: $color-white !important;
+            border: 1px solid $color-white !important;
             &:hover {
                 color: $color-white !important;
                 background-color: $optional-color-2 !important;
+                border: 1px solid #0071dc !important;
             }
         }
     }
@@ -3106,7 +3138,7 @@ Clients Area
 .circle {
     width: 40px;
     height: 40px;
-    background-color: $optional-color-2;
+    background-color: $optional-color;
     border-radius: 50px;
     position: relative;
     z-index: 1;
@@ -4463,7 +4495,7 @@ Map Area End
 ====================================*/
 
 .footer-bg {
-    background-color: $optional-bg;
+    background-color: $color-white;
 }
 .footer-widget {
     margin-bottom: 30px;
@@ -4652,12 +4684,11 @@ Map Area End
 
 .copy-right-area {
     padding: 15px 0;
-    border-top: 1px solid #0071dc61;
 }
 .copy-right-text {
     text-align: center;
     p {
-        color: $color-white;
+        color: $charcoal-gray;
         margin-bottom: 0;
         a {
             color: $optional-color;
@@ -4718,7 +4749,7 @@ Preloader CSS
     width: 100%;
     height: 100%;
     z-index: 99999;
-    background: $optional-bg;
+    background: $optional-color-2;
 } 
 .spinner {
     width: 40px;
@@ -4791,4 +4822,54 @@ Preloader CSS End
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
     }
+}
+
+/*==================================
+Fondologo-footer
+=================================*/
+
+.footer-image {
+    margin: 10px auto 20px;
+    display: block;
+
+}
+
+.Fondologo-footer {
+  position: relative;
+  background-color: #e6e6e6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/brand-logo/brand-bg.png);
+  }
+  img {
+    width: unset !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+/*==================================
+Brand Area End
+=================================*/
+
+.clients-content iframe {
+    margin-left: -13px;
+}
+
+
+.face-review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
