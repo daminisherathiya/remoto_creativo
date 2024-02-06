@@ -903,15 +903,6 @@
   .work-process-left {
     text-align: center;
   }
-  .side-nav-responsive {
-    display: block;
-  }
-  .d-display {
-    display: none;
-  }
-  .mobile-nav .logo img {
-    max-width: 140px;
-  }
   .top-header-right .language-list {
     margin-left: -15px;
   }

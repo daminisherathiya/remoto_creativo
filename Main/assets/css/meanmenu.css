@@ -135,6 +135,10 @@
 .mobile-nav {
     display: none;
 }
+.mobile-nav .logo img {
+    width: 150px;
+    height: auto;
+}
 .mobile-nav.mean-container .mean-nav ul li a.active {
     color: #0071dc;
 }
@@ -156,6 +160,10 @@
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1;
+}
+.navbar-light .navbar-brand img {
+    width: 200px;
+    height: auto;
 }
 .main-nav nav ul {
     padding: 0;
