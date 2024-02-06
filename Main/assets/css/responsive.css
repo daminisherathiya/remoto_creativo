@@ -753,9 +753,19 @@
 #nosotros {
     padding-top: 100px;
   }
-  .containerv {
+  .licenses-and-subscriptions .containerv {
     margin-top: -100px;
     margin-bottom: -100px;
+  }
+  .licenses-and-subscriptions .containerv iframe {
+    width: 640px;
+    height: 550px;
+  }
+  .licenses-and-subscriptions .main-heading {
+    font-size: 35px;
+  }
+  .licenses-and-subscriptions .section-title {
+    padding-top: 45px;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -769,6 +779,17 @@
   }
   .review-card .consumer-name .review-text {
     font-size: 14px;
+  }
+  .licenses-and-subscriptions .card img {
+    width: 80px;
+  }
+  .licenses-and-subscriptions .button_Act {
+    margin-top: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .licenses-and-subscriptions .containerv iframe {
+    height: 450px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {

@@ -891,12 +891,27 @@
     }
     // internal css of index.html End
 
-    // internal css of licenses-and-subscriptions.html
-    .containerv {
-        margin-top: -100px;
-        margin-bottom: -100px
+    
+
+    // licenses-and-subscriptions page
+    .licenses-and-subscriptions {
+        // internal css of licenses-and-subscriptions.html
+        .containerv {
+            margin-top: -100px;
+            margin-bottom: -100px;
+            iframe {
+                width :640px;
+                height :550px;
+            }
+        }
+        // internal css of licenses-and-subscriptions.html End
+        .main-heading {
+            font-size: 35px; 
+        }
+        .section-title {
+            padding-top: 45px;
+        }
     }
-    // internal css of licenses-and-subscriptions.html End
 }
 
 @media only screen and (max-width : 575px) {
@@ -914,6 +929,27 @@
           }
       }
     // internal css of index.html End
+
+    // licenses-and-subscriptions page
+    .licenses-and-subscriptions {
+        .card img {
+            width: 80px;
+        }
+
+        .button_Act {
+            margin-top: 16px;
+        }
+    }
+}
+@media only screen and (max-width : 480px) {
+    .licenses-and-subscriptions {
+        // internal css of licenses-and-subscriptions.html
+        .containerv {
+            iframe {
+                height :450px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width : 576px) and (max-width : 767px) {
