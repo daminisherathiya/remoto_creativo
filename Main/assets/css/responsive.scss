@@ -881,6 +881,22 @@
         }
     }
     /* Footer Area End */
+
+    // internal css of index.html
+    #remotocreativo,
+    #servicios,
+    #productos,
+    #nosotros {
+      padding-top: 100px;
+    }
+    // internal css of index.html End
+
+    // internal css of licenses-and-subscriptions.html
+    .containerv {
+        margin-top: -100px;
+        margin-bottom: -100px
+    }
+    // internal css of licenses-and-subscriptions.html End
 }
 
 @media only screen and (max-width : 575px) {
@@ -888,6 +904,16 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    // internal css of index.html
+    .review-card .consumer-name {
+        font-size: 14px;
+        margin-bottom: 4px;
+        .review-text {
+            font-size: 14px
+          }
+      }
+    // internal css of index.html End
 }
 
 @media only screen and (min-width : 576px) and (max-width : 767px) {

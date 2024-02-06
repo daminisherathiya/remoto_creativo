@@ -4898,3 +4898,264 @@ Brand Area End
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+/*==================================
+internal css of index.html
+=================================*/
+.review-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.review-card .avatar {
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  min-height: 44px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 12px;
+}
+.review-card .avatar span {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+.review-card .consumer-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.review-card .consumer-reviews-count {
+  font-size: 14px;
+  color: #888;
+}
+.review-card .consumer-country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1px;
+}
+.review-card .consumer-country span {
+  font-size: 14px;
+}
+.review-card hr {
+  border: none;
+  height: 1px;
+  background-color: #e6e6e6;
+  margin: 70px 0;
+}
+.review-card .review-content {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.review-card .star-rating {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.review-card .review-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.review-card .review-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.review-card .review-date {
+  font-size: 14px;
+  color: #888;
+  font-weight: 700;
+}
+
+img[src*=stars-] {
+  width: 100px;
+  height: 20px;
+}
+
+#productos {
+  padding-top: 250px;
+}
+
+#remotocreativo,
+#servicios,
+#nosotros {
+  padding-top: 200px;
+}
+
+.main-nav {
+  background-color: rgba(255, 255, 255, 0.8784313725);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+
+/*==================================
+internal css of index.html End
+=================================*/
+/*==================================
+internal css of licenses-and-subscriptions.html
+=================================*/
+.licenses-and-subscriptions {
+  background-color: #0071dc;
+  /* Card body */
+}
+.licenses-and-subscriptions .centered-video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.licenses-and-subscriptions .containerv {
+  white-space: nowrap;
+  max-width: 100%;
+  margin-top: -38px;
+}
+.licenses-and-subscriptions .button_Act {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid #ffffff;
+  border-radius: 0.5rem;
+  color: #0171dd;
+  margin: 0 30px;
+  padding: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.5);
+          box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.5);
+}
+.licenses-and-subscriptions .button_Act::before {
+  margin-right: 5px;
+  color: #fff;
+}
+.licenses-and-subscriptions .button_Act a {
+  color: #fff;
+}
+.licenses-and-subscriptions .button_Act:hover {
+  background-color: #176be7;
+  color: #ffffff;
+}
+.licenses-and-subscriptions .fa-brands,
+.licenses-and-subscriptions .fab {
+  font-weight: 400;
+  padding-right: 5px;
+  font-size: 22px;
+}
+.licenses-and-subscriptions .fa-solid,
+.licenses-and-subscriptions .fas {
+  font-weight: 900;
+  padding-right: 5px;
+  font-size: 18px;
+}
+.licenses-and-subscriptions .container .mb-4 .card-body {
+  background-color: #e6ebf9 !important;
+  display: inline-block !important;
+  -webkit-box-shadow: 0px 12px 23px -9px rgba(18, 38, 63, 0.5) !important;
+          box-shadow: 0px 12px 23px -9px rgba(18, 38, 63, 0.5) !important;
+  color: #000000 !important;
+  border-width: 2px !important;
+  border-color: #ffffff;
+}
+.licenses-and-subscriptions .card img {
+  width: 100px;
+}
+.licenses-and-subscriptions hr {
+  border-top: 1px solid #a8d5ff;
+  opacity: 1;
+}
+
+div#paypal-button-container {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+#floating-wpp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99999;
+  -webkit-transition: bottom 0.5s;
+  transition: bottom 0.5s;
+}
+#floating-wpp.hidden {
+  bottom: -70px;
+}
+#floating-wpp img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/*==================================
+internal css of licenses-and-subscriptions.html End
+=================================*/
+/*==================================
+licenses-and-subscriptions page
+=================================*/
+.fw-medium {
+  font-weight: 500;
+}
+
+.licenses-and-subscriptions .main-heading {
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 110px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.licenses-and-subscriptions .sub-heading {
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+}
+.licenses-and-subscriptions .section-title {
+  padding-top: 110px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 500;
+}
+.licenses-and-subscriptions .custom-card .title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.licenses-and-subscriptions .custom-card .badge.bg-primary {
+  background-color: #2c7be5 !important;
+}
+.licenses-and-subscriptions .custom-card .btn-primary {
+  background-color: #2c7be5;
+  border-color: #2c7be5;
+}

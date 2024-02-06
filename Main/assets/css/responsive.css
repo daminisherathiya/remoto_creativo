@@ -747,11 +747,28 @@
     max-width: 100%;
   }
   /* Footer Area End */
+  #remotocreativo,
+#servicios,
+#productos,
+#nosotros {
+    padding-top: 100px;
+  }
+  .containerv {
+    margin-top: -100px;
+    margin-bottom: -100px;
+  }
 }
 @media only screen and (max-width: 575px) {
   .banner-item-content {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .review-card .consumer-name {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .review-card .consumer-name .review-text {
+    font-size: 14px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
