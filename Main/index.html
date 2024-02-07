@@ -164,8 +164,8 @@
     <div class="main-nav">
       <div class="container-fluid">
         <div class="container-max">
-          <nav class="navbar navbar-expand-md navbar-light ">
-            <a class="navbar-brand" href="/">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand flex-shrink-0" href="/">
               <img src="assets/images/logos/logo-2.svg" alt="Logo">
             </a>
 
@@ -173,34 +173,53 @@
               <ul class="navbar-nav m-auto">
 
                 <li class="nav-item">
-                  <a href="#nosotros" class="nav-link">
-                    Nosotros
+                  <a href="/" class="nav-link">
+                    Home
                   </a>
                 </li>
 
                 <li class="nav-item">
                   <a href="#servicios" class="nav-link">
-                    Servicios
+                    Remote Formatting
                   </a>
                 </li>
 
                 <li class="nav-item">
                   <a href="#productos" class="nav-link">
-                    Productos
+                    Optimize PC
                   </a>
                 </li>
 
                 <li class="nav-item">
                   <a href="#preguntas" class="nav-link">
-                    Preguntas Frecuentes
+                    Licenses and Subscriptions
                   </a>
                 </li>
 
+                <li class="nav-item">
+                  <a href="#preguntas" class="nav-link">
+                    ISO CreativOS
+                  </a>
+                </li>
               </ul>
 
-              <div class="nav-side d-display nav-side-mt">
+              <div class="select-menu">
+                <div class="select-btn">
+                  <span class="sBtn-text d-flex align-items-center me-3"><img class="img-lg me-2" src="assets/images/usa-flag.svg" alt="USA flag">English</span>
+                  <img class="lang-arrow" src="assets/images/dropdown-arrow.svg" alt="arrow">
+                </div>
+              
+                <ul class="options">
+                  <li class="option">
+                    <span class="d-flex justify-content-between align-items-center w-100 option-text"><span class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/usa-flag.svg" alt="USA flag">English </span> <img class="img-md" src="assets/images/correct-blue-circle.svg" alt="selected"></span>
+                  </li>
+                  <li class="option">
+                    <span class="d-flex justify-content-between align-items-center w-100 option-text"><span class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/spanish-flag.svg" alt="Spanish flag">Español</span></span>
+                  </li>
+                </ul>
+              </div>
 
-
+              <!-- <div class="nav-side d-display nav-side-mt">
                 <div class="nav-side-item">
                   <div class="get-btn">
                     <a href="https://m.me/Remotocreativo" target="_blank" rel="nofollow"
@@ -208,7 +227,7 @@
                         class='bx bx-chevron-right'></i></a>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </nav>
         </div>
@@ -1947,6 +1966,26 @@
   <script src="assets/js/contact-form-script.js"></script>
   <!-- Custom JS -->
   <script src="assets/js/custom.js"></script>
+  <!-- custom select -->
+  <script>
+    const optionMenu = document.querySelector(".select-menu"),
+    selectBtn = optionMenu.querySelector(".select-btn"),
+    options = optionMenu.querySelectorAll(".option"),
+    sBtn_text = optionMenu.querySelector(".sBtn-text");
+
+    selectBtn.addEventListener("click", () =>
+      optionMenu.classList.toggle("active")
+    );
+
+    options.forEach((option) => {
+      option.addEventListener("click", () => {
+        let selectedOption = option.querySelector(".option-text").innerText;
+        sBtn_text.innerText = selectedOption;
+
+        optionMenu.classList.remove("active");
+      });
+    });
+  </script>
 
 </body>
 

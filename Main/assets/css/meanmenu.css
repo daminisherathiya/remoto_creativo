@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .mean-container .mean-bar {
 	float: left;
 	width: 100%;
@@ -155,6 +156,9 @@
 .mean-nav .dropdown-toggle::after {
 	display: none;
 }
+.navbar .nav-item .nav-link {
+    font-family: "Roboto", sans-serif;
+}
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
     color: #fff;
     font-weight: bold;
@@ -162,7 +166,7 @@
     line-height: 1;
 }
 .navbar-light .navbar-brand img {
-    width: 200px;
+    width: 152px;
     height: auto;
 }
 .main-nav nav ul {

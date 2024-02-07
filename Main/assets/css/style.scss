@@ -439,7 +439,7 @@ Navbar Area
 .main-nav {
     background-color: $color-white;
     top: 0;
-    position: inherit;
+    position: fixed;
     left: 0;
     padding:  0;
     width: 100%;
@@ -463,10 +463,10 @@ Navbar Area
                 }
                 a {
                     text-transform: capitalize;
-                    color: $main-color;
-                    font-weight: 500;
-                    margin-left: 12px;
-                    margin-right: 12px;
+                    color: $paragraph-color;
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin: 0 25px;
                     position: relative;
                     &::before {
                         content: '';
@@ -5123,4 +5123,107 @@ licenses-and-subscriptions page
             font-size: 18px;
         }
     }
+}
+
+// custom select
+
+.select-menu {
+    position: relative;
+    .select-btn {
+        display: flex;
+        // height: 55px;
+        color: $color-white;
+        background: $optional-color-2;
+        padding: 8px 22px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 50px;
+        align-items: center;
+        cursor: pointer;
+        justify-content: space-between;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .options {
+        position: absolute;
+        width: 100%;
+        overflow-y: auto;
+        max-height: 295px;
+        margin-top: 10px;
+        border-radius: 8px 8px 10px 10px;
+        background: $color-white;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        animation-name: fadeInDown;
+        -webkit-animation-name: fadeInDown;
+        animation-duration: 0.35s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 0.35s;
+        -webkit-animation-fill-mode: both;
+        .option {
+            display: flex;
+            cursor: pointer;
+            padding: 10px 20px;
+            align-items: center;
+            background: $color-white;
+            &:hover {
+                background:#F8F8F8;
+              }
+              i {
+                font-size: 25px;
+                margin-right: 12px;
+              }
+              .option-text {
+                font-size: 14px;
+                color: #1D1F2CCC;
+              }
+          }
+      }
+  }
+  
+  .select-btn .lang-arrow {
+    width: 16px;
+    transition: 0.3s;
+  }
+  
+  .select-menu.active .select-btn .lang-arrow {
+    transform: rotate(-180deg);
+  }
+  .select-menu.active .options {
+    display: block;
+    opacity: 0;
+    z-index: 10;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 30px, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  @keyframes fadeInDown {
+    from {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+    to {
+      transform: translate3d(0, 20px, 0);
+      opacity: 0;
+    }
+  }
+
+// custom select End
+
+.img-md {
+    width: 20px;
+}
+.img-lg {
+    width: 24px;
 }
