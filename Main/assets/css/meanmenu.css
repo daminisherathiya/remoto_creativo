@@ -156,6 +156,9 @@
 .mean-nav .dropdown-toggle::after {
 	display: none;
 }
+.navbar {
+    padding: 10px 0;
+}
 .navbar .nav-item .nav-link {
     font-family: "Roboto", sans-serif;
 }

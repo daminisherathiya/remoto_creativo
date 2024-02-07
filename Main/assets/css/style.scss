@@ -1118,7 +1118,7 @@ Main Banner Area
 }
 .banner-img {
     position: relative;
-    padding-top: 70px;
+    padding-top: 165px;
     .banner-img-shape {
         position: absolute;
         bottom: 100px;
@@ -4835,6 +4835,9 @@ footer {
     .footer-logo {
         padding: 50px 16px;
         background-color: $optional-color-2;
+        img {
+            width: 298px;
+        }
     }
     .copyright {
         border-top: 0.5px solid #FFFFFF1A;

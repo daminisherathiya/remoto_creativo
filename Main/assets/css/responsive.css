@@ -767,6 +767,12 @@
   .licenses-and-subscriptions .section-title {
     padding-top: 45px;
   }
+  footer .footer-logo {
+    padding: 35px 16px;
+  }
+  footer .footer-logo img {
+    width: 175px;
+  }
 }
 @media only screen and (max-width: 575px) {
   .banner-item-content {
@@ -785,6 +791,12 @@
   }
   .licenses-and-subscriptions .button_Act {
     margin-top: 16px;
+  }
+  footer .footer-logo {
+    padding: 25px 16px;
+  }
+  footer .footer-logo img {
+    width: 155px;
   }
 }
 @media only screen and (max-width: 480px) {

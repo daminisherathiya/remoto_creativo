@@ -912,6 +912,14 @@
             padding-top: 45px;
         }
     }
+    footer {
+        .footer-logo {
+            padding: 35px 16px;
+            img {
+                width: 175px;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width : 575px) {
@@ -938,6 +946,14 @@
 
         .button_Act {
             margin-top: 16px;
+        }
+    }
+    footer {
+        .footer-logo {
+            padding: 25px 16px;
+            img {
+                width: 155px;
+            }
         }
     }
 }

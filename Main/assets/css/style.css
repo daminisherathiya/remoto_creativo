@@ -1177,7 +1177,7 @@ Main Banner Area
 
 .banner-img {
   position: relative;
-  padding-top: 70px;
+  padding-top: 165px;
 }
 .banner-img .banner-img-shape {
   position: absolute;
@@ -4837,6 +4837,9 @@ Fondologo-footer
 footer .footer-logo {
   padding: 50px 16px;
   background-color: #0071dc;
+}
+footer .footer-logo img {
+  width: 298px;
 }
 footer .copyright {
   border-top: 0.5px solid rgba(255, 255, 255, 0.1019607843);
