@@ -4708,26 +4708,6 @@ Map Area End
   color: red;
 }
 
-.copy-right-area {
-  padding: 15px 0;
-}
-
-.copy-right-text {
-  text-align: center;
-}
-.copy-right-text p {
-  color: #616160;
-  margin-bottom: 0;
-}
-.copy-right-text p a {
-  color: #ffc221;
-  border-bottom: 1px solid #ffc221;
-}
-.copy-right-text p a:hover {
-  color: #0071dc;
-  border-color: #0071dc;
-}
-
 /*=================================
 Go Top Area 
 ====================================*/
@@ -4854,34 +4834,22 @@ Preloader CSS End
 /*==================================
 Fondologo-footer
 =================================*/
-.footer-image {
-  margin: 10px auto 20px;
-  display: block;
+footer .footer-logo {
+  padding: 50px 16px;
+  background-color: #0071dc;
 }
-
-.Fondologo-footer {
-  position: relative;
-  background-color: #e6e6e6;
-  padding-top: 25px;
-  padding-bottom: 25px;
+footer .copyright {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.1019607843);
+  background-color: #0074E2;
+  padding: 20px 10px 30px 10px;
 }
-.Fondologo-footer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../images/brand-logo/brand-bg.png);
+footer .copyright p {
+  font-size: 14px;
+  color: #E5F1FC;
 }
-.Fondologo-footer img {
-  width: unset !important;
-  text-align: center;
-  margin: 0 auto;
+footer .copyright p a {
+  color: #ffffff;
+  font-weight: 500;
 }
 
 /*==================================

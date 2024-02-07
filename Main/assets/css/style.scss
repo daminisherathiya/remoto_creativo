@@ -4685,24 +4685,24 @@ Map Area End
     }
 }
 
-.copy-right-area {
-    padding: 15px 0;
-}
-.copy-right-text {
-    text-align: center;
-    p {
-        color: $charcoal-gray;
-        margin-bottom: 0;
-        a {
-            color: $optional-color;
-            border-bottom: 1px solid $optional-color;
-            &:hover {
-                color: $optional-color-2;
-                border-color: $optional-color-2;
-            }
-        }
-    }
-}
+// .copy-right-area {
+//     padding: 15px 0;
+// }
+// .copy-right-text {
+//     text-align: center;
+//     p {
+//         color: $charcoal-gray;
+//         margin-bottom: 0;
+//         a {
+//             color: $optional-color;
+//             border-bottom: 1px solid $optional-color;
+//             &:hover {
+//                 color: $optional-color-2;
+//                 border-color: $optional-color-2;
+//             }
+//         }
+//     }
+// }
 /*=================================
 Go Top Area 
 ====================================*/
@@ -4831,36 +4831,56 @@ Preloader CSS End
 Fondologo-footer
 =================================*/
 
-.footer-image {
-    margin: 10px auto 20px;
-    display: block;
-
+footer {
+    .footer-logo {
+        padding: 50px 16px;
+        background-color: $optional-color-2;
+    }
+    .copyright {
+        border-top: 0.5px solid #FFFFFF1A;
+        background-color: #0074E2;
+        padding: 20px 10px 30px 10px;
+        p {
+            font-size: 14px;
+            color: #E5F1FC;
+            a {
+                color: $color-white;
+                font-weight: 500;
+            }
+        }
+    }
 }
 
-.Fondologo-footer {
-  position: relative;
-  background-color: #e6e6e6;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../images/brand-logo/brand-bg.png);
-  }
-  img {
-    width: unset !important;
-    text-align: center;
-    margin: 0 auto;
-  }
-}
+// .footer-image {
+//     margin: 10px auto 20px;
+//     display: block;
+
+// }
+
+// .Fondologo-footer {
+//   position: relative;
+//   background-color: #e6e6e6;
+//   padding-top: 25px;
+//   padding-bottom: 25px;
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-position: center center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-image: url(../images/brand-logo/brand-bg.png);
+//   }
+//   img {
+//     width: unset !important;
+//     text-align: center;
+//     margin: 0 auto;
+//   }
+// }
 
 /*==================================
 Brand Area End
