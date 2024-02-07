@@ -1177,7 +1177,7 @@ Main Banner Area
 
 .banner-img {
   position: relative;
-  padding-top: 70px;
+  padding-top: 165px;
 }
 .banner-img .banner-img-shape {
   position: absolute;
@@ -5113,7 +5113,7 @@ licenses-and-subscriptions page
   font-size: 55px;
   font-weight: bold;
   color: #ffffff;
-  padding-top: 110px;
+  padding-top: 205px;
   font-weight: 500;
   margin-bottom: 18px;
 }
@@ -5282,4 +5282,15 @@ licenses-and-subscriptions page
 
 .img-lg {
   width: 24px;
+}
+
+.product-feature {
+  font-size: 16px;
+  color: #4A4C56;
+  text-align: start;
+}
+.product-feature span {
+  font-weight: 500;
+  font-size: 18px;
+  color: #1D1F2C;
 }

@@ -1797,20 +1797,24 @@
     popupContent.style.left = '50%';
     popupContent.style.transform = 'translate(-50%, -50%)';
     popupContent.style.backgroundColor = '#fff';
-    popupContent.style.padding = '20px';
-    popupContent.style.borderRadius = '10px';
-    popupContent.style.width = '370px';
+    // popupContent.style.padding = '20px';
+    popupContent.style.borderRadius = '24px';
+    popupContent.style.width = '870px';
     popupContent.style.color = 'black';
     popupContent.style.textAlign = 'center';
+    popupContent.style.overflow = 'auto';
 
     // Contenido interno del popup
     var popupInnerContent = document.createElement('div');
-    popupInnerContent.innerHTML = '<div>' +
+    popupInnerContent.classList.add('row', 'm-0')
+    popupInnerContent.innerHTML = '<div class="col-6 py-5" style="background-color: #FAFAFA; padding-left: 28px; padding-right: 28px;">' +
       '<img src="' + productImage + '" alt="' + productName + '" style="width: 100px; margin: 0 auto;">' +
-      '<h3>' + productName + '</h3>' +
-      '<p style="font-size: 22px; font-weight: bold;">$' + parseFloat(productPrice).toFixed(2) + '</p>' +
+      '<h3 style="font-size: 20px; color: #1D1F2C;">' + productName + '</h3>' +
+      '<p class="mt-2" style="font-size: 16px" font-weight: 500;>License Type: Digital BIND Key</p>' +
+      '<p class="mb-0" style="font-size: 18px; color: #C8DFF4; font-weight: 600; text-decoration: line-through; font-family: Roboto;">$32.00</p>'+
+      '<p style="font-size: 40px; font-weight: bold; color: #0071DC">$' + parseFloat(productPrice).toFixed(2) + '</p>' +
       '</div>' +
-      '<div id="paypal-button-container"></div>';
+      '<div class="col-6 py-5" style="padding-left: 28px; padding-right: 28px;" id="paypal-button-container"><div class="mb-2"><p class="mb-1 product-feature"><span>Duration:</span> Permanent</p><p class="mb-1 product-feature"><span>Devices:</span> 01</p><p class="mb-1 product-feature"><span>Works on:</span> Windows</p><p class="mb-1 product-feature"><span>Warranty:</span> 1 year</p></div></div>';
 
     // Agregar el contenido interno al contenido del popup
     popupContent.appendChild(popupInnerContent);

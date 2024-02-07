@@ -439,7 +439,7 @@ Navbar Area
 .main-nav {
     background-color: $color-white;
     top: 0;
-    position: fixed;
+    position: inherit;
     left: 0;
     padding:  0;
     width: 100%;
@@ -5253,4 +5253,14 @@ licenses-and-subscriptions page
 }
 .img-lg {
     width: 24px;
+}
+.product-feature {
+    font-size: 16px;
+    color: #4A4C56;
+    text-align: start;
+    span {
+        font-weight: 500;
+        font-size: 18px;
+        color: #1D1F2C;
+    }
 }
