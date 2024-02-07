@@ -2267,8 +2267,9 @@ Build Area
     padding-bottom: 204px;
     text-align: center;
     margin-bottom: 30px;
-    border-radius: 16px;
+    border-radius: 29px;
     box-shadow: -8px 8px 15px 0px rgba(0, 0, 0, 0.05);
+    border: 9.7px solid $color-white;
     &::before {
         content: '';
         position: absolute;
@@ -2282,7 +2283,7 @@ Build Area
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        border-radius: 15px;
+        border-radius: 20px;
     }
     .build-play {
         // font-size: 55px;
@@ -5118,7 +5119,7 @@ licenses-and-subscriptions page
         font-size: 55px; 
         font-weight: bold;
         color: $color-white;
-        padding-top: 110px;
+        padding-top: 205px;
         font-weight: 500;
         margin-bottom: 18px;
     }
