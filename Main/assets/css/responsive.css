@@ -918,7 +918,8 @@
   .top-header-right .language-list {
     margin-left: -15px;
   }
-  .about-content-2 .section-title h2, .about-content-2 .section-title p {
+  .about-content-2 .section-title h2,
+.about-content-2 .section-title p {
     max-width: 100%;
   }
   /* Navbar Area CSS  */
@@ -1467,7 +1468,7 @@
 }
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1300px;
   }
   .container-max {
     max-width: 1300px !important;

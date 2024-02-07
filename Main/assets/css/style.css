@@ -61,7 +61,12 @@ button:focus {
   border: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   color: #252525;
 }
@@ -467,14 +472,17 @@ Navbar Area
   padding-left: 0;
   padding-right: 0;
 }
-.main-nav nav .navbar-nav .nav-item:hover a, .main-nav nav .navbar-nav .nav-item .active {
+.main-nav nav .navbar-nav .nav-item:hover a,
+.main-nav nav .navbar-nav .nav-item .active {
   color: #0071dc !important;
 }
-.main-nav nav .navbar-nav .nav-item:hover a::before, .main-nav nav .navbar-nav .nav-item .active::before {
+.main-nav nav .navbar-nav .nav-item:hover a::before,
+.main-nav nav .navbar-nav .nav-item .active::before {
   opacity: 1;
   width: 100%;
 }
-.main-nav nav .navbar-nav .nav-item:hover a i, .main-nav nav .navbar-nav .nav-item .active i {
+.main-nav nav .navbar-nav .nav-item:hover a i,
+.main-nav nav .navbar-nav .nav-item .active i {
   color: #0071dc;
 }
 .main-nav nav .navbar-nav .nav-item a {
@@ -505,14 +513,17 @@ Navbar Area
   font-size: 18px;
   color: #444444;
 }
-.main-nav nav .navbar-nav .nav-item a:hover, .main-nav nav .navbar-nav .nav-item a :focus {
+.main-nav nav .navbar-nav .nav-item a:hover,
+.main-nav nav .navbar-nav .nav-item a :focus {
   color: #0071dc !important;
 }
-.main-nav nav .navbar-nav .nav-item a:hover::before, .main-nav nav .navbar-nav .nav-item a :focus::before {
+.main-nav nav .navbar-nav .nav-item a:hover::before,
+.main-nav nav .navbar-nav .nav-item a :focus::before {
   opacity: 1;
   width: 100%;
 }
-.main-nav nav .navbar-nav .nav-item a:hover i, .main-nav nav .navbar-nav .nav-item a :focus i {
+.main-nav nav .navbar-nav .nav-item a:hover i,
+.main-nav nav .navbar-nav .nav-item a :focus i {
   color: #0071dc;
 }
 .main-nav nav .navbar-nav .nav-item a.active {
@@ -583,15 +594,21 @@ Navbar Area
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
   width: 100%;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
   color: #ffffff !important;
   border-radius: 0;
   padding-left: 35px;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover i, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus i, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active i {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover i,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus i,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active i {
   color: #ffffff;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover::before, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus::before, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover::before,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus::before,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
   width: 100%;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li.active {
@@ -3537,7 +3554,7 @@ Blog Area End
 }
 .search-widget .search-form {
   position: relative;
-  border: 1px solid #E2E2E2;
+  border: 1px solid #e2e2e2;
   border-radius: 5px;
 }
 .search-widget .search-form .form-control {
@@ -3664,7 +3681,7 @@ Blog Area End
   overflow: hidden;
   margin-bottom: 13px;
   padding-bottom: 8px;
-  border-bottom: 1px solid #E2E2E2;
+  border-bottom: 1px solid #e2e2e2;
 }
 .side-bar-widget .widget-popular-post .item:last-child {
   margin-bottom: 0;
@@ -4207,7 +4224,7 @@ Contact Area
   font-size: 24px;
   color: #0071dc;
   border-radius: 50px;
-  border: 1px solid #E2E2E2;
+  border: 1px solid #e2e2e2;
   margin-bottom: 10px;
 }
 .contact-card h3 {
@@ -4285,7 +4302,7 @@ Contact Area
   font-size: 20px;
   color: #0071dc;
   border-radius: 50px;
-  border: 1px solid #E2E2E2;
+  border: 1px solid #e2e2e2;
   margin-bottom: 10px;
   text-align: center;
   position: absolute;
@@ -4844,12 +4861,12 @@ footer .footer-logo img {
 }
 footer .copyright {
   border-top: 0.5px solid rgba(255, 255, 255, 0.1019607843);
-  background-color: #0074E2;
+  background-color: #0074e2;
   padding: 20px 10px 30px 10px;
 }
 footer .copyright p {
   font-size: 14px;
-  color: #E5F1FC;
+  color: #e5f1fc;
 }
 footer .copyright p a {
   color: #ffffff;
@@ -5195,7 +5212,7 @@ licenses-and-subscriptions page
   background: #ffffff;
 }
 .select-menu .options .option:hover {
-  background: #F8F8F8;
+  background: #f8f8f8;
 }
 .select-menu .options .option i {
   font-size: 25px;
@@ -5286,18 +5303,18 @@ licenses-and-subscriptions page
 
 .product-feature {
   font-size: 16px;
-  color: #4A4C56;
+  color: #4a4c56;
   text-align: start;
 }
 .product-feature span {
   font-weight: 500;
   font-size: 18px;
-  color: #1D1F2C;
+  color: #1d1f2c;
 }
 
 .optimize-pc .banner {
   background-image: url(../images/optimize-pc/banner-bg.svg);
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding: 125px 0 138px 0;
   background-size: cover;
 }
@@ -5308,13 +5325,13 @@ licenses-and-subscriptions page
 }
 .optimize-pc .banner .review {
   font-size: 18px;
-  color: #1D1F2C;
+  color: #1d1f2c;
   opacity: 99%;
 }
 .optimize-pc .banner .trustpilot {
   font-size: 20px;
   font-weight: 600;
-  color: #1D1F2C;
+  color: #1d1f2c;
 }
 .optimize-pc .custom-btn {
   padding: 13.5px 25px;
@@ -5322,7 +5339,7 @@ licenses-and-subscriptions page
   font-size: 18px;
 }
 .optimize-pc .it-support {
-  background-color: #0071DC;
+  background-color: #0071dc;
   padding: 70px 0;
 }
 .optimize-pc .it-support h3 {
@@ -5361,7 +5378,7 @@ licenses-and-subscriptions page
   line-height: 19px;
 }
 .optimize-pc .pricing-table .pt-title p:nth-child(2n) {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 .optimize-pc .pricing-table .pt-title p.spacing {
   min-height: 194px;
@@ -5381,7 +5398,7 @@ licenses-and-subscriptions page
   min-height: 194px;
 }
 .optimize-pc .pricing-table .pt-options .pt-option .heading .badge {
-  color: #4A4C56;
+  color: #4a4c56;
   font-size: 16px;
   background-color: rgba(0, 113, 220, 0.1019607843);
   border-radius: 28px;
@@ -5390,7 +5407,7 @@ licenses-and-subscriptions page
   padding-right: 12px;
 }
 .optimize-pc .pricing-table .pt-options .pt-option .heading h6 {
-  color: #0071DC;
+  color: #0071dc;
   font-weight: 600;
   font-size: 48px;
 }
@@ -5411,10 +5428,10 @@ licenses-and-subscriptions page
   min-height: 64px;
 }
 .optimize-pc .pricing-table .pt-options .pt-option p.pt-row:nth-child(2n) {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 .optimize-pc .pricing-table .pt-options .pt-option p.pt-row span.not-available {
-  border-bottom: 2px solid #98A2B3;
+  border-bottom: 2px solid #98a2b3;
   width: 11.67px;
 }
 .optimize-pc .pricing-table .pt-options .pt-option .get-started {
@@ -5427,7 +5444,7 @@ licenses-and-subscriptions page
   width: 100%;
 }
 .optimize-pc .chat-and-fix-pc {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding: 115px 0;
 }
 .optimize-pc .chat-and-fix-pc .chat-box {
@@ -5440,11 +5457,11 @@ licenses-and-subscriptions page
 .optimize-pc .chat-and-fix-pc .chat-box h3 {
   font-size: 32px;
   font-weight: 600;
-  color: #1D1F2C;
+  color: #1d1f2c;
   margin-bottom: 18px;
 }
 .optimize-pc .chat-and-fix-pc .chat-box p {
-  color: #4A4C56;
+  color: #4a4c56;
   font-size: 14px;
   margin-bottom: 22px;
 }
