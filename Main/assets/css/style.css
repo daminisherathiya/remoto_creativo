@@ -2303,10 +2303,13 @@ Build Area
 .play-btn-area {
   position: relative;
   z-index: 1;
-  padding-top: 170px;
-  padding-bottom: 170px;
+  padding-top: 204px;
+  padding-bottom: 204px;
   text-align: center;
   margin-bottom: 30px;
+  border-radius: 16px;
+  -webkit-box-shadow: -8px 8px 15px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: -8px 8px 15px 0px rgba(0, 0, 0, 0.05);
 }
 .play-btn-area::before {
   content: "";
@@ -2317,21 +2320,20 @@ Build Area
   right: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/build/build-play-bg.jpg);
+  background-image: url(../images/build/play-bg.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 .play-btn-area .build-play {
-  font-size: 55px;
   color: #ffffff;
-  width: 100px;
-  height: 100px;
+  width: 116px;
+  height: 116px;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.5294117647);
+  background-color: rgba(255, 255, 255, 0.1019607843);
   border-radius: 50%;
-  line-height: 105px;
+  line-height: 116px;
   text-align: center;
   position: relative;
   -webkit-transition: 0.7s;
@@ -2339,22 +2341,24 @@ Build Area
   -webkit-animation: pulse 3s ease-out infinite;
           animation: pulse 3s ease-out infinite;
 }
-.play-btn-area .build-play i {
+.play-btn-area .build-play .play {
   position: relative;
   top: 1px;
   left: 3px;
+  width: 35.6px;
 }
 .play-btn-area .build-play::before {
   content: "";
   position: absolute;
-  width: 70px;
-  height: 70px;
-  left: 0;
-  right: 0;
-  top: 15px;
+  width: 93.68px;
+  height: 93.68px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   margin: 0 auto;
   z-index: -1;
-  background-color: #0071dc;
+  background-color: rgba(255, 255, 255, 0.6980392157);
   border-radius: 50%;
 }
 .play-btn-area .build-play:hover {
