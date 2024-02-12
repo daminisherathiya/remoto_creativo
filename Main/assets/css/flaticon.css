@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?c6b2e6c0490ba6fa3e8c3f279dad745b") format("truetype"), url("./flaticon.woff?c6b2e6c0490ba6fa3e8c3f279dad745b") format("woff"), url("./flaticon.woff2?c6b2e6c0490ba6fa3e8c3f279dad745b") format("woff2"), url("./flaticon.eot?c6b2e6c0490ba6fa3e8c3f279dad745b#iefix") format("embedded-opentype"), url("./flaticon.svg?c6b2e6c0490ba6fa3e8c3f279dad745b#flaticon") format("svg");
+}
+i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-update:before {
+  content: "\f101";
+}
+
+.flaticon-computer:before {
+  content: "\f102";
+}
+
+.flaticon-hard-drive:before {
+  content: "\f103";
+}
+
+.flaticon-automobile-with-wrench:before {
+  content: "\f104";
+}
+
+.flaticon-computer-1:before {
+  content: "\f105";
+}
+
+.flaticon-protection:before {
+  content: "\f106";
+}
+
+.flaticon-help:before {
+  content: "\f107";
+}
+
+.flaticon-gems:before {
+  content: "\f108";
+}

@@ -213,8 +213,9 @@ Default Btn Style
 ===================================*/
 .default-btn {
   display: inline-block;
-  padding: 12px 32px;
+  padding: 15px 32px;
   color: $color-white;
+  font-size: 18px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -2272,8 +2273,8 @@ Build Area
 .play-btn-area {
   position: relative;
   z-index: 1;
-  padding-top: 204px;
-  padding-bottom: 204px;
+  padding-top: 236px;
+  padding-bottom: 236px;
   text-align: center;
   margin-bottom: 30px;
   border-radius: 29px;
@@ -5416,6 +5417,233 @@ licenses-and-subscriptions page
         color: #4a4c56;
         font-size: 14px;
         margin-bottom: 22px;
+      }
+    }
+  }
+}
+
+// remote-formatting
+.remote-formatting {
+  .banner {
+    padding: 77px 0 390px 0;
+    background-image: url(../images/optimize-pc/banner-bg.svg);
+    background-repeat: no-repeat;
+    background-color: #f8f8f8;
+    .main-heading {
+      font-size: 64px;
+      font-weight: 700;
+      margin-top: 21px;
+    }
+    .sub-heading {
+      font-size: 18px;
+      color: #1d1f2c;
+      margin-top: 27px;
+      margin-bottom: 40px;
+    }
+  }
+  .play-btn-area {
+    margin-top: -330px;
+    margin-bottom: 97px;
+  }
+  .how-it-works {
+    padding: 83px 0;
+    background-color: #0071dc;
+    h3 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 60px;
+    }
+    .steps-card {
+      background-color: $color-white;
+      border-radius: 16px;
+      box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+      padding: 40px 38px;
+      height: 100%;
+      .icon-cover {
+        width: 90px;
+        height: 90px;
+        border: 7.5px solid #0071dc1a;
+        border-radius: 50%;
+        overflow: hidden;
+        > div {
+          background: #0071dc;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 42px;
+          }
+        }
+      }
+      .badge {
+        background-color: #e8e8e8;
+        color: #0071dc;
+        padding: 7px 16px;
+        font-weight: 500;
+        font-size: 16px;
+        margin: 23px 0 19px 0;
+      }
+      h6 {
+        font-size: 24px;
+      }
+      p {
+        color: #4a4c56;
+        font-size: 18px;
+      }
+    }
+  }
+  .customize-remote-formating {
+    padding: 87px 0;
+    background-color: #fafafa;
+    h3 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 65px;
+    }
+    .platform-switches {
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.04);
+      background-color: $color-white;
+      border-radius: 72px;
+      padding: 25px 41px 11px 41px;
+      max-width: 353px;
+      margin-bottom: 62px;
+      img {
+        filter: brightness(0) saturate(100%) invert(0%) sepia(9%)
+          saturate(7500%) hue-rotate(73deg) brightness(100%) contrast(108%);
+      }
+      p {
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .custom-switch {
+        input[type="checkbox"] {
+          height: 0;
+          width: 0;
+          visibility: hidden;
+        }
+
+        label {
+          cursor: pointer;
+          text-indent: -9999px;
+          width: 61px;
+          height: 36px;
+          background-color: #e8e8e8;
+          display: inline-block;
+          border-radius: 100px;
+          position: relative;
+          margin-top: 16px;
+          &:after {
+            content: "";
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            width: 27px;
+            height: 27px;
+            background: #fff;
+            border-radius: 90px;
+            transition: 0.3s;
+            box-shadow: 0 1.7rem 3.4rem rgba(16, 24, 40, 0.1);
+          }
+          &:hover {
+            background-color: #e2e0e0;
+          }
+        }
+
+        input:checked + label {
+          background-color: #0071dc;
+          &:after {
+            left: calc(100% - 5px);
+            transform: translateX(-100%);
+          }
+          &:hover {
+            background-color: #0262bd;
+          }
+        }
+      }
+    }
+    .installation-and-formatting-box {
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.04);
+      border-radius: 16px;
+      &:last-child {
+        margin-top: 43px;
+      }
+      .border-bottom {
+        border-width: 0.5px !important;
+        border-color: #00000033;
+        h6 {
+          font-size: 24px;
+          font-weight: 600;
+          padding: 14px 24px;
+        }
+      }
+      .check-list {
+        padding: 16px 20px;
+        .form-check {
+          padding: 13px 0 13px 22px;
+          margin: 0;
+          .form-check-input {
+            width: 18px;
+            height: 18px;
+            border-radius: 3px;
+            margin-right: 8px;
+            border: 2px solid #0071dc;
+            background-size: 17px;
+          }
+          .form-check-label {
+            font-size: 16px;
+            font-weight: 500;
+            color: #4a4c56;
+          }
+        }
+      }
+    }
+    .summary {
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+      overflow: hidden;
+      h6 {
+        font-size: 24px;
+        font-weight: 600;
+        background-color: #0071dc;
+        padding: 14px 24px;
+      }
+      .summary-description {
+        font-size: 16px;
+        color: #4a4c56;
+        .heading {
+          font-weight: 600;
+          font-size: 15px;
+        }
+        .row {
+          .col-6 {
+            border-left: 1px solid #ffffff;
+            border-right: 1px solid #ffffff;
+            p {
+              padding: 15.7px 11px 15.7px 19px;
+            }
+          }
+          &:nth-child(2n + 1) {
+            .col-6 {
+              background-color: #f8f8f8;
+            }
+          }
+        }
+      }
+      .total {
+        background-color: #0071dc;
+        p {
+          font-size: 24px;
+          font-weight: 600;
+          &.amount {
+            font-size: 32px;
+          }
+        }
+        .custom-btn {
+          background-color: #1d1f2c;
+          font-weight: 600;
+        }
       }
     }
   }
