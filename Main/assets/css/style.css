@@ -463,7 +463,7 @@ Navbar Area
 .main-nav {
   background-color: #ffffff;
   top: 0;
-  position: inherit;
+  position: relative;
   left: 0;
   padding: 0;
   width: 100%;
@@ -5184,6 +5184,11 @@ licenses-and-subscriptions page
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+.select-menu .select-btn .lang-arrow {
+  width: 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 .select-menu .options {
   position: absolute;
   width: 100%;
@@ -5196,6 +5201,7 @@ licenses-and-subscriptions page
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   animation-name: fadeInDown;
   -webkit-animation-name: fadeInDown;
+  display: none;
   animation-duration: 0.35s;
   animation-fill-mode: both;
   -webkit-animation-duration: 0.35s;
@@ -5223,18 +5229,10 @@ licenses-and-subscriptions page
   font-size: 14px;
   color: rgba(29, 31, 44, 0.8);
 }
-
-.select-btn .lang-arrow {
-  width: 16px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
 .select-menu.active .select-btn .lang-arrow {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
 }
-
 .select-menu.active .options {
   display: block;
   opacity: 0;
@@ -5509,6 +5507,9 @@ licenses-and-subscriptions page
   padding: 40px 38px;
   height: 100%;
 }
+.remote-formatting .how-it-works .steps-card h6 {
+  margin-bottom: 14px;
+}
 .remote-formatting .how-it-works .steps-card .icon-cover {
   width: 90px;
   height: 90px;
@@ -5698,4 +5699,29 @@ licenses-and-subscriptions page
 .remote-formatting .customize-remote-formating .summary .total .custom-btn {
   background-color: #1d1f2c;
   font-weight: 600;
+}
+
+.mobile-nav .mobile-select-menu.select-menu {
+  z-index: 999;
+  position: absolute;
+  right: 66px;
+  top: 11px;
+}
+.mobile-nav .mobile-select-menu.select-menu .options {
+  padding-left: 0;
+  width: 154px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.mobile-nav .mobile-select-menu.select-menu .select-btn {
+  font-size: 16px;
+}
+.mobile-nav .mobile-select-menu.select-menu .select-btn .lang-arrow {
+  width: 12px;
+}
+.mobile-nav .mobile-select-menu.select-menu .select-btn .img-lg {
+  width: 20px;
 }

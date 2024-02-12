@@ -446,7 +446,7 @@ Navbar Area
 .main-nav {
   background-color: $color-white;
   top: 0;
-  position: inherit;
+  position: relative;
   left: 0;
   padding: 0;
   width: 100%;
@@ -5179,6 +5179,10 @@ licenses-and-subscriptions page
     cursor: pointer;
     justify-content: space-between;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    .lang-arrow {
+      width: 16px;
+      transition: 0.3s;
+    }
   }
   .options {
     position: absolute;
@@ -5191,6 +5195,7 @@ licenses-and-subscriptions page
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     animation-name: fadeInDown;
     -webkit-animation-name: fadeInDown;
+    display: none;
     animation-duration: 0.35s;
     animation-fill-mode: both;
     -webkit-animation-duration: 0.35s;
@@ -5214,26 +5219,22 @@ licenses-and-subscriptions page
       }
     }
   }
-}
-
-.select-btn .lang-arrow {
-  width: 16px;
-  transition: 0.3s;
-}
-
-.select-menu.active .select-btn .lang-arrow {
-  transform: rotate(-180deg);
-}
-.select-menu.active .options {
-  display: block;
-  opacity: 0;
-  z-index: 10;
-  animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp;
-  animation-duration: 0.4s;
-  animation-fill-mode: both;
-  -webkit-animation-duration: 0.4s;
-  -webkit-animation-fill-mode: both;
+  &.active {
+    .select-btn .lang-arrow {
+      transform: rotate(-180deg);
+    }
+    .options {
+      display: block;
+      opacity: 0;
+      z-index: 10;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      animation-duration: 0.4s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 0.4s;
+      -webkit-animation-fill-mode: both;
+    }
+  }
 }
 .select-menu .option:not(.selected) img.selected-img {
   display: none;
@@ -5462,6 +5463,9 @@ licenses-and-subscriptions page
       box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
       padding: 40px 38px;
       height: 100%;
+      h6 {
+        margin-bottom: 14px;
+      }
       .icon-cover {
         width: 90px;
         height: 90px;
@@ -5647,6 +5651,33 @@ licenses-and-subscriptions page
           background-color: #1d1f2c;
           font-weight: 600;
         }
+      }
+    }
+  }
+}
+
+// mobile navigation
+
+.mobile-nav {
+  .mobile-select-menu.select-menu {
+    z-index: 999;
+    position: absolute;
+    right: 66px;
+    top: 11px;
+    .options {
+      padding-left: 0;
+      width: 154px;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.25);
+    }
+    .select-btn {
+      font-size: 16px;
+      .lang-arrow {
+        width: 12px;
+      }
+      .img-lg {
+        width: 20px;
       }
     }
   }

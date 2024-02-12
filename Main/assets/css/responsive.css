@@ -792,6 +792,12 @@
   .licenses-and-subscriptions .button_Act {
     margin-top: 16px;
   }
+  .mobile-nav .mobile-select-menu.select-menu {
+    top: 17px;
+  }
+  .mobile-nav .options {
+    width: 145px;
+  }
   footer .footer-logo {
     padding: 25px 16px;
   }
