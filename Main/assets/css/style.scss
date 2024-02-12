@@ -5235,6 +5235,9 @@ licenses-and-subscriptions page
   -webkit-animation-duration: 0.4s;
   -webkit-animation-fill-mode: both;
 }
+.select-menu .option:not(.selected) img.selected-img {
+  display: none;
+}
 
 @keyframes fadeInUp {
   from {

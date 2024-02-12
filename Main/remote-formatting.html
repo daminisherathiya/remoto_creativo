@@ -88,37 +88,37 @@
               <ul class="navbar-nav m-auto">
 
                 <li class="nav-item">
-                  <a href="/" class="nav-link">
+                  <a href="/" class="nav-link" data-i18n="header.home">
                     Home
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#servicios" class="nav-link">
+                  <a href="#servicios" class="nav-link" data-i18n="header.remoteFormatting">
                     Remote Formatting
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#productos" class="nav-link">
+                  <a href="#productos" class="nav-link" data-i18n="header.optimizePc">
                     Optimize PC
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#preguntas" class="nav-link">
+                  <a href="#preguntas" class="nav-link" data-i18n="header.licensesAndSubscriptions">
                     Licenses and Subscriptions
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#preguntas" class="nav-link">
+                  <a href="#preguntas" class="nav-link" data-i18n="header.isoCreativOs">
                     ISO CreativOS
                   </a>
                 </li>
               </ul>
 
-              <div class="select-menu">
+              <div id="language-switcher" class="select-menu">
                 <div class="select-btn">
                   <span class="sBtn-text d-flex align-items-center me-3"><img class="img-lg me-2"
                       src="assets/images/usa-flag.svg" alt="USA flag">English</span>
@@ -126,16 +126,17 @@
                 </div>
 
                 <ul class="options">
-                  <li class="option">
+                  <li class="option selected" data-language="en">
                     <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
                         class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/usa-flag.svg"
-                          alt="USA flag">English </span> <img class="img-md" src="assets/images/correct-blue-circle.svg"
+                          alt="USA flag">English</span><img class="img-md selected-img" src="assets/images/correct-blue-circle.svg"
                         alt="selected"></span>
                   </li>
-                  <li class="option">
+                  <li class="option" data-language="es">
                     <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
                         class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/spanish-flag.svg"
-                          alt="Spanish flag">Español</span></span>
+                          alt="Spanish flag">Español</span><img class="img-md selected-img" src="assets/images/correct-blue-circle.svg"
+                          alt="selected"></span>
                   </li>
                 </ul>
               </div>
@@ -687,6 +688,10 @@
   <script src="assets/js/jquery.min.js"></script>
   <!-- Bootstrap Bundle Min JS -->
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- i18next Min JS -->
+  <script src="assets/js/i18next@23.8.2.min.js"></script>
+  <!-- i18nextBrowserLanguageDetector Min JS -->
+  <script src="assets/js/i18nextBrowserLanguageDetector@7.2.0.min.js"></script>
   <!-- Owl Carousel Min JS -->
   <script src="assets/js/owl.carousel.min.js"></script>
   <!-- Magnific Popup Min JS -->
@@ -705,27 +710,6 @@
   <script src="assets/js/contact-form-script.js"></script>
   <!-- Custom JS -->
   <script src="assets/js/custom.js"></script>
-  <!-- custom select -->
-  <script>
-    const optionMenu = document.querySelector(".select-menu"),
-      selectBtn = optionMenu.querySelector(".select-btn"),
-      options = optionMenu.querySelectorAll(".option"),
-      sBtn_text = optionMenu.querySelector(".sBtn-text");
-
-    selectBtn.addEventListener("click", () =>
-      optionMenu.classList.toggle("active")
-    );
-
-    options.forEach((option) => {
-      option.addEventListener("click", () => {
-        let selectedOption = option.querySelector(".option-text").innerText;
-        sBtn_text.innerText = selectedOption;
-
-        optionMenu.classList.remove("active");
-      });
-    });
-  </script>
-
 </body>
 
 </html>

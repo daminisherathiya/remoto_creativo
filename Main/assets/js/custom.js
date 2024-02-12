@@ -1,6 +1,92 @@
 (function($) {
     'use strict';
 
+    // Function to update the content based on the current language
+    function updateContent() {
+        console.log(i18next.t("greeting"));
+        $("[data-i18n]").each(function() {
+            var key = $(this).data("i18n");
+            $(this).text(i18next.t(key));
+        });
+    }
+
+    // Function to update the language of the dropdown based on the given language
+    function selectLanguageAndUpdateContent(languageName) {
+        const languageSwitcher = $("#language-switcher");
+        const language = $(`[data-language="${languageName}"]`);
+
+        // Populate the language to show on the dropdown
+        const languageHTMLExcludingSelectImg = language.find(".option-text span").html().trim();
+        languageSwitcher.find(".sBtn-text").html(languageHTMLExcludingSelectImg);
+
+        // Collapse
+        languageSwitcher.removeClass("active");
+
+        // Add the select checkmark for the selected option
+        languageSwitcher.find(".option").removeClass("selected");
+        language.addClass("selected");
+
+        // Change the language in i18next and update the content
+        i18next.changeLanguage(languageName, updateContent);
+    }
+
+    // Language selector
+    $(document).ready(function() {
+        const languageSwitcher = $("#language-switcher");
+
+        // Expand/collapse upon clicking on the button
+        languageSwitcher.find(".select-btn").click(function() {
+            languageSwitcher.toggleClass("active");
+        });
+  
+        // Trigger selectLanguageAndUpdateContent upon language selection
+        languageSwitcher.find(".option").each(function() {
+            $(this).click(function() {
+                selectLanguageAndUpdateContent($(this).data("language"));
+            });
+        });
+    });
+
+    // i18next initialization
+    i18next
+        .use(i18nextBrowserLanguageDetector)
+        .init({
+            fallbackLng: "en",
+            debug: true,
+            resources: {
+                en: {
+                    translation: {
+                        "greeting": "Hello, welcome to our website!",
+                        "header": {
+                            "home": "Home",
+                            "remoteFormatting": "Remote Formatting",
+                            "optimizePc": "Optimize PC",
+                            "licensesAndSubscriptions": "Licenses And Subscriptions",
+                            "isoCreativOs": "ISO CreativOS",
+                        },
+                    },
+                },
+                es: {
+                    translation: {
+                        "greeting": "¡Hola, bienvenido a nuestro sitio web!",
+                        "header": {
+                            "home": "Hogar",
+                            "remoteFormatting": "Formateo remoto",
+                            "optimizePc": "Optimizar PC",
+                            "licensesAndSubscriptions": "Licencias y suscripciones",
+                            "isoCreativOs": "ISO CreativOS",
+                        },
+                    },
+                },
+            },
+        }, function(err, t) {
+            selectLanguageAndUpdateContent(i18next.language.split('-')[0]);
+        });
+})(jQuery);
+
+(function($) {
+    'use strict';
+
     // Mean Menu JS
     jQuery('.mean-menu').meanmenu({ 
         meanScreenWidth: "991"
@@ -160,6 +246,7 @@
 
     // Preloader JS
     $(window).on('load',function(){
+        console.log("$(window).on('load',function(){");
         $(".preloader").fadeOut(500);
     });
 

@@ -5247,6 +5247,10 @@ licenses-and-subscriptions page
   -webkit-animation-fill-mode: both;
 }
 
+.select-menu .option:not(.selected) img.selected-img {
+  display: none;
+}
+
 @-webkit-keyframes fadeInUp {
   from {
     -webkit-transform: translate3d(0, 30px, 0);
