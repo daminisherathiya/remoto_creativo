@@ -1,0 +1,10 @@
+{
+  "greeting": "Hello, welcome to our website!",
+  "header": {
+      "home": "Home",
+      "remoteFormatting": "Remote Formatting",
+      "optimizePc": "Optimize PC",
+      "licensesAndSubscriptions": "Licenses And Subscriptions",
+      "isoCreativOs": "ISO CreativOS"
+  }
+}
