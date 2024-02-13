@@ -50,34 +50,12 @@
     // i18next initialization
     i18next
         .use(i18nextBrowserLanguageDetector)
+        .use(i18nextHttpBackend)
         .init({
             fallbackLng: "en",
             debug: true,
-            resources: {
-                en: {
-                    translation: {
-                        "greeting": "Hello, welcome to our website!",
-                        "header": {
-                            "home": "Home",
-                            "remoteFormatting": "Remote Formatting",
-                            "optimizePc": "Optimize PC",
-                            "licensesAndSubscriptions": "Licenses And Subscriptions",
-                            "isoCreativOs": "ISO CreativOS",
-                        },
-                    },
-                },
-                es: {
-                    translation: {
-                        "greeting": "¡Hola, bienvenido a nuestro sitio web!",
-                        "header": {
-                            "home": "Hogar",
-                            "remoteFormatting": "Formateo remoto",
-                            "optimizePc": "Optimizar PC",
-                            "licensesAndSubscriptions": "Licencias y suscripciones",
-                            "isoCreativOs": "ISO CreativOS",
-                        },
-                    },
-                },
+            backend: {
+                loadPath: "/Main/locales/{{lng}}/translation.json"
             },
         }, function(err, t) {
             selectLanguageAndUpdateContent(i18next.language.split('-')[0]);
