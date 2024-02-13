@@ -1,30 +1,30 @@
 @media only screen and (max-width: 767px) {
   /* Default CSS */
   .ptb-100 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
   }
   .pt-100 {
-    padding-top: 50px;
+    padding-top: 3.125rem;
   }
   .ptb-70 {
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 1.25rem;
+    padding-bottom: 3.125rem;
   }
   .pb-100 {
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
   }
   .pt-70 {
-    padding-top: 30px;
+    padding-top: 1.875rem;
   }
   .pb-70 {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
   }
   .pt-45 {
-    padding-top: 30px;
+    padding-top: 1.875rem;
   }
   .ml-20 {
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   .ml-25 {
     margin-left: 0;
@@ -36,14 +36,14 @@
     margin-top: 0;
   }
   .default-btn {
-    padding: 8px 18px;
+    padding: 0.5rem 1.125rem;
   }
   .section-title {
     span {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
     h2 {
-      font-size: 26px;
+      font-size: 1.625rem;
       margin-top: 0;
     }
     p {
@@ -52,7 +52,7 @@
     }
   }
   h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   /* Default CSS End */
 
@@ -66,26 +66,26 @@
         display: none;
       }
       p {
-        font-size: 15px;
-        margin-bottom: 5px;
+        font-size: 0.9375rem;
+        margin-bottom: 0.3125rem;
       }
     }
   }
   .top-header-right {
     float: none;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0.3125rem;
     .language-list {
       margin-left: 0;
       margin-right: 0;
-      margin-top: 5px;
+      margin-top: 0.3125rem;
       &::before {
         display: none;
       }
     }
   }
   .top-head-left {
-    margin-top: 3px;
+    margin-top: 0.1875rem;
     float: none;
     text-align: center;
   }
@@ -101,7 +101,7 @@
   .mobile-nav {
     .logo {
       img {
-        max-width: 140px;
+        max-width: 8.75rem;
       }
     }
   }
@@ -112,17 +112,17 @@
       width: 100%;
       form {
         .input-search {
-          height: 50px;
-          padding: 0 0 0 15px;
+          height: 3.125rem;
+          padding: 0 0 0 0.9375rem;
         }
         button {
           position: absolute;
-          right: 5px;
-          top: 5px;
-          width: 40px;
-          height: 40px;
-          font-size: 18px;
-          line-height: 35px;
+          right: 0.3125rem;
+          top: 0.3125rem;
+          width: 2.5rem;
+          height: 2.5rem;
+          font-size: 1.125rem;
+          line-height: 2.1875rem;
         }
       }
     }
@@ -137,46 +137,46 @@
       right: 0;
       left: 0;
       top: auto;
-      bottom: 55px;
+      bottom: 3.4375rem;
       transform: translateY(-0%);
       .owl-dot {
         span {
-          margin: 7px 7px;
-          width: 30px !important;
-          height: 30px !important;
+          margin: 0.4375rem 0.4375rem;
+          width: 1.875rem !important;
+          height: 1.875rem !important;
         }
         &.active span {
-          width: 30px !important;
-          height: 30px !important;
+          width: 1.875rem !important;
+          height: 1.875rem !important;
         }
         &:hover span {
-          width: 30px !important;
-          height: 30px !important;
+          width: 1.875rem !important;
+          height: 1.875rem !important;
         }
       }
     }
   }
   .banner-item-content {
-    padding-top: 140px;
-    padding-bottom: 130px;
+    padding-top: 8.75rem;
+    padding-bottom: 8.125rem;
     span {
-      font-size: 15px;
+      font-size: 0.9375rem;
       font-weight: 600;
-      padding: 8px 15px;
+      padding: 0.5rem 0.9375rem;
     }
     h1 {
       max-width: 100%;
-      font-size: 35px;
-      margin-top: 25px;
+      font-size: 2.1875rem;
+      margin-top: 1.5625rem;
     }
     p {
-      font-size: 16px;
-      margin-bottom: 25px;
+      font-size: 1rem;
+      margin-bottom: 1.5625rem;
     }
   }
   .banner-item-ptb {
-    padding-top: 130px;
-    padding-bottom: 70px;
+    padding-top: 8.125rem;
+    padding-bottom: 4.375rem;
     h1 {
       margin-top: 0;
     }
@@ -189,41 +189,41 @@
     }
   }
   .banner-content {
-    padding-top: 120px;
+    padding-top: 7.5rem;
     margin-top: 0;
-    margin-left: 9px;
+    margin-left: 0.5625rem;
     h1 {
-      font-size: 35px;
+      font-size: 2.1875rem;
       max-width: 100%;
     }
     p {
-      font-size: 16px;
+      font-size: 1rem;
       max-width: 100%;
     }
   }
 
   .banner-img {
-    padding-top: 30px;
+    padding-top: 1.875rem;
     .banner-img-shape {
       display: none;
     }
   }
   .banner-sub-slider {
-    margin-top: 30px;
-    padding-bottom: 70px;
+    margin-top: 1.875rem;
+    padding-bottom: 4.375rem;
     .banner-sub-item {
-      padding: 15px 10px 15px 135px;
-      max-width: 300px;
+      padding: 0.9375rem 0.625rem 0.9375rem 8.4375rem;
+      max-width: 18.75rem;
       img {
-        max-width: 107px;
+        max-width: 6.6875rem;
       }
       .content {
-        padding: 3px 0 7px;
+        padding: 0.1875rem 0 0.4375rem;
         h3 {
-          font-size: 35px;
+          font-size: 2.1875rem;
         }
         span {
-          font-size: 16px;
+          font-size: 1rem;
         }
       }
     }
@@ -233,29 +233,29 @@
   /* Banner Bottom Area CSS */
   .banner-bottom-area {
     position: inherit;
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 
   .banner-bottom-card {
     position: relative;
-    padding: 20px 15px;
+    padding: 1.25rem 0.9375rem;
     text-align: center;
     i {
       position: inherit;
       top: 0;
       left: 0;
       right: 0;
-      margin-bottom: 10px;
+      margin-bottom: 0.625rem;
     }
   }
   /* Banner Bottom Area CSS End */
 
   .inner-banner {
     .inner-title {
-      padding-top: 120px;
-      padding-bottom: 60px;
+      padding-top: 7.5rem;
+      padding-bottom: 3.75rem;
       h3 {
-        font-size: 30px;
+        font-size: 1.875rem;
       }
     }
     .inner-shape {
@@ -265,23 +265,23 @@
 
   /* About Area CSS */
   .about-img {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     &::before {
       display: none;
     }
     .sub-content {
-      padding: 15px 10px 15px 145px;
-      max-width: 295px;
+      padding: 0.9375rem 0.625rem 0.9375rem 9.0625rem;
+      max-width: 18.4375rem;
       img {
-        max-width: 107px;
+        max-width: 6.6875rem;
       }
       .content {
-        padding: 5px 0;
+        padding: 0.3125rem 0;
         h3 {
-          font-size: 35px;
+          font-size: 2.1875rem;
         }
         span {
-          font-size: 16px;
+          font-size: 1rem;
         }
       }
     }
@@ -289,7 +289,7 @@
 
   .about-content {
     .about-list {
-      margin: 20px auto 10px;
+      margin: 1.25rem auto 0.625rem;
     }
     .section-title {
       h2 {
@@ -305,83 +305,83 @@
       margin: 0 auto !important;
     }
     .about-content-card {
-      margin-top: 20px;
+      margin-top: 1.25rem;
       i {
-        font-size: 40px;
+        font-size: 2.5rem;
       }
       h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
       }
       p {
-        font-size: 14px;
+        font-size: 0.875rem;
       }
     }
   }
   .about-content-2 {
     .about-card {
-      margin-top: 20px;
+      margin-top: 1.25rem;
       .content {
         padding-top: 0;
         padding-left: 0;
         margin-bottom: 0;
         i {
-          font-size: 40px;
+          font-size: 2.5rem;
           position: inherit;
           top: 0;
           left: 0;
           right: 0;
         }
         h3 {
-          margin-top: 15px;
-          font-size: 18px;
+          margin-top: 0.9375rem;
+          font-size: 1.125rem;
           margin-bottom: 0;
         }
       }
       p {
-        margin-top: 15px;
+        margin-top: 0.9375rem;
         margin-bottom: 0;
         color: #ffffff;
-        font-size: 14px;
+        font-size: 0.875rem;
       }
     }
   }
 
   .about-play {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     img {
-      border-radius: 10px;
+      border-radius: 0.625rem;
     }
     .about-play-content {
-      margin-top: 30px;
+      margin-top: 1.875rem;
       position: inherit;
       background-color: #0071dc;
-      border-radius: 10px;
-      padding: 40px 30px 60px;
+      border-radius: 0.625rem;
+      padding: 2.5rem 1.875rem 3.75rem;
       max-width: 100%;
       text-align: center;
       &::before {
         display: none;
       }
       h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
         margin-bottom: 0;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 8px;
+        margin-top: 0.5rem;
       }
       .play-on-area {
         position: inherit;
-        top: 15px;
+        top: 0.9375rem;
         bottom: auto;
         left: 0;
         right: 0;
         margin: 0 auto;
         text-align: center;
         .play-on {
-          width: 60px;
-          height: 60px;
-          font-size: 30px;
-          line-height: 65px;
+          width: 3.75rem;
+          height: 3.75rem;
+          font-size: 1.875rem;
+          line-height: 4.0625rem;
         }
       }
     }
@@ -392,61 +392,61 @@
     text-align: center;
     .choose-content-card {
       .content {
-        padding-top: 10px;
+        padding-top: 0.625rem;
         padding-left: 0;
         i {
           position: inherit;
           top: 0;
-          font-size: 45px;
+          font-size: 2.8125rem;
         }
         h3 {
-          margin-top: 13px;
-          margin-bottom: 10px;
-          font-size: 18px;
+          margin-top: 0.8125rem;
+          margin-bottom: 0.625rem;
+          font-size: 1.125rem;
         }
       }
       p {
-        font-size: 14px;
+        font-size: 0.875rem;
       }
     }
   }
 
   .counter-content {
     h1 {
-      font-size: 65px;
+      font-size: 4.0625rem;
     }
     h3 {
-      font-size: 18px;
+      font-size: 1.125rem;
     }
   }
 
   .contact-info {
-    padding: 30px 15px 10px;
+    padding: 1.875rem 0.9375rem 0.625rem;
     ul {
       li {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
       }
     }
   }
 
   /* Security Area CSS */
   .security-card {
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
     i {
-      width: 65px;
-      height: 65px;
-      line-height: 65px;
-      font-size: 28px;
+      width: 4.0625rem;
+      height: 4.0625rem;
+      line-height: 4.0625rem;
+      font-size: 1.75rem;
     }
   }
   /* Security Area CSS End */
 
   .technology-card {
     i {
-      font-size: 40px;
+      font-size: 2.5rem;
     }
     h3 {
-      font-size: 18px;
+      font-size: 1.125rem;
     }
   }
 
@@ -461,16 +461,16 @@
     text-align: center;
     .content {
       width: 95%;
-      padding: 95px 20px 20px;
+      padding: 5.9375rem 1.25rem 1.25rem;
       i {
         display: inherit;
-        top: 25px;
+        top: 1.5625rem;
         left: 0;
         right: 0;
         text-align: center;
       }
       h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
       }
     }
   }
@@ -478,7 +478,7 @@
   .service-article {
     .service-article-content {
       .service-article-rs {
-        margin: 0 0 8px;
+        margin: 0 0 0.5rem;
       }
     }
   }
@@ -488,10 +488,10 @@
     .content {
       ul {
         li {
-          font-size: 13px;
+          font-size: 0.8125rem;
           &::before {
-            width: 1.5px;
-            height: 13px;
+            width: 0.09375rem;
+            height: 0.8125rem;
           }
         }
       }
@@ -504,15 +504,15 @@
     .blog-article-title {
       ul {
         li {
-          margin-right: 10px;
-          margin-bottom: 5px;
+          margin-right: 0.625rem;
+          margin-bottom: 0.3125rem;
         }
       }
     }
     .article-content {
       .blockquote {
         margin-left: 0;
-        padding: 20px 30px;
+        padding: 1.25rem 1.875rem;
         i {
           display: none;
         }
@@ -522,19 +522,19 @@
       .blog-tag {
         ul {
           li {
-            padding: 5px 0;
-            margin-top: 5px;
-            margin-bottom: 10px;
+            padding: 0.3125rem 0;
+            margin-top: 0.3125rem;
+            margin-bottom: 0.625rem;
             a {
-              padding: 6px 12px;
+              padding: 0.375rem 0.75rem;
             }
           }
         }
       }
       .social-icon {
         float: none;
-        margin-top: 5px;
-        margin-bottom: 10px;
+        margin-top: 0.3125rem;
+        margin-bottom: 0.625rem;
       }
     }
     .comments-wrap {
@@ -545,14 +545,14 @@
             position: inherit;
             top: 0;
             left: 0;
-            margin-bottom: 10px;
+            margin-bottom: 0.625rem;
           }
           h3 {
-            font-size: 20px;
-            margin-bottom: 10px;
+            font-size: 1.25rem;
+            margin-bottom: 0.625rem;
           }
           p {
-            margin-bottom: 10px;
+            margin-bottom: 0.625rem;
           }
           a {
             color: #0071dc;
@@ -570,9 +570,9 @@
     .content {
       ul {
         li {
-          margin-right: 5px;
+          margin-right: 0.3125rem;
           i {
-            margin-right: 5px;
+            margin-right: 0.3125rem;
           }
         }
       }
@@ -582,26 +582,26 @@
   .blog-card {
     .blog-img {
       .blog-tag {
-        padding: 10px 7px;
+        padding: 0.625rem 0.4375rem;
         h3 {
-          font-size: 14px;
+          font-size: 0.875rem;
         }
       }
     }
     .content {
       ul {
         li {
-          font-size: 14px;
+          font-size: 0.875rem;
           i {
-            font-size: 15px;
+            font-size: 0.9375rem;
           }
         }
       }
       h3 {
-        font-size: 21px;
+        font-size: 1.3125rem;
       }
       .read-btn {
-        font-size: 14px;
+        font-size: 0.875rem;
       }
     }
   }
@@ -612,7 +612,7 @@
     text-align: center;
   }
   .work-process-left {
-    padding: 50px 25px;
+    padding: 3.125rem 1.5625rem;
     text-align: center;
   }
   .work-process-area-two {
@@ -648,41 +648,41 @@
   .case-article {
     .case-article-content {
       .case-article-rs {
-        margin: 0 0 8px;
+        margin: 0 0 0.5rem;
       }
     }
   }
   /* Build Area CSS */
   .build-btn-area {
     float: none;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   .build-item {
     .content {
       ul {
         li {
-          font-size: 13px;
+          font-size: 0.8125rem;
         }
       }
     }
   }
   .build-play-img {
     img {
-      border-radius: 10px;
+      border-radius: 0.625rem;
     }
     .play-area-content {
-      margin-top: 30px;
+      margin-top: 1.875rem;
       position: inherit;
       background-color: #0071dc;
-      border-radius: 10px;
-      padding: 40px 30px;
+      border-radius: 0.625rem;
+      padding: 2.5rem 1.875rem;
       max-width: 100%;
       text-align: center;
       &::before {
         display: none;
       }
       h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
         margin-left: auto;
         margin-right: auto;
       }
@@ -697,21 +697,21 @@
       margin: 0 auto;
       text-align: center;
       .play-on {
-        width: 60px;
-        height: 60px;
-        font-size: 30px;
-        line-height: 63px;
+        width: 3.75rem;
+        height: 3.75rem;
+        font-size: 1.875rem;
+        line-height: 3.9375rem;
       }
     }
   }
   .build-text {
-    margin-bottom: 25px;
-    margin-top: 20px;
+    margin-bottom: 1.5625rem;
+    margin-top: 1.25rem;
     text-align: center;
   }
   .play-btn-area {
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 6.875rem;
+    padding-bottom: 6.875rem;
   }
   /* Build Area CSS End */
 
@@ -721,26 +721,26 @@
   }
   .counter-content {
     h1 {
-      font-size: 85px;
+      font-size: 5.3125rem;
     }
   }
   .counter-another-content {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     padding-left: 0;
     position: relative;
     text-align: center;
     i {
-      font-size: 40px;
+      font-size: 2.5rem;
       position: inherit;
       right: 0;
     }
     h3 {
-      font-size: 26px;
-      margin-top: 15px;
-      margin-bottom: 5px;
+      font-size: 1.625rem;
+      margin-top: 0.9375rem;
+      margin-bottom: 0.3125rem;
     }
     span {
-      font-size: 15px;
+      font-size: 0.9375rem;
     }
   }
   /* Counter Area CSS End */
@@ -749,7 +749,7 @@
     display: none;
   }
   .clients-content {
-    padding: 30px 15px;
+    padding: 1.875rem 0.9375rem;
     iframe {
       max-width: 100%;
     }
@@ -757,52 +757,52 @@
   .clients-area {
     .owl-nav {
       margin-top: 0;
-      margin-bottom: 30px;
+      margin-bottom: 1.875rem;
       .owl-prev {
         top: auto;
         position: inherit;
         transform: translateY(-0%);
         left: 0;
-        font-size: 20px !important;
-        bottom: -30px;
-        width: 35px;
-        height: 35px;
-        border-radius: 50px;
-        line-height: 38px !important;
+        font-size: 1.25rem !important;
+        bottom: -1.875rem;
+        width: 2.1875rem;
+        height: 2.1875rem;
+        border-radius: 3.125rem;
+        line-height: 2.375rem !important;
       }
       .owl-next {
         top: auto;
         position: inherit;
         transform: translateY(-0%);
         right: 0;
-        font-size: 20px !important;
-        bottom: -30px;
-        width: 35px;
-        height: 35px;
-        border-radius: 50px;
-        line-height: 38px !important;
+        font-size: 1.25rem !important;
+        bottom: -1.875rem;
+        width: 2.1875rem;
+        height: 2.1875rem;
+        border-radius: 3.125rem;
+        line-height: 2.375rem !important;
       }
     }
   }
 
   .blog-card {
     .content {
-      padding: 20px;
+      padding: 1.25rem;
     }
   }
   /* Error Area CSS */
   .error-area {
     height: 100vh;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
     .error-content {
       h3 {
-        margin-bottom: 10px;
-        font-size: 25px;
+        margin-bottom: 0.625rem;
+        font-size: 1.5625rem;
       }
       p {
-        font-size: 16px;
-        padding: 0 15px;
+        font-size: 1rem;
+        padding: 0 0.9375rem;
       }
     }
   }
@@ -811,29 +811,29 @@
   /* Coming Soon */
   .coming-soon-area {
     .coming-soon-content {
-      padding-top: 30px;
-      padding-bottom: 20px;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-top: 1.875rem;
+      padding-bottom: 1.25rem;
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
       h1 {
-        font-size: 30px;
+        font-size: 1.875rem;
         line-height: 1.1;
         margin-top: 0;
       }
       p {
-        font-size: 14px;
-        margin-top: 15px;
+        font-size: 0.875rem;
+        margin-top: 0.9375rem;
       }
       #timer {
-        margin-top: 30px;
+        margin-top: 1.875rem;
         div {
-          font-size: 30px;
-          margin-left: 5px;
-          margin-right: 5px;
-          margin-bottom: 15px;
+          font-size: 1.875rem;
+          margin-left: 0.3125rem;
+          margin-right: 0.3125rem;
+          margin-bottom: 0.9375rem;
           span {
-            font-size: 14px;
-            margin-top: -5px;
+            font-size: 0.875rem;
+            margin-top: -0.3125rem;
           }
           &::before {
             display: none;
@@ -841,19 +841,19 @@
         }
       }
       .newsletter-form {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
         .input-newsletter {
-          height: 55px;
-          padding-left: 13px;
-          font-size: 15px;
+          height: 3.4375rem;
+          padding-left: 0.8125rem;
+          font-size: 0.9375rem;
         }
         button {
           position: relative;
-          font-size: 14px;
-          margin-top: 15px;
+          font-size: 0.875rem;
+          margin-top: 0.9375rem;
           width: 100%;
-          height: 50px;
+          height: 3.125rem;
         }
       }
     }
@@ -863,15 +863,15 @@
   /* Footer Area */
   .footer-widget {
     h3 {
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
     }
     .footer-call-content {
       max-width: 100%;
       h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
       }
       i {
-        top: 15px;
+        top: 0.9375rem;
       }
     }
     p {
@@ -885,7 +885,7 @@
   #servicios,
   #productos,
   #nosotros {
-    padding-top: 100px;
+    padding-top: 6.25rem;
   }
   // internal css of index.html End
 
@@ -893,26 +893,26 @@
   .licenses-and-subscriptions {
     // internal css of licenses-and-subscriptions.html
     .containerv {
-      margin-top: -100px;
-      margin-bottom: -100px;
+      margin-top: -6.25rem;
+      margin-bottom: -6.25rem;
       iframe {
-        width: 640px;
-        height: 550px;
+        width: 40rem;
+        height: 34.375rem;
       }
     }
     // internal css of licenses-and-subscriptions.html End
     .main-heading {
-      font-size: 35px;
+      font-size: 2.1875rem;
     }
     .section-title {
-      padding-top: 45px;
+      padding-top: 2.8125rem;
     }
   }
   footer {
     .footer-logo {
-      padding: 35px 16px;
+      padding: 2.1875rem 1rem;
       img {
-        width: 175px;
+        width: 10.9375rem;
       }
     }
   }
@@ -920,16 +920,16 @@
 
 @media only screen and (max-width: 575px) {
   .banner-item-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
   }
 
   // internal css of index.html
   .review-card .consumer-name {
-    font-size: 14px;
-    margin-bottom: 4px;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
     .review-text {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
   }
   // internal css of index.html End
@@ -937,26 +937,26 @@
   // licenses-and-subscriptions page
   .licenses-and-subscriptions {
     .card img {
-      width: 80px;
+      width: 5rem;
     }
 
     .button_Act {
-      margin-top: 16px;
+      margin-top: 1rem;
     }
   }
   .mobile-nav {
     .mobile-select-menu.select-menu {
-      top: 17px;
+      top: 1.0625rem;
     }
     .options {
-      width: 145px;
+      width: 9.0625rem;
     }
   }
   footer {
     .footer-logo {
-      padding: 25px 16px;
+      padding: 1.5625rem 1rem;
       img {
-        width: 155px;
+        width: 9.6875rem;
       }
     }
   }
@@ -966,7 +966,7 @@
     // internal css of licenses-and-subscriptions.html
     .containerv {
       iframe {
-        height: 450px;
+        height: 28.125rem;
       }
     }
   }
@@ -982,15 +982,15 @@
     .blog-article-title {
       ul {
         li {
-          margin-right: 10px;
-          margin-bottom: 5px;
+          margin-right: 0.625rem;
+          margin-bottom: 0.3125rem;
         }
       }
     }
     .article-content {
       .blockquote {
         margin-left: 0;
-        padding: 20px 30px;
+        padding: 1.25rem 1.875rem;
         i {
           display: none;
         }
@@ -1000,7 +1000,7 @@
       .blog-tag {
         ul {
           li {
-            padding: 5px 0;
+            padding: 0.3125rem 0;
             margin-top: 0;
             margin-bottom: 0;
           }
@@ -1016,28 +1016,28 @@
   /* Footer Area */
   .footer-widget {
     .footer-call-content {
-      padding: 20px 70px 20px 15px;
+      padding: 1.25rem 4.375rem 1.25rem 0.9375rem;
       h3 {
-        font-size: 16px;
+        font-size: 1rem;
       }
       i {
-        top: 22px;
-        right: 15px;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-        font-size: 24px;
+        top: 1.375rem;
+        right: 0.9375rem;
+        width: 2.8125rem;
+        height: 2.8125rem;
+        line-height: 2.8125rem;
+        font-size: 1.5rem;
       }
       span {
         a {
-          font-size: 13px;
+          font-size: 0.8125rem;
         }
       }
     }
     .footer-blog {
       li {
         h3 {
-          font-size: 15px;
+          font-size: 0.9375rem;
         }
       }
     }
@@ -1048,27 +1048,27 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* Default CSS */
   .ptb-100 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
   }
   .pt-100 {
-    padding-top: 50px;
+    padding-top: 3.125rem;
   }
   .ptb-70 {
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 1.25rem;
+    padding-bottom: 3.125rem;
   }
   .pb-100 {
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
   }
   .pt-70 {
-    padding-top: 30px;
+    padding-top: 1.875rem;
   }
   .pb-70 {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
   }
   .pt-45 {
-    padding-top: 30px;
+    padding-top: 1.875rem;
   }
   .mt-30 {
     margin-top: 0;
@@ -1077,23 +1077,23 @@
     margin-left: 0;
   }
   .ml-20 {
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   .mr-20 {
     margin-right: 0;
   }
   .default-btn {
-    padding: 8px 18px;
+    padding: 0.5rem 1.125rem;
   }
   .section-title {
     span {
-      font-size: 14px;
+      font-size: 0.875rem;
       list-style: 0;
       padding: 0;
       margin: 0;
     }
     h2 {
-      font-size: 26px;
+      font-size: 1.625rem;
       margin-top: 0;
     }
     p {
@@ -1102,19 +1102,19 @@
     }
   }
   h3 {
-    font-size: 21px;
+    font-size: 1.3125rem;
   }
   /* Default CSS End */
 
   .about-play {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .work-process-left {
     text-align: center;
   }
   .top-header-right {
     .language-list {
-      margin-left: -15px;
+      margin-left: -0.9375rem;
     }
   }
   .about-content-2 {
@@ -1136,7 +1136,7 @@
   .mobile-nav {
     .logo {
       img {
-        max-width: 140px;
+        max-width: 8.75rem;
       }
     }
   }
@@ -1150,44 +1150,44 @@
       right: 0;
       left: 0;
       top: auto;
-      bottom: 55px;
+      bottom: 3.4375rem;
       transform: translateY(-0%);
     }
   }
   .banner-item-content {
-    padding-top: 220px;
-    padding-bottom: 220px;
+    padding-top: 13.75rem;
+    padding-bottom: 13.75rem;
     text-align: center;
     span {
-      font-size: 15px;
+      font-size: 0.9375rem;
       font-weight: 600;
-      padding: 8px 15px;
+      padding: 0.5rem 0.9375rem;
     }
     h1 {
-      font-size: 35px;
+      font-size: 2.1875rem;
       max-width: 100%;
     }
     p {
-      font-size: 16px;
+      font-size: 1rem;
       margin-left: auto;
       margin-right: auto;
     }
   }
   .banner-item-ptb {
-    padding-top: 250px;
-    padding-bottom: 190px;
+    padding-top: 15.625rem;
+    padding-bottom: 11.875rem;
   }
   .banner-content {
-    padding-top: 120px;
+    padding-top: 7.5rem;
     margin-top: 0;
     text-align: center;
     h1 {
-      font-size: 35px;
+      font-size: 2.1875rem;
       margin-left: auto;
       margin-right: auto;
     }
     p {
-      font-size: 16px;
+      font-size: 1rem;
       margin-left: auto;
       margin-right: auto;
     }
@@ -1202,32 +1202,32 @@
   }
 
   .banner-img {
-    padding-top: 30px;
+    padding-top: 1.875rem;
     .banner-img-shape {
       display: none;
     }
   }
   .banner-sub-slider {
-    padding-bottom: 70px;
+    padding-bottom: 4.375rem;
   }
   /* Main Banner Area CSS End */
 
   /* Banner Bottom Area CSS */
   .banner-bottom-area {
     position: inherit;
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 
   .banner-bottom-card {
     position: relative;
-    padding: 20px 15px;
+    padding: 1.25rem 0.9375rem;
     text-align: center;
     i {
       position: inherit;
       top: 0;
       left: 0;
       right: 0;
-      margin-bottom: 10px;
+      margin-bottom: 0.625rem;
     }
   }
   /* Banner Bottom Area CSS End */
@@ -1235,15 +1235,15 @@
   .inner-banner {
     .inner-title {
       h3 {
-        font-size: 35px;
+        font-size: 2.1875rem;
       }
     }
   }
 
   .about-img {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     &::before {
-      right: -15px;
+      right: -0.9375rem;
     }
   }
 
@@ -1266,7 +1266,7 @@
   }
 
   .services-card {
-    padding: 30px 30px 25px;
+    padding: 1.875rem 1.875rem 1.5625rem;
   }
   .service-shape {
     display: none;
@@ -1275,10 +1275,10 @@
     text-align: center;
     .content {
       width: 90%;
-      padding: 20px 15px 20px 92px;
+      padding: 1.25rem 0.9375rem 1.25rem 5.75rem;
 
       h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
       }
     }
   }
@@ -1293,17 +1293,17 @@
   }
 
   .contact-info {
-    padding: 40px 20px 10px;
+    padding: 2.5rem 1.25rem 0.625rem;
   }
 
   .work-process-card {
-    padding: 30px 32px;
+    padding: 1.875rem 2rem;
   }
   .work-process-left {
-    padding: 50px 30px;
+    padding: 3.125rem 1.875rem;
     .section-title {
       h2 {
-        font-size: 25px;
+        font-size: 1.5625rem;
       }
     }
   }
@@ -1330,20 +1330,20 @@
 
   .build-play-img {
     .play-area-content {
-      padding: 100px 70px 65px 30px;
-      max-width: 330px;
+      padding: 6.25rem 4.375rem 4.0625rem 1.875rem;
+      max-width: 20.625rem;
       &::before {
         width: 91%;
         height: 88.7%;
       }
       h2 {
-        font-size: 28px;
+        font-size: 1.75rem;
       }
     }
   }
   .play-area {
-    bottom: 145px;
-    left: 190px;
+    bottom: 9.0625rem;
+    left: 11.875rem;
   }
 
   .counter-shape {
@@ -1351,30 +1351,30 @@
   }
   .counter-content {
     h1 {
-      font-size: 65px;
+      font-size: 4.0625rem;
     }
     h3 {
-      font-size: 18px;
+      font-size: 1.125rem;
     }
   }
 
   .counter-another-content {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     padding-left: 0;
     position: relative;
     text-align: center;
     i {
-      font-size: 45px;
+      font-size: 2.8125rem;
       position: inherit;
       right: 0;
     }
     h3 {
-      font-size: 30px;
-      margin-top: 15px;
-      margin-bottom: 5px;
+      font-size: 1.875rem;
+      margin-top: 0.9375rem;
+      margin-bottom: 0.3125rem;
     }
     span {
-      font-size: 15px;
+      font-size: 0.9375rem;
     }
   }
 
@@ -1384,28 +1384,28 @@
   .clients-area {
     .owl-nav {
       margin-top: 0;
-      margin-bottom: 55px;
+      margin-bottom: 3.4375rem;
       .owl-prev {
         top: auto;
         position: inherit;
-        font-size: 20px !important;
-        bottom: -30px;
+        font-size: 1.25rem !important;
+        bottom: -1.875rem;
         transform: translateY(-0%);
-        width: 35px;
-        height: 35px;
-        border-radius: 50px;
-        line-height: 38px !important;
+        width: 2.1875rem;
+        height: 2.1875rem;
+        border-radius: 3.125rem;
+        line-height: 2.375rem !important;
       }
       .owl-next {
         top: auto;
         position: inherit;
         transform: translateY(-0%);
-        font-size: 20px !important;
-        bottom: -30px;
-        width: 35px;
-        height: 35px;
-        border-radius: 50px;
-        line-height: 38px !important;
+        font-size: 1.25rem !important;
+        bottom: -1.875rem;
+        width: 2.1875rem;
+        height: 2.1875rem;
+        border-radius: 3.125rem;
+        line-height: 2.375rem !important;
       }
     }
   }
@@ -1413,16 +1413,16 @@
   /* Error Area CSS */
   .error-area {
     height: 100vh;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
     .error-content {
       h3 {
-        margin-bottom: 10px;
-        font-size: 25px;
+        margin-bottom: 0.625rem;
+        font-size: 1.5625rem;
       }
       p {
-        font-size: 16px;
-        padding: 0 15px;
+        font-size: 1rem;
+        padding: 0 0.9375rem;
       }
     }
   }
@@ -1434,7 +1434,7 @@
     .navbar {
       .navbar-brand {
         img {
-          max-width: 140px;
+          max-width: 8.75rem;
         }
       }
     }
@@ -1442,21 +1442,21 @@
       .navbar-nav {
         .nav-item {
           a {
-            margin-left: 8px;
-            margin-right: 8px;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
           }
         }
       }
     }
     .nav-side {
       .nav-side-item {
-        margin-right: 10px;
+        margin-right: 0.625rem;
         .search-side-widget {
-          max-width: 190px;
+          max-width: 11.875rem;
         }
         .get-btn {
           .default-btn {
-            padding: 9px 15px;
+            padding: 0.5625rem 0.9375rem;
           }
         }
       }
@@ -1468,48 +1468,48 @@
       ul {
         li {
           a {
-            width: 24px;
-            height: 24px;
-            line-height: 26px;
-            font-size: 16px;
+            width: 1.5rem;
+            height: 1.5rem;
+            line-height: 1.625rem;
+            font-size: 1rem;
           }
         }
       }
     }
     .top-header-text {
-      margin-left: 25px;
+      margin-left: 1.5625rem;
       &::before {
-        left: -16px;
-        width: 1px;
-        height: 20px;
+        left: -1rem;
+        width: 0.0625rem;
+        height: 1.25rem;
       }
       p {
-        font-size: 13px;
+        font-size: 0.8125rem;
       }
     }
   }
   .top-header-right {
     .top-contact {
-      padding-left: 35px;
+      padding-left: 2.1875rem;
       i {
-        font-size: 15px;
-        width: 24px;
-        height: 24px;
-        line-height: 24px;
+        font-size: 0.9375rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
       }
       h3 {
-        font-size: 13px;
+        font-size: 0.8125rem;
         color: #ffffff;
         margin-bottom: 0;
       }
     }
     .language-list {
-      margin-left: -15px;
-      top: -5px;
+      margin-left: -0.9375rem;
+      top: -0.3125rem;
       .nice-select {
-        font-size: 13px;
+        font-size: 0.8125rem;
         &::after {
-          font-size: 15px;
+          font-size: 0.9375rem;
         }
       }
     }
@@ -1522,70 +1522,70 @@
   }
 
   .banner-item-content {
-    max-width: 600px;
+    max-width: 37.5rem;
     h1 {
-      font-size: 55px;
+      font-size: 3.4375rem;
     }
     p {
-      font-size: 17px;
+      font-size: 1.0625rem;
     }
   }
   .banner-bottom-card {
-    padding: 30px 20px 30px 100px;
+    padding: 1.875rem 1.25rem 1.875rem 6.25rem;
     i {
       position: absolute;
-      top: 30px;
-      left: 20px;
-      font-size: 40px;
-      width: 65px;
-      height: 65px;
-      line-height: 65px;
+      top: 1.875rem;
+      left: 1.25rem;
+      font-size: 2.5rem;
+      width: 4.0625rem;
+      height: 4.0625rem;
+      line-height: 4.0625rem;
     }
     h3 {
-      font-size: 20px;
+      font-size: 1.25rem;
     }
   }
 
   .banner-content {
-    margin-top: -20px;
+    margin-top: -1.25rem;
     h1 {
-      font-size: 44px;
+      font-size: 2.75rem;
     }
   }
   .banner-sub-slider {
-    margin-top: -50px;
+    margin-top: -3.125rem;
     .banner-sub-item {
-      padding: 15px 10px 15px 140px;
+      padding: 0.9375rem 0.625rem 0.9375rem 8.75rem;
       width: 100%;
       img {
-        max-width: 107px;
+        max-width: 6.6875rem;
       }
       h3 {
-        font-size: 35px;
+        font-size: 2.1875rem;
       }
       span {
-        font-size: 15px;
+        font-size: 0.9375rem;
       }
     }
   }
   .banner-img {
     .banner-img-shape {
-      bottom: 70px;
+      bottom: 4.375rem;
       img {
-        max-width: 130px;
+        max-width: 8.125rem;
       }
     }
   }
 
   .banner-content {
     p {
-      font-size: 16px;
+      font-size: 1rem;
     }
   }
 
   .blog-card {
     .content {
-      padding: 30px 25px;
+      padding: 1.875rem 1.5625rem;
     }
   }
 
@@ -1593,7 +1593,7 @@
     .about-card {
       .content {
         h3 {
-          font-size: 20px;
+          font-size: 1.25rem;
         }
       }
     }
@@ -1601,87 +1601,87 @@
 
   .about-img {
     &::before {
-      right: -20px;
+      right: -1.25rem;
     }
   }
 
   .choose-content {
     .choose-content-card {
       .content {
-        padding-left: 60px;
+        padding-left: 3.75rem;
         i {
-          font-size: 45px;
+          font-size: 2.8125rem;
         }
         h3 {
-          font-size: 20px;
+          font-size: 1.25rem;
           margin-top: 0;
-          margin-bottom: 15px;
+          margin-bottom: 0.9375rem;
         }
       }
     }
   }
 
   .services-card {
-    padding: 30px 20px 25px;
+    padding: 1.875rem 1.25rem 1.5625rem;
     h3 {
-      font-size: 20px;
+      font-size: 1.25rem;
     }
   }
   .service-shape {
     img {
-      max-width: 280px;
+      max-width: 17.5rem;
     }
   }
 
   .services-item {
     .content {
       width: 95%;
-      padding: 20px 15px 20px 92px;
+      padding: 1.25rem 0.9375rem 1.25rem 5.75rem;
       h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
       }
     }
   }
 
   .call-contact {
     p {
-      font-size: 18px;
+      font-size: 1.125rem;
     }
   }
 
   .work-process-left {
-    padding: 170px 25px;
+    padding: 10.625rem 1.5625rem;
   }
   .work-process-card {
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
     h3 {
-      font-size: 20px;
+      font-size: 1.25rem;
     }
   }
 
   .work-shape {
     img {
-      max-width: 975px;
+      max-width: 60.9375rem;
     }
   }
 
   .counter-shape {
     .shape1 {
       img {
-        max-width: 160px;
+        max-width: 10rem;
       }
     }
     .shape2 {
       img {
-        max-width: 160px;
+        max-width: 10rem;
       }
     }
   }
 
   .counter-another-content {
-    padding-left: 85px;
+    padding-left: 5.3125rem;
     span {
-      font-size: 15px;
+      font-size: 0.9375rem;
     }
   }
 
@@ -1693,41 +1693,41 @@
   .clients-area {
     .owl-nav {
       .owl-prev {
-        left: -20px;
-        width: 35px;
-        height: 35px;
-        line-height: 35px !important;
+        left: -1.25rem;
+        width: 2.1875rem;
+        height: 2.1875rem;
+        line-height: 2.1875rem !important;
       }
       .owl-next {
-        right: -20px;
-        width: 35px;
-        height: 35px;
-        line-height: 35px !important;
+        right: -1.25rem;
+        width: 2.1875rem;
+        height: 2.1875rem;
+        line-height: 2.1875rem !important;
       }
     }
   }
 
   .call-shape {
     .shape1 {
-      left: 20px;
+      left: 1.25rem;
     }
     .shape2 {
       right: 0;
       img {
-        max-width: 100px;
+        max-width: 6.25rem;
       }
     }
     .shape2-rs {
-      right: 25px;
+      right: 1.5625rem;
       img {
-        max-width: 120px;
+        max-width: 7.5rem;
       }
     }
   }
 
   .client-circle {
     .client-circle-1 {
-      left: 45px;
+      left: 2.8125rem;
     }
     .client-circle-3 {
       top: 87%;
@@ -1735,7 +1735,7 @@
     }
     .client-circle-6 {
       top: 87%;
-      right: 20px;
+      right: 1.25rem;
     }
   }
 
@@ -1745,32 +1745,32 @@
         a {
           color: #ffffff;
           font-weight: 400;
-          font-size: 14px;
+          font-size: 0.875rem;
           i {
             margin-right: 0;
-            font-size: 16px;
+            font-size: 1rem;
           }
         }
       }
     }
     .footer-call-content {
       h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
       }
       i {
-        top: 15px;
+        top: 0.9375rem;
       }
     }
     .footer-blog {
       li {
-        padding-left: 80px;
+        padding-left: 5rem;
         img {
-          height: 65px;
-          width: 65px;
+          height: 4.0625rem;
+          width: 4.0625rem;
         }
         .content {
           h3 {
-            font-size: 13px;
+            font-size: 0.8125rem;
           }
         }
       }
@@ -1781,7 +1781,7 @@
 @media only screen and (min-width: 1800px) {
   .service-shape {
     img {
-      max-width: 500px;
+      max-width: 31.25rem;
     }
   }
   .counter-shape {
@@ -1839,23 +1839,23 @@
   }
   .about-img {
     &::before {
-      right: -20px;
+      right: -1.25rem;
     }
   }
 
   .call-shape {
     .shape2 {
-      right: -10px;
+      right: -0.625rem;
     }
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1327px;
+    max-width: 82.9375rem;
   }
   .container-max {
-    max-width: 1327px !important;
+    max-width: 82.9375rem !important;
     margin: 0 auto;
   }
 }
@@ -1895,9 +1895,9 @@
     margin-left: 0;
   }
   .side-bar-widget {
-    border: 1px solid #f3f3f3;
-    padding: 20px;
-    margin-bottom: 30px;
+    border: 0.0625rem solid #f3f3f3;
+    padding: 1.25rem;
+    margin-bottom: 1.875rem;
     .side-bar-categories {
       margin-bottom: 0;
     }
@@ -1916,24 +1916,24 @@
   }
   .call-contact {
     text-align: center;
-    padding: 50px 0 30px;
+    padding: 3.125rem 0 1.875rem;
 
     h3 {
-      font-size: 18px;
+      font-size: 1.125rem;
     }
     .call-btn {
-      font-size: 26px;
+      font-size: 1.625rem;
     }
     p {
-      font-size: 16px;
-      margin-bottom: 20px;
+      font-size: 1rem;
+      margin-bottom: 1.25rem;
     }
   }
   .contact-info {
     ul {
       li {
         display: inline-block;
-        margin-right: 20px;
+        margin-right: 1.25rem;
         &:last-child {
           margin-right: 0;
         }
