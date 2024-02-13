@@ -1201,12 +1201,18 @@ Main Banner Area
   position: relative;
   padding-top: 4.375rem;
 }
+.banner-img > img {
+  width: 47.73625rem;
+}
 .banner-img .banner-img-shape {
   position: absolute;
   bottom: 6.25rem;
   right: 0;
   -webkit-animation: moveBounce 9s linear infinite;
           animation: moveBounce 9s linear infinite;
+}
+.banner-img .banner-img-shape img {
+  width: 11rem;
 }
 
 .banner-sub-item {
@@ -1543,6 +1549,7 @@ About Area
   margin-bottom: 1.875rem;
 }
 .about-img-2 img {
+  width: 39.953125rem;
   border-radius: 0.9375rem;
 }
 
@@ -2999,9 +3006,9 @@ Brand Area
 }
 
 .brand-item img {
-  width: unset !important;
   text-align: center;
   margin: 0 auto;
+  width: 12.1875rem !important;
 }
 
 /*==================================
@@ -5308,6 +5315,10 @@ licenses-and-subscriptions page
   width: 1.5rem;
 }
 
+.img-xl {
+  width: 2rem;
+}
+
 .product-feature {
   font-size: 1rem;
   color: #4a4c56;
@@ -5321,9 +5332,10 @@ licenses-and-subscriptions page
 
 .optimize-pc .banner {
   background-image: url(../images/optimize-pc/banner-bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   background-color: #f8f8f8;
   padding: 7.8125rem 0 8.625rem 0;
-  background-size: cover;
 }
 .optimize-pc .banner h1 {
   font-size: 4rem;
@@ -5339,6 +5351,9 @@ licenses-and-subscriptions page
   font-size: 1.25rem;
   font-weight: 600;
   color: #1d1f2c;
+}
+.optimize-pc .banner .trustpilot img {
+  width: 1.666875rem;
 }
 .optimize-pc .custom-btn {
   padding: 0.84375rem 1.5625rem;
@@ -5361,13 +5376,19 @@ licenses-and-subscriptions page
   text-transform: capitalize;
 }
 .optimize-pc .pricing-table {
-  padding: 3rem 2rem;
-  background-color: #ffffff;
-  border-radius: 1.5rem;
   margin-top: 2.5rem;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.optimize-pc .pricing-table::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 .optimize-pc .pricing-table .pt-title {
   max-width: 18.75rem;
+  background-color: #ffffff;
+  padding: 2rem 0 2rem 1rem;
+  border-radius: 1.5rem 0 0 1.5rem;
 }
 .optimize-pc .pricing-table .pt-title p {
   padding: 0 1.5rem;
@@ -5394,6 +5415,9 @@ licenses-and-subscriptions page
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  background-color: #ffffff;
+  padding: 2rem 1rem 2rem 0;
+  border-radius: 0 1.5rem 1.5rem 0;
 }
 .optimize-pc .pricing-table .pt-options .pt-option {
   -webkit-box-flex: 1;

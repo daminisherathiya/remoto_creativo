@@ -42,7 +42,7 @@ $bright-blue: #0d6efd;
 $charcoal-gray: #616160;
 
 html {
-  font-size: max(14px,0.833vw);
+  font-size: max(14px, 0.833vw);
 }
 body {
   font-size: 0.9375rem;
@@ -1132,11 +1132,17 @@ Main Banner Area
 .banner-img {
   position: relative;
   padding-top: 4.375rem;
+  > img {
+    width: 47.73625rem;
+  }
   .banner-img-shape {
     position: absolute;
     bottom: 6.25rem;
     right: 0;
     animation: moveBounce 9s linear infinite;
+    img {
+      width: 11rem;
+    }
   }
 }
 .banner-sub-item {
@@ -1460,6 +1466,7 @@ About Area
 .about-img-2 {
   margin-bottom: 1.875rem;
   img {
+    width: 39.953125rem;
     border-radius: 0.9375rem;
   }
 }
@@ -2962,9 +2969,10 @@ Brand Area
 
 .brand-item {
   img {
-    width: unset !important;
+    // width: unset !important;
     text-align: center;
     margin: 0 auto;
+    width: 12.1875rem !important;
   }
 }
 /*==================================
@@ -5271,6 +5279,9 @@ licenses-and-subscriptions page
 .img-lg {
   width: 1.5rem;
 }
+.img-xl {
+  width: 2rem;
+}
 
 // popup
 .product-feature {
@@ -5289,9 +5300,10 @@ licenses-and-subscriptions page
 .optimize-pc {
   .banner {
     background-image: url(../images/optimize-pc/banner-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #f8f8f8;
     padding: 7.8125rem 0 8.625rem 0;
-    background-size: cover;
     h1 {
       font-size: 4rem;
       font-weight: 700;
@@ -5306,6 +5318,9 @@ licenses-and-subscriptions page
       font-size: 1.25rem;
       font-weight: 600;
       color: #1d1f2c;
+      img {
+        width: 1.666875rem;
+      }
     }
   }
   .custom-btn {
@@ -5329,12 +5344,19 @@ licenses-and-subscriptions page
     }
   }
   .pricing-table {
-    padding: 3rem 2rem;
-    background-color: $color-white;
-    border-radius: 1.5rem;
+    // padding: 0 2rem;
     margin-top: 2.5rem;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
     .pt-title {
       max-width: 18.75rem;
+      background-color: #ffffff;
+      padding: 2rem 0 2rem 1rem;
+      border-radius: 1.5rem 0 0 1.5rem;
       p {
         padding: 0 1.5rem;
         min-height: 4rem;
@@ -5355,6 +5377,9 @@ licenses-and-subscriptions page
     }
     .pt-options {
       flex: 1;
+      background-color: #ffffff;
+      padding: 2rem 1rem 2rem 0;
+      border-radius: 0 1.5rem 1.5rem 0;
       .pt-option {
         flex: 1;
         .heading {

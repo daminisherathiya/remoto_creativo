@@ -1,3 +1,23 @@
+@media only screen and (max-width: 991px) {
+  .optimize-pc .banner {
+    padding: 9.07rem 0 4.64rem 0;
+  }
+  .optimize-pc .pricing-table .pt-options .pt-option .heading {
+    padding: 1.5rem 0rem 0.5625rem 0rem;
+  }
+  .optimize-pc .pricing-table .pt-options .pt-option .heading h6 {
+    font-size: 2.5rem;
+  }
+  .optimize-pc .it-support {
+    padding: 4.64rem 0;
+  }
+  .optimize-pc .chat-and-fix-pc {
+    padding: 4.64rem 0;
+  }
+  .optimize-pc .chat-and-fix-pc .chat-box {
+    padding: 3.6875rem 3.5rem;
+  }
+}
 @media only screen and (max-width: 767px) {
   /* Default CSS */
   .ptb-100 {
@@ -767,6 +787,44 @@
   .licenses-and-subscriptions .section-title {
     padding-top: 2.8125rem;
   }
+  .optimize-pc .banner h1 {
+    font-size: 3rem;
+  }
+  .optimize-pc .it-support p {
+    font-size: 1rem;
+  }
+  .optimize-pc .it-support h3 {
+    font-size: 2rem;
+  }
+  .optimize-pc .pricing-table {
+    padding: 0 1rem;
+  }
+  .optimize-pc .pricing-table .pt-options .pt-option .heading p.sub-title {
+    font-size: 0.9rem;
+  }
+  .optimize-pc .pricing-table .pt-options .pt-option .heading h6 {
+    font-size: 2rem;
+  }
+  .optimize-pc .pricing-table .pt-options .pt-option .heading .badge {
+    font-size: 0.9rem;
+  }
+  .optimize-pc .pricing-table .pt-options .pt-option .get-started {
+    padding: 2rem 0.5rem 1.25rem 0.5rem;
+  }
+  .optimize-pc .pricing-table .pt-options .pt-option p.pt-row {
+    padding: 0 0.5rem;
+  }
+  .optimize-pc .pricing-table .pt-title {
+    min-width: 11.75rem;
+    max-width: none;
+  }
+  .optimize-pc .pricing-table .pt-title p {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+  .container {
+    max-width: 640px;
+  }
   footer .footer-logo {
     padding: 2.1875rem 1rem;
   }
@@ -798,8 +856,26 @@
   .mobile-nav .options {
     width: 9.0625rem;
   }
-  footer .footer-logo {
-    padding: 1.5625rem 1rem;
+  .optimize-pc .banner {
+    padding: 8.07rem 0 3.64rem 0;
+  }
+  .optimize-pc .banner h1 {
+    font-size: 2rem;
+  }
+  .optimize-pc .it-support {
+    padding: 3.64rem 0;
+  }
+  .optimize-pc .it-support h3 {
+    font-size: 1.8rem;
+  }
+  .optimize-pc .chat-and-fix-pc {
+    padding: 3.64rem 0;
+  }
+  .optimize-pc .chat-and-fix-pc .chat-box h3 {
+    font-size: 1.8rem;
+  }
+  .optimize-pc .chat-and-fix-pc .chat-box h3 p {
+    font-size: 1rem;
   }
   footer .footer-logo img {
     width: 9.6875rem;
@@ -1508,49 +1584,5 @@
 @media only screen and (max-width: 991px) {
   .mobile-nav nav .navbar-nav {
     overflow-y: scroll;
-  }
-  .side-bar-area {
-    margin-left: 0;
-  }
-  .side-bar-widget {
-    border: 0.0625rem solid #f3f3f3;
-    padding: 1.25rem;
-    margin-bottom: 1.875rem;
-  }
-  .side-bar-widget .side-bar-categories {
-    margin-bottom: 0;
-  }
-  .side-bar-widget .side-bar-widget-tag {
-    margin-bottom: 0;
-  }
-  .side-bar-widget .blog-gallery {
-    margin-bottom: 0;
-  }
-  .side-bar-widget .widget-popular-post {
-    margin-bottom: 0;
-  }
-  .call-shape {
-    display: none;
-  }
-  .call-contact {
-    text-align: center;
-    padding: 3.125rem 0 1.875rem;
-  }
-  .call-contact h3 {
-    font-size: 1.125rem;
-  }
-  .call-contact .call-btn {
-    font-size: 1.625rem;
-  }
-  .call-contact p {
-    font-size: 1rem;
-    margin-bottom: 1.25rem;
-  }
-  .contact-info ul li {
-    display: inline-block;
-    margin-right: 1.25rem;
-  }
-  .contact-info ul li:last-child {
-    margin-right: 0;
   }
 }
