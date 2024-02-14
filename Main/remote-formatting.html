@@ -76,7 +76,7 @@
       <div class="language-switcher select-menu mobile-select-menu d-lg-none">
         <div class="select-btn px-3">
           <span class="sBtn-text d-flex align-items-center me-2 me-sm-3"><img class="img-lg me-sm-2"
-              src="assets/images/usa-flag.svg" alt="USA flag"><span class="d-none d-sm-block">English</span></span>
+              src="assets/images/usa-flag.svg" alt="USA flag"><span>English</span></span>
           <img class="lang-arrow" src="assets/images/dropdown-arrow.svg" alt="arrow">
         </div>
 
@@ -84,13 +84,13 @@
           <li class="option selected" data-language="en">
             <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
                 class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/usa-flag.svg"
-                  alt="USA flag">English</span><img class="img-md selected-img"
+                  alt="USA flag"><span>English</span></span><img class="img-md selected-img"
                 src="assets/images/correct-blue-circle.svg" alt="selected"></span>
           </li>
           <li class="option" data-language="es">
             <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
                 class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/spanish-flag.svg"
-                  alt="Spanish flag">Español</span><img class="img-md selected-img"
+                  alt="Spanish flag"><span>Español</span></span><img class="img-md selected-img"
                 src="assets/images/correct-blue-circle.svg" alt="selected"></span>
           </li>
         </ul>
@@ -102,7 +102,7 @@
       <div class="container-fluid">
         <div class="container-max">
           <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand flex-shrink-0" href="/">
+            <a class="navbar-brand flex-shrink-0" href="./">
               <img src="assets/images/logos/logo-2.svg" alt="Logo">
             </a>
 
@@ -110,31 +110,32 @@
               <ul class="navbar-nav m-auto">
 
                 <li class="nav-item">
-                  <a href="/" class="nav-link" data-i18n="header.home">
+                  <a href="./" class="nav-link" data-i18n="header.home">
                     Home
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#servicios" class="nav-link" data-i18n="header.remoteFormatting">
+                  <a href="./remote-formatting.html" class="nav-link active" data-i18n="header.remoteFormatting">
                     Remote Formatting
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#productos" class="nav-link" data-i18n="header.optimizePc">
+                  <a href="./optimize-pc.html" class="nav-link" data-i18n="header.optimizePc">
                     Optimize PC
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#preguntas" class="nav-link" data-i18n="header.licensesAndSubscriptions">
+                  <a href="./licenses-and-subscriptions.html" class="nav-link"
+                    data-i18n="header.licensesAndSubscriptions">
                     Licenses and Subscriptions
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#preguntas" class="nav-link" data-i18n="header.isoCreativOs">
+                  <a href="#" class="nav-link" data-i18n="header.isoCreativOs">
                     ISO CreativOS
                   </a>
                 </li>
@@ -151,27 +152,27 @@
                   <li class="option selected" data-language="en">
                     <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
                         class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/usa-flag.svg"
-                          alt="USA flag">English</span><img class="img-md selected-img"
+                          alt="USA flag"><span>English</span></span><img class="img-md selected-img"
                         src="assets/images/correct-blue-circle.svg" alt="selected"></span>
                   </li>
                   <li class="option" data-language="es">
                     <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
                         class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/spanish-flag.svg"
-                          alt="Spanish flag">Español</span><img class="img-md selected-img"
+                          alt="Spanish flag"><span>Español</span></span><img class="img-md selected-img"
                         src="assets/images/correct-blue-circle.svg" alt="selected"></span>
                   </li>
                 </ul>
               </div>
 
               <!-- <div class="nav-side d-display nav-side-mt">
-              <div class="nav-side-item">
-                <div class="get-btn">
-                  <a href="https://m.me/Remotocreativo" target="_blank" rel="nofollow"
-                    class="default-btn btn-bg-two border-radius-50">Pregúntanos : ) <i
-                      class='bx bx-chevron-right'></i></a>
-                </div>
+            <div class="nav-side-item">
+              <div class="get-btn">
+                <a href="https://m.me/Remotocreativo" target="_blank" rel="nofollow"
+                  class="default-btn btn-bg-two border-radius-50">Pregúntanos : ) <i
+                    class='bx bx-chevron-right'></i></a>
               </div>
-            </div> -->
+            </div>
+          </div> -->
             </div>
           </nav>
         </div>
@@ -427,10 +428,42 @@
                     </div>
                     <div class="col">
                       <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="adobe-illustrator">
+                        <label class="form-check-label" for="adobe-illustrator">
+                          Adobe Illustrator
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="adobe-lightroom">
+                        <label class="form-check-label" for="adobe-lightroom">
+                          Adobe Lightroom
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
                         <input class="form-check-input shadow-none" type="checkbox" value="" id="adobe-premiere-pro"
                           checked>
                         <label class="form-check-label" for="adobe-premiere-pro">
                           Adobe Premiere Pro
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="adobe-after-effects">
+                        <label class="form-check-label" for="adobe-after-effects">
+                          Adobe After Effects
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="cinema-4d">
+                        <label class="form-check-label" for="cinema-4d">
+                          Cinema 4D
                         </label>
                       </div>
                     </div>
@@ -445,105 +478,9 @@
                     </div>
                     <div class="col">
                       <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="corel-draw">
-                        <label class="form-check-label" for="corel-draw">
-                          Corel Draw
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="revit">
-                        <label class="form-check-label" for="revit">
-                          Revit
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="optitex">
-                        <label class="form-check-label" for="optitex">
-                          Optitex
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="flexiSign">
-                        <label class="form-check-label" for="flexiSign">
-                          FlexiSign
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="adobe-illustrator">
-                        <label class="form-check-label" for="adobe-illustrator">
-                          Adobe Illustrator
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="adobe-after-effects">
-                        <label class="form-check-label" for="adobe-after-effects">
-                          Adobe After Effects
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
                         <input class="form-check-input shadow-none" type="checkbox" value="" id="final-cut-pro">
                         <label class="form-check-label" for="final-cut-pro">
                           Final Cut Pro
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="cinema-4D">
-                        <label class="form-check-label" for="cinema-4D">
-                          Cinema 4D
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="lumion">
-                        <label class="form-check-label" for="lumion">
-                          Lumion
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="wilcom">
-                        <label class="form-check-label" for="wilcom">
-                          Wilcom
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="audaces">
-                        <label class="form-check-label" for="audaces">
-                          Audaces
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="adobe-lightroom">
-                        <label class="form-check-label" for="adobe-lightroom">
-                          Adobe Lightroom
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="form-check d-flex align-items-center">
-                        <input class="form-check-input shadow-none" type="checkbox" value="" id="cinema-4d">
-                        <label class="form-check-label" for="cinema-4d">
-                          Cinema 4D
                         </label>
                       </div>
                     </div>
@@ -557,9 +494,41 @@
                     </div>
                     <div class="col">
                       <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="corel-draw">
+                        <label class="form-check-label" for="corel-draw">
+                          Corel Draw
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="cinema-4D">
+                        <label class="form-check-label" for="cinema-4D">
+                          Cinema 4D
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
                         <input class="form-check-input shadow-none" type="checkbox" value="" id="autoCAD">
                         <label class="form-check-label" for="autoCAD">
                           AutoCAD
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="revit">
+                        <label class="form-check-label" for="revit">
+                          Revit
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="lumion">
+                        <label class="form-check-label" for="lumion">
+                          Lumion
                         </label>
                       </div>
                     </div>
@@ -573,9 +542,41 @@
                     </div>
                     <div class="col">
                       <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="optitex">
+                        <label class="form-check-label" for="optitex">
+                          Optitex
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="wilcom">
+                        <label class="form-check-label" for="wilcom">
+                          Wilcom
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
                         <input class="form-check-input shadow-none" type="checkbox" value="" id="wasatch">
                         <label class="form-check-label" for="wasatch">
                           Wasatch
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="flexiSign">
+                        <label class="form-check-label" for="flexiSign">
+                          FlexiSign
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="audaces">
+                        <label class="form-check-label" for="audaces">
+                          Audaces
                         </label>
                       </div>
                     </div>

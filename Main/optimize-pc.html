@@ -52,7 +52,7 @@
   <!-- <script src="https://cdn.sellix.io/static/js/embed.js"></script> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-  <title>Remote Formatting</title>
+  <title>Optimize PC</title>
 
 
 </head>
@@ -76,6 +76,28 @@
       <a href="index.html" class="logo">
         <img src="assets/images/logos/logo-2.svg" alt="Logo">
       </a>
+      <div class="language-switcher select-menu mobile-select-menu d-lg-none">
+        <div class="select-btn px-3">
+          <span class="sBtn-text d-flex align-items-center me-2 me-sm-3"><img class="img-lg me-sm-2"
+              src="assets/images/usa-flag.svg" alt="USA flag"><span>English</span></span>
+          <img class="lang-arrow" src="assets/images/dropdown-arrow.svg" alt="arrow">
+        </div>
+
+        <ul class="options">
+          <li class="option selected" data-language="en">
+            <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
+                class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/usa-flag.svg"
+                  alt="USA flag"><span>English</span></span><img class="img-md selected-img"
+                src="assets/images/correct-blue-circle.svg" alt="selected"></span>
+          </li>
+          <li class="option" data-language="es">
+            <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
+                class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/spanish-flag.svg"
+                  alt="Spanish flag"><span>Español</span></span><img class="img-md selected-img"
+                src="assets/images/correct-blue-circle.svg" alt="selected"></span>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <!-- Menu For Desktop Device -->
@@ -83,7 +105,7 @@
       <div class="container-fluid">
         <div class="container-max">
           <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand flex-shrink-0" href="/">
+            <a class="navbar-brand flex-shrink-0" href="./">
               <img src="assets/images/logos/logo-2.svg" alt="Logo">
             </a>
 
@@ -91,37 +113,38 @@
               <ul class="navbar-nav m-auto">
 
                 <li class="nav-item">
-                  <a href="/" class="nav-link">
+                  <a href="./" class="nav-link" data-i18n="header.home">
                     Home
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#servicios" class="nav-link">
+                  <a href="./remote-formatting.html" class="nav-link" data-i18n="header.remoteFormatting">
                     Remote Formatting
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#productos" class="nav-link">
+                  <a href="./optimize-pc.html" class="nav-link active" data-i18n="header.optimizePc">
                     Optimize PC
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#preguntas" class="nav-link">
+                  <a href="./licenses-and-subscriptions.html" class="nav-link"
+                    data-i18n="header.licensesAndSubscriptions">
                     Licenses and Subscriptions
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#preguntas" class="nav-link">
+                  <a href="#" class="nav-link" data-i18n="header.isoCreativOs">
                     ISO CreativOS
                   </a>
                 </li>
               </ul>
 
-              <div class="select-menu">
+              <div class="language-switcher select-menu d-none d-lg-block">
                 <div class="select-btn">
                   <span class="sBtn-text d-flex align-items-center me-3"><img class="img-lg me-2"
                       src="assets/images/usa-flag.svg" alt="USA flag">English</span>
@@ -129,29 +152,30 @@
                 </div>
 
                 <ul class="options">
-                  <li class="option">
+                  <li class="option selected" data-language="en">
                     <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
                         class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/usa-flag.svg"
-                          alt="USA flag">English </span> <img class="img-md" src="assets/images/correct-blue-circle.svg"
-                        alt="selected"></span>
+                          alt="USA flag"><span>English</span></span><img class="img-md selected-img"
+                        src="assets/images/correct-blue-circle.svg" alt="selected"></span>
                   </li>
-                  <li class="option">
+                  <li class="option" data-language="es">
                     <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
                         class="d-flex align-items-center"><img class="img-lg me-2" src="assets/images/spanish-flag.svg"
-                          alt="Spanish flag">Español</span></span>
+                          alt="Spanish flag"><span>Español</span></span><img class="img-md selected-img"
+                        src="assets/images/correct-blue-circle.svg" alt="selected"></span>
                   </li>
                 </ul>
               </div>
 
               <!-- <div class="nav-side d-display nav-side-mt">
-                <div class="nav-side-item">
-                  <div class="get-btn">
-                    <a href="https://m.me/Remotocreativo" target="_blank" rel="nofollow"
-                      class="default-btn btn-bg-two border-radius-50">Pregúntanos : ) <i
-                        class='bx bx-chevron-right'></i></a>
-                  </div>
-                </div>
-              </div> -->
+            <div class="nav-side-item">
+              <div class="get-btn">
+                <a href="https://m.me/Remotocreativo" target="_blank" rel="nofollow"
+                  class="default-btn btn-bg-two border-radius-50">Pregúntanos : ) <i
+                    class='bx bx-chevron-right'></i></a>
+              </div>
+            </div>
+          </div> -->
             </div>
           </nav>
         </div>
@@ -198,8 +222,9 @@
                   src="assets/images/star.svg" alt="star">Trustpilot</p>
               <div class="mt-4">
                 <img class="me-2 img-xl" src="assets/images/square-star.svg" alt="star"><img class="me-1 img-xl"
-                  src="assets/images/square-star.svg" alt="star"><img class="me-1 img-xl" src="assets/images/square-star.svg"
-                  alt="star"><img class="me-1 img-xl" src="assets/images/square-star.svg" alt="star"><img class="me-1 img-xl"
+                  src="assets/images/square-star.svg" alt="star"><img class="me-1 img-xl"
+                  src="assets/images/square-star.svg" alt="star"><img class="me-1 img-xl"
+                  src="assets/images/square-star.svg" alt="star"><img class="me-1 img-xl"
                   src="assets/images/square-star.svg" alt="star">
               </div>
             </div>
@@ -213,141 +238,141 @@
         <div class="row">
           <div class="col-12">
             <div class="d-flex align-items-center justify-content-center">
-              <div class="me-2"><img class="img-lg" src="assets/images/window.svg" alt="window"></div>
-              <div><img class="" src="assets/images/apple.svg" alt="apple"></div>
+              <div class="me-2"><img class="img-25px" src="assets/images/window.svg" alt="window"></div>
+              <div><img class="img-25px" src="assets/images/apple.svg" alt="apple"></div>
             </div>
             <h3 class="text-center">The Best Remote IT Support</h3>
             <p class="mb-0 text-center">We repair and optimize your PC without formatting
             </p>
           </div>
-          <div class="col-12 p-0">
+          <div class="col-12 p-0 px-md-3">
             <div class="pricing-table d-flex">
-                <div class="pt-title">
-                  <p class="spacing"></p>
-                  <p>Troubleshooting</p>
-                  <p>Repair or installation of programs Windows / mac</p>
-                  <p>Virus removal</p>
-                  <p>General system cleaning</p>
-                  <p>System speed optimization</p>
-                  <p>Antivirus installation included</p>
-                  <p>Driver installation and update</p>
-                  <p>Diagnostics and Troubleshooting</p>
-                  <p>Removal of unnecessary software (debloating)</p>
-                  <p>Registry settings</p>
-                  <p>Completely Disable Windows Telemetry</p>
-                  <p>Tweaks to improve overall PC gaming performance</p>
-                  <p>Optimizing services for gaming</p>
-                  <p>Optimization of NVIDIA or AMD graphics card settings</p>
-                  <p>Optimizations to reduce Input Lag</p>
-                  <p>Optimizations to stabilize FPS</p>
-                  <p>Optimizations to improve mouse response (depending on hardware)
-                    and more....</p>
+              <div class="pt-title">
+                <p class="spacing"></p>
+                <p>Troubleshooting</p>
+                <p>Repair or installation of programs Windows / mac</p>
+                <p>Virus removal</p>
+                <p>General system cleaning</p>
+                <p>System speed optimization</p>
+                <p>Antivirus installation included</p>
+                <p>Driver installation and update</p>
+                <p>Diagnostics and Troubleshooting</p>
+                <p>Removal of unnecessary software (debloating)</p>
+                <p>Registry settings</p>
+                <p>Completely Disable Windows Telemetry</p>
+                <p>Tweaks to improve overall PC gaming performance</p>
+                <p>Optimizing services for gaming</p>
+                <p>Optimization of NVIDIA or AMD graphics card settings</p>
+                <p>Optimizations to reduce Input Lag</p>
+                <p>Optimizations to stabilize FPS</p>
+                <p>Optimizations to improve mouse response (depending on hardware)
+                  and more....</p>
+              </div>
+              <div class="pt-options d-flex">
+                <div class="pt-option">
+                  <div class="heading text-center">
+                    <span class="badge">Option 1</span>
+                    <h6 class="mb-2">$9</h6>
+                    <p class="sub-title">Basic remote support</p>
+                  </div>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <div class="text-center get-started"><a href="#"
+                      class="default-btn btn-bg-two get-started-btn text-center text-nowrap">Get
+                      started</a></div>
                 </div>
-                <div class="pt-options d-flex">
-                  <div class="pt-option">
-                    <div class="heading text-center">
-                      <span class="badge mb-3">Option 1</span>
-                      <h6 class="mb-2">$9</h6>
-                      <p class="sub-title">Basic remote support</p>
-                    </div>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <div class="text-center get-started"><a href="#"
-                        class="default-btn btn-bg-two get-started-btn text-center text-nowrap">Get
-                        started</a></div>
+                <div class="pt-option">
+                  <div class="heading text-center">
+                    <span class="badge">Option 2</span>
+                    <h6 class="mb-2">$25</h6>
+                    <p class="sub-title">Advanced PC optimization</p>
                   </div>
-                  <div class="pt-option">
-                    <div class="heading text-center">
-                      <span class="badge mb-3">Option 2</span>
-                      <h6 class="mb-2">$25</h6>
-                      <p class="sub-title">Advanced PC optimization</p>
-                    </div>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <div class="text-center get-started"><a href="#"
-                        class="default-btn btn-bg-two get-started-btn text-center text-nowrap">Get
-                        started</a></div>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <div class="text-center get-started"><a href="#"
+                      class="default-btn btn-bg-two get-started-btn text-center text-nowrap">Get
+                      started</a></div>
+                </div>
+                <div class="pt-option">
+                  <div class="heading text-center">
+                    <span class="badge">Option 3</span>
+                    <h6 class="mb-2">$35</h6>
+                    <p class="sub-title">PC Gamer &amp; Streaming Optimization</p>
                   </div>
-                  <div class="pt-option">
-                    <div class="heading text-center">
-                      <span class="badge mb-3">Option 3</span>
-                      <h6 class="mb-2">$35</h6>
-                      <p class="sub-title">PC Gamer &amp; Streaming Optimization</p>
-                    </div>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <p class="pt-row d-flex justify-content-center"><img class="img-md" src="assets/images/correct-green-circle.svg"
-                        alt="selected"></p>
-                    <div class="text-center get-started"><a href="#"
-                        class="default-btn btn-bg-two get-started-btn text-center text-nowrap">Get
-                        started</a></div>
-                  </div>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><span class="not-available"></span></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <p class="pt-row d-flex justify-content-center"><img class="img-md"
+                      src="assets/images/correct-green-circle.svg" alt="selected"></p>
+                  <div class="text-center get-started"><a href="#"
+                      class="default-btn btn-bg-two get-started-btn text-center text-nowrap">Get
+                      started</a></div>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -403,6 +428,12 @@
   <script src="assets/js/jquery.min.js"></script>
   <!-- Bootstrap Bundle Min JS -->
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- i18next Min JS -->
+  <script src="assets/js/i18next@23.8.2.min.js"></script>
+  <!-- i18nextBrowserLanguageDetector Min JS -->
+  <script src="assets/js/i18nextBrowserLanguageDetector@7.2.0.min.js"></script>
+  <!-- i18nextHttpBackend Min JS -->
+  <script src="assets/js/i18nextHttpBackend@2.4.3.min.js"></script>
   <!-- Owl Carousel Min JS -->
   <script src="assets/js/owl.carousel.min.js"></script>
   <!-- Magnific Popup Min JS -->

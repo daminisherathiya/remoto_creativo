@@ -23,6 +23,12 @@
   .optimize-pc .chat-and-fix-pc .chat-box {
     padding: 3.6875rem 3.5rem;
   }
+  .mobile-nav .mobile-select-menu.select-menu .options {
+    left: -5%;
+  }
+  .select-menu {
+    min-width: 8.26875rem;
+  }
   .remote-formatting .banner {
     padding: 9.07rem 0 18.375rem 0;
   }
@@ -830,6 +836,9 @@
   .optimize-pc .pricing-table .pt-options .pt-option p.pt-row {
     padding: 0 0.5rem;
   }
+  .optimize-pc .pricing-table .pt-options .pt-option p.pt-row:last-of-type {
+    min-height: 6rem;
+  }
   .optimize-pc .pricing-table .pt-title {
     min-width: 11.75rem;
     max-width: none;
@@ -837,6 +846,9 @@
   .optimize-pc .pricing-table .pt-title p {
     font-size: 0.9rem;
     padding: 0 0.5rem;
+  }
+  .optimize-pc .pricing-table .pt-title p:last-of-type {
+    min-height: 6rem;
   }
   .remote-formatting .banner .main-heading {
     font-size: 3rem;
@@ -873,7 +885,7 @@
     margin-top: 1rem;
   }
   .mobile-nav .mobile-select-menu.select-menu {
-    top: 1.0625rem;
+    top: 0.9453125rem;
   }
   .mobile-nav .options {
     width: 9.0625rem;
@@ -923,6 +935,15 @@
 @media only screen and (max-width: 480px) {
   .licenses-and-subscriptions .containerv iframe {
     height: 28.125rem;
+  }
+  .mobile-nav .mobile-select-menu.select-menu .options {
+    left: -48%;
+  }
+  .mobile-nav .mobile-select-menu.select-menu .select-btn .sBtn-text span {
+    display: none !important;
+  }
+  .select-menu {
+    min-width: 4.26875rem;
   }
 }
 @media only screen and (max-width: 375px) {

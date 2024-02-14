@@ -518,17 +518,14 @@ Navbar Area
   font-size: 1.125rem;
   color: #444444;
 }
-.main-nav nav .navbar-nav .nav-item a:hover,
-.main-nav nav .navbar-nav .nav-item a :focus {
+.main-nav nav .navbar-nav .nav-item a:hover, .main-nav nav .navbar-nav .nav-item a.active :focus {
   color: #0071dc !important;
 }
-.main-nav nav .navbar-nav .nav-item a:hover::before,
-.main-nav nav .navbar-nav .nav-item a :focus::before {
+.main-nav nav .navbar-nav .nav-item a:hover::before, .main-nav nav .navbar-nav .nav-item a.active :focus::before {
   opacity: 1;
   width: 100%;
 }
-.main-nav nav .navbar-nav .nav-item a:hover i,
-.main-nav nav .navbar-nav .nav-item a :focus i {
+.main-nav nav .navbar-nav .nav-item a:hover i, .main-nav nav .navbar-nav .nav-item a.active :focus i {
   color: #0071dc;
 }
 .main-nav nav .navbar-nav .nav-item a.active {
@@ -5172,6 +5169,7 @@ licenses-and-subscriptions page
 
 .select-menu {
   position: relative;
+  min-width: 11.26875rem;
 }
 .select-menu .select-btn {
   display: -webkit-box;
@@ -5338,6 +5336,12 @@ licenses-and-subscriptions page
   color: #1d1f2c;
 }
 
+.custom-btn {
+  padding: 0.851rem 1.804rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
 .optimize-pc .banner {
   background-image: url(../images/optimize-pc/banner-bg.svg);
   background-repeat: no-repeat;
@@ -5362,11 +5366,6 @@ licenses-and-subscriptions page
 }
 .optimize-pc .banner .trustpilot img {
   width: 1.666875rem;
-}
-.optimize-pc .custom-btn {
-  padding: 0.84375rem 1.5625rem;
-  font-weight: 500;
-  font-size: 1.125rem;
 }
 .optimize-pc .it-support {
   background-color: #0071dc;
@@ -5393,9 +5392,9 @@ licenses-and-subscriptions page
   display: none; /* Safari and Chrome */
 }
 .optimize-pc .pricing-table .pt-title {
-  max-width: 18.75rem;
+  max-width: 19.79rem;
   background-color: #ffffff;
-  padding: 2rem 0 2rem 1rem;
+  padding: 2rem 0 3.3rem 1rem;
   border-radius: 1.5rem 0 0 1.5rem;
 }
 .optimize-pc .pricing-table .pt-title p {
@@ -5417,14 +5416,14 @@ licenses-and-subscriptions page
   background-color: #fafafa;
 }
 .optimize-pc .pricing-table .pt-title p.spacing {
-  min-height: 12.125rem;
+  min-height: 13.181875rem;
 }
 .optimize-pc .pricing-table .pt-options {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   background-color: #ffffff;
-  padding: 2rem 1rem 2rem 0;
+  padding: 2rem 1rem 3.3rem 0;
   border-radius: 0 1.5rem 1.5rem 0;
 }
 .optimize-pc .pricing-table .pt-options .pt-option {
@@ -5433,8 +5432,8 @@ licenses-and-subscriptions page
           flex: 1;
 }
 .optimize-pc .pricing-table .pt-options .pt-option .heading {
-  padding: 1.5rem 1.5rem 0.5625rem 1.5rem;
-  min-height: 12.125rem;
+  padding: 2.5625rem 1.5rem 0.5625rem 1.5rem;
+  min-height: 13.1875rem;
 }
 .optimize-pc .pricing-table .pt-options .pt-option .heading .badge {
   color: #4a4c56;
@@ -5442,8 +5441,8 @@ licenses-and-subscriptions page
   background-color: rgba(0, 113, 220, 0.1019607843);
   border-radius: 1.75rem;
   font-weight: 500;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding: 0.4375rem 0.764375rem;
+  margin-bottom: 0.5625rem;
 }
 .optimize-pc .pricing-table .pt-options .pt-option .heading h6 {
   color: #0071dc;
@@ -5481,14 +5480,16 @@ licenses-and-subscriptions page
   font-size: 1rem;
   font-weight: 600;
   width: 100%;
+  padding-top: 0.700625rem;
+  padding-bottom: 0.700625rem;
 }
 .optimize-pc .chat-and-fix-pc {
   background-color: #fafafa;
-  padding: 7.1875rem 0;
+  padding: 7.1875rem 0 8.4rem 0;
 }
 .optimize-pc .chat-and-fix-pc .chat-box {
   background-color: #ffffff;
-  padding: 4.6875rem 3.5rem;
+  padding: 4.4rem 3.5rem;
   -webkit-box-shadow: 0rem 0rem 0.6875rem 0rem rgba(0, 0, 0, 0.04);
           box-shadow: 0rem 0rem 0.6875rem 0rem rgba(0, 0, 0, 0.04);
   border-radius: 2rem;
@@ -5497,7 +5498,7 @@ licenses-and-subscriptions page
   font-size: 2rem;
   font-weight: 600;
   color: #1d1f2c;
-  margin-bottom: 1.125rem;
+  margin-bottom: 1.2rem;
 }
 .optimize-pc .chat-and-fix-pc .chat-box p {
   color: #4a4c56;
@@ -5525,10 +5526,10 @@ licenses-and-subscriptions page
 }
 .remote-formatting .play-btn-area {
   margin-top: -20.625rem;
-  margin-bottom: 6.0625rem;
+  margin-bottom: 6.14375rem;
 }
 .remote-formatting .how-it-works {
-  padding: 5.1875rem 0;
+  padding: 5.1875rem 0 4.875rem 0;
   background-color: #0071dc;
 }
 .remote-formatting .how-it-works h3 {
@@ -5545,7 +5546,7 @@ licenses-and-subscriptions page
   height: 100%;
 }
 .remote-formatting .how-it-works .steps-card h6 {
-  margin-bottom: 0.875rem;
+  margin-bottom: 0.8125rem;
 }
 .remote-formatting .how-it-works .steps-card .icon-cover {
   width: 5.625rem;
@@ -5587,7 +5588,7 @@ licenses-and-subscriptions page
   font-size: 1.125rem;
 }
 .remote-formatting .customize-remote-formating {
-  padding: 5.4375rem 0;
+  padding: 5.4375rem 0 6.25rem 0;
   background-color: #fafafa;
 }
 .remote-formatting .customize-remote-formating h3 {
@@ -5626,7 +5627,7 @@ licenses-and-subscriptions page
   display: inline-block;
   border-radius: 6.25rem;
   position: relative;
-  margin-top: 1rem;
+  margin-top: 0.8125rem;
 }
 .remote-formatting .customize-remote-formating .platform-switches .custom-switch label:after {
   content: "";
@@ -5742,7 +5743,7 @@ licenses-and-subscriptions page
   z-index: 999;
   position: absolute;
   right: 4.125rem;
-  top: 0.6875rem;
+  top: 0.7921875rem;
 }
 .mobile-nav .mobile-select-menu.select-menu .options {
   padding-left: 0;

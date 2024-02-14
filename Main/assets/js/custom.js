@@ -16,7 +16,7 @@
         const language = $(`[data-language="${languageName}"]`);
 
         // Populate the language to show on the dropdown
-        const languageHTMLExcludingSelectImg = language.find(".option-text span").html().trim();
+        const languageHTMLExcludingSelectImg = language.find(".option-text > span").html().trim();
         languageSwitcher.find(".sBtn-text").html(languageHTMLExcludingSelectImg);
 
         // Collapse
@@ -299,4 +299,3 @@
     });
 
 })(jQuery);
-

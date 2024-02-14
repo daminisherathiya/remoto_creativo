@@ -196,7 +196,7 @@
     margin-right: 0.9375rem;
 }
 .main-nav nav .navbar-nav .nav-item a:hover,
-.main-nav nav .navbar-nav .nav-item a:focus,
+/* .main-nav nav .navbar-nav .nav-item a:focus, */
 .main-nav nav .navbar-nav .nav-item a.active {
     color: #0071dc;
 }

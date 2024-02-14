@@ -498,7 +498,7 @@ Navbar Area
             font-size: 1.125rem;
             color: $paragraph-color;
           }
-          &:hover,
+          &:hover,&.active
           :focus {
             color: $optional-color-2 !important;
             &::before {
@@ -5180,6 +5180,7 @@ licenses-and-subscriptions page
 
 .select-menu {
   position: relative;
+  min-width: 11.26875rem;
   .select-btn {
     display: flex;
     // height: 3.4375rem;
@@ -5308,6 +5309,11 @@ licenses-and-subscriptions page
 
 // optimize-pc
 
+.custom-btn {
+  padding: 0.851rem 1.804rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
 .optimize-pc {
   .banner {
     background-image: url(../images/optimize-pc/banner-bg.svg);
@@ -5334,11 +5340,6 @@ licenses-and-subscriptions page
       }
     }
   }
-  .custom-btn {
-    padding: 0.84375rem 1.5625rem;
-    font-weight: 500;
-    font-size: 1.125rem;
-  }
   .it-support {
     background-color: #0071dc;
     padding: 4.375rem 0;
@@ -5364,9 +5365,9 @@ licenses-and-subscriptions page
       display: none; /* Safari and Chrome */
     }
     .pt-title {
-      max-width: 18.75rem;
+      max-width: 19.79rem;
       background-color: #ffffff;
-      padding: 2rem 0 2rem 1rem;
+      padding: 2rem 0 3.3rem 1rem;
       border-radius: 1.5rem 0 0 1.5rem;
       p {
         padding: 0 1.5rem;
@@ -5382,28 +5383,28 @@ licenses-and-subscriptions page
           background-color: #fafafa;
         }
         &.spacing {
-          min-height: 12.125rem;
+          min-height: 13.181875rem;
         }
       }
     }
     .pt-options {
       flex: 1;
       background-color: #ffffff;
-      padding: 2rem 1rem 2rem 0;
+      padding: 2rem 1rem 3.3rem 0;
       border-radius: 0 1.5rem 1.5rem 0;
       .pt-option {
         flex: 1;
         .heading {
-          padding: 1.5rem 1.5rem 0.5625rem 1.5rem;
-          min-height: 12.125rem;
+          padding: 2.5625rem 1.5rem 0.5625rem 1.5rem;
+          min-height: 13.1875rem;
           .badge {
             color: #4a4c56;
             font-size: 1rem;
             background-color: #0071dc1a;
             border-radius: 1.75rem;
             font-weight: 500;
-            padding-left: 0.75rem;
-            padding-right: 0.75rem;
+            padding: 0.4375rem 0.764375rem;
+            margin-bottom: 0.5625rem;
           }
           h6 {
             color: #0071dc;
@@ -5437,6 +5438,8 @@ licenses-and-subscriptions page
             font-size: 1rem;
             font-weight: 600;
             width: 100%;
+            padding-top: 0.700625rem;
+            padding-bottom: 0.700625rem;
           }
         }
       }
@@ -5444,17 +5447,17 @@ licenses-and-subscriptions page
   }
   .chat-and-fix-pc {
     background-color: #fafafa;
-    padding: 7.1875rem 0;
+    padding: 7.1875rem 0 8.4rem 0;
     .chat-box {
       background-color: $color-white;
-      padding: 4.6875rem 3.5rem;
+      padding: 4.4rem 3.5rem;
       box-shadow: 0rem 0rem 0.6875rem 0rem rgba(0, 0, 0, 0.04);
       border-radius: 2rem;
       h3 {
         font-size: 2rem;
         font-weight: 600;
         color: #1d1f2c;
-        margin-bottom: 1.125rem;
+        margin-bottom: 1.2rem;
       }
       p {
         color: #4a4c56;
@@ -5487,10 +5490,10 @@ licenses-and-subscriptions page
   }
   .play-btn-area {
     margin-top: -20.625rem;
-    margin-bottom: 6.0625rem;
+    margin-bottom: 6.14375rem;
   }
   .how-it-works {
-    padding: 5.1875rem 0;
+    padding: 5.1875rem 0 4.875rem 0;
     background-color: #0071dc;
     h3 {
       font-size: 3rem;
@@ -5504,7 +5507,7 @@ licenses-and-subscriptions page
       padding: 2.5rem 2.375rem;
       height: 100%;
       h6 {
-        margin-bottom: 0.875rem;
+        margin-bottom: 0.8125rem;
       }
       .icon-cover {
         width: 5.625rem;
@@ -5542,7 +5545,7 @@ licenses-and-subscriptions page
     }
   }
   .customize-remote-formating {
-    padding: 5.4375rem 0;
+    padding: 5.4375rem 0 6.25rem 0;
     background-color: #fafafa;
     h3 {
       font-size: 3rem;
@@ -5580,7 +5583,7 @@ licenses-and-subscriptions page
           display: inline-block;
           border-radius: 6.25rem;
           position: relative;
-          margin-top: 1rem;
+          margin-top: 0.8125rem;
           &:after {
             content: "";
             position: absolute;
@@ -5703,7 +5706,7 @@ licenses-and-subscriptions page
     z-index: 999;
     position: absolute;
     right: 4.125rem;
-    top: 0.6875rem;
+    top: 0.7921875rem;
     .options {
       padding-left: 0;
       width: 9.625rem;
