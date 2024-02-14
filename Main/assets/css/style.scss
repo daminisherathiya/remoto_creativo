@@ -5087,7 +5087,7 @@ internal css of licenses-and-subscriptions.html
   /* Card body */
   .container .card-body {
     background-color: #e6ebf9 !important;
-    display: inline-block !important;
+    // display: inline-block !important;
     box-shadow: 0rem 0.75rem 1.4375rem -0.5625rem rgba(18, 38, 63, 0.5) !important;
     color: #000000 !important;
     border-width: 0.125rem !important;
@@ -5106,8 +5106,11 @@ internal css of licenses-and-subscriptions.html
   }
 }
 div#paypal-button-container {
-  max-height: 60vh;
+  // max-height: 60vh;
   overflow-y: auto;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
 }
 #floating-wpp {
   position: fixed;
@@ -5284,6 +5287,11 @@ licenses-and-subscriptions page
 }
 .img-25px {
   width: 1.5625rem;
+}
+.no-scroll {
+  overflow: hidden; /* Prevents scrolling */
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
 }
 
 // popup

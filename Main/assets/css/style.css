@@ -5090,7 +5090,6 @@ internal css of licenses-and-subscriptions.html
 }
 .licenses-and-subscriptions .container .card-body {
   background-color: #e6ebf9 !important;
-  display: inline-block !important;
   -webkit-box-shadow: 0rem 0.75rem 1.4375rem -0.5625rem rgba(18, 38, 63, 0.5) !important;
           box-shadow: 0rem 0.75rem 1.4375rem -0.5625rem rgba(18, 38, 63, 0.5) !important;
   color: #000000 !important;
@@ -5106,7 +5105,6 @@ internal css of licenses-and-subscriptions.html
 }
 
 div#paypal-button-container {
-  max-height: 60vh;
   overflow-y: auto;
 }
 
@@ -5321,6 +5319,12 @@ licenses-and-subscriptions page
 
 .img-25px {
   width: 1.5625rem;
+}
+
+.no-scroll {
+  overflow: hidden; /* Prevents scrolling */
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
 }
 
 .product-feature {
