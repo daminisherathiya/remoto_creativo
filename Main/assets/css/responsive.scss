@@ -21,6 +21,21 @@
       }
     }
   }
+  .remote-formatting {
+    .banner {
+      padding: 9.07rem 0 18.375rem 0;
+    }
+    .play-btn-area {
+      margin-top: -13.625rem;
+    }
+    .how-it-works,
+    .customize-remote-formating {
+      padding: 4.64rem 0;
+    }
+    .play-btn-area {
+      margin-bottom: 4.64rem;
+    }
+  }
 }
 @media only screen and (max-width: 767px) {
   /* Default CSS */
@@ -58,9 +73,6 @@
   }
   .mt-30 {
     margin-top: 0;
-  }
-  .default-btn {
-    padding: 0.5rem 1.125rem;
   }
   .section-title {
     span {
@@ -977,6 +989,14 @@
       }
     }
   }
+  .remote-formatting {
+    .banner .main-heading {
+      font-size: 3rem;
+    }
+    .banner .sub-heading {
+      font-size: 1rem;
+    }
+  }
   .container {
     max-width: 640px;
   }
@@ -1045,6 +1065,24 @@
           font-size: 1rem;
         }
       }
+    }
+  }
+  .remote-formatting {
+    .banner {
+      padding: 8.07rem 0 18.375rem 0;
+      .main-heading {
+        font-size: 2rem;
+      }
+    }
+    .how-it-works,
+    .customize-remote-formating {
+      padding: 3.64rem 0;
+      h3 {
+        font-size: 2rem;
+      }
+    }
+    .play-btn-area {
+      margin-bottom: 3.64rem;
     }
   }
   footer {
