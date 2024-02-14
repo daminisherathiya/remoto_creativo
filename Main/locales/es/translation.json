@@ -6,5 +6,8 @@
       "optimizePc": "Optimizar PC",
       "licensesAndSubscriptions": "Licencias y suscripciones",
       "isoCreativOs": "ISO CreativOS"
+  },
+  "remoteFormatting": {
+    "title": "Formateo remoto"
   }
 }

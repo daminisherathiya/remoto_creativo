@@ -12,7 +12,7 @@
 
     // Function to update the language of the dropdown based on the given language
     function selectLanguageAndUpdateContent(languageName) {
-        const languageSwitcher = $("#language-switcher");
+        const languageSwitcher = $(".language-switcher");
         const language = $(`[data-language="${languageName}"]`);
 
         // Populate the language to show on the dropdown
@@ -32,7 +32,7 @@
 
     // Language selector
     $(document).ready(function() {
-        const languageSwitcher = $("#language-switcher");
+        const languageSwitcher = $(".language-switcher");
 
         // Expand/collapse upon clicking on the button
         languageSwitcher.find(".select-btn").click(function() {
