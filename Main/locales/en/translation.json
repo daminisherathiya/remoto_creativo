@@ -119,5 +119,9 @@
         "ans8": "We work Monday to Friday from 8:00AM to 6:00PM."
       }
     }
+  },
+  "footer": {
+    "copyrightStart": "Copyright",
+    "copyrightEnd": "Remote Creative. The trademarks and trade names mentioned herein are the property of their respective owners."
   }
 }

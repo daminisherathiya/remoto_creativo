@@ -119,5 +119,9 @@
         "ans8": "Trabajamos de Lunes a Viernes de 8:00AM a 6:00PM."
       }
     }
+  },
+  "footer": {
+    "copyrightStart": "Derechos de autor",
+    "copyrightEnd": "Creativo remoto. Las marcas comerciales y los nombres comerciales mencionados en este documento son propiedad de sus respectivos dueños."
   }
 }
