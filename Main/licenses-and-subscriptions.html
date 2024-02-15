@@ -1723,8 +1723,8 @@
       addEventListeners(); // Agregar escuchadores de eventos
 
       // Crear y mostrar el elemento con ID 'data-server-remotocreativo'
-      var element = createServerElement();
-      document.body.appendChild(element);
+      // var element = createServerElement();
+      // document.body.appendChild(element);
 
       // Cargar script de PayPal dinámicamente
       loadPayPalScript();
@@ -1776,7 +1776,7 @@
 
       // Configurar funciones de PayPal después de cargar el script
       scriptElement.onload = function () {
-        configurePayPalButtons();
+        // configurePayPalButtons();
       };
 
       // Agregar script al cuerpo del documento
@@ -1786,6 +1786,10 @@
     // Función para configurar los botones de PayPal dentro del popup
     function configurePayPalButtons(productPrice, productName) {
       paypal.Buttons({
+        style: {
+          label: 'paypal',
+          tagline: false
+        },
         createOrder: function (data, actions) {
           // Configuración de la orden
           return actions.order.create({
