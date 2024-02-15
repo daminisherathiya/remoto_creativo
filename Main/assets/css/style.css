@@ -4887,6 +4887,7 @@ Brand Area End
 =================================*/
 .clients-content iframe {
   margin-left: -0.8125rem;
+  max-width: 100%;
 }
 
 .face-review {

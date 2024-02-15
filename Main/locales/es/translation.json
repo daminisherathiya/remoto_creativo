@@ -1,13 +1,123 @@
 {
   "greeting": "¡Hola, bienvenido a nuestro sitio web!",
   "header": {
-      "home": "Hogar",
-      "remoteFormatting": "Formateo remoto",
-      "optimizePc": "Optimizar PC",
-      "licensesAndSubscriptions": "Licencias y suscripciones",
-      "isoCreativOs": "ISO CreativOS"
+    "home": "Hogar",
+    "remoteFormatting": "Formateo remoto",
+    "optimizePc": "Optimizar PC",
+    "licensesAndSubscriptions": "Licencias y suscripciones",
+    "isoCreativOs": "ISO CreativOS"
   },
   "remoteFormatting": {
     "title": "Formateo remoto"
+  },
+  "home": {
+    "banner": {
+      "heading": "Soporte Remoto Especializado",
+      "description": "Ofrecemos soporte remoto especializado para el sector audiovisual, venta de licencias originales, instalación de aplicaciones y formateo de equipos a distancia.",
+      "iNeedSupport": "Necesito Soporte",
+      "seeLicenses": "Ver Licencias",
+      "slider": {
+        "satisfiedCustomers": "Clientes Satisfechos",
+        "originalLicenses": "Licencias Originales",
+        "graphicResources": "Recursos Gráficos"
+      }
+    },
+    "whyChooseUs": {
+      "remoto": "REMOTO",
+      "creative": "CREATIVO",
+      "whyChooseUs": "¿Por qué elegirnos?",
+      "description": "Somos un equipo de jovenes expertos en software de Diseño Gráfico, Textil, 3D, Arquitectura, Edición de Video, Audio y estamos dispuestos a brindarte una atención rápida y personalizada para resolver cualquier problema.",
+      "experience": "Experiencia",
+      "experienceDesc": "Conocimientos avanzados en Windows y macOS para resolver cualquier problema",
+      "quickAssistance": "Asistencia rápida",
+      "quickAssistanceDesc": "Los equipos siempre fallan cuando menos te lo esperas, nosotros te ayudamos cuando lo necesites"
+    },
+    "services": {
+      "services": "SERVICIOS",
+      "description": "Obtén la ayuda que necesitas",
+      "card": {
+        "clickHere": "👉 HAZ CLIC AQUÍ",
+        "creativeIso": "ISO CreativOS",
+        "guaranteedSolution": "Solución Garantizada",
+        "removeViruses": "Eliminar Virus",
+        "forWindowsandMacOs": "Para Windows y macOS",
+        "remoteFormatting": "Formateo Remoto",
+        "dontWanttoFormat?": "¿No quieres formatear?",
+        "pcOptimization": "Optimización PC",
+        "windowsandMacOS": "Windows y macOS",
+        "installProgram": "Instalar Programa",
+        "originalSubscriptions": "Suscripciones Originales",
+        "forDesigners": "Para Diseñadores"
+      }
+    },
+    "fastEasyRemote": {
+      "subHeading": "Desde la comodidad de tu casa u oficina",
+      "heading": "Rápido. Fácil. Remoto!",
+      "weHelpYou": "¿Te Ayudamos?"
+    },
+    "guaranteedOriginalLicenses": {
+      "subHeading": "PAGO SEGURO DESDE PAYPAL",
+      "heading": "Licencias Originales Garantizadas",
+      "card": {
+        "autodeskAllApps": "Autodesk All Apps",
+        "autodeskAllAppsDesc": "1 Año Suscripción Original",
+        "adobeCreativeCloudAllApps": "Adobe Creative Cloud All Apps",
+        "adobeCreativeCloudAllAppsFee": "Desde $29",
+        "adobeCreativeCloudAllAppsDesc": "Hasta $119 Suscripción Original",
+        "esetInternetSecurity": "ESET Internet Security",
+        "esetInternetSecurityDesc": "Serial Original 1 Año",
+        "esetSmartSecurity": "ESET Smart Security",
+        "esetSmartSecurityDesc": "Serial Original 1 Año",
+        "kasperskyTotalSecurity": "Kaspersky Total Security",
+        "kasperskyTotalSecurityDesc": "Serial Original 1 Año",
+        "malwarebytesPremium": "Malwarebytes Premium",
+        "malwarebytesPremiumDesc": "Serial Original 1 Año",
+        "malwarebytesPrivacyVpn": "Malwarebytes Privacy VPN",
+        "malwarebytesPrivacyVpnDesc": "Serial Original 1 Año",
+        "avastPremiumSecurity": "Avast Premium Security",
+        "avastPremiumSecurityDesc": "Serial Original 2 Años",
+        "avastSecureLineVpn10Devices": "Avast SecureLine VPN-10Devices",
+        "avastSecureLineVpn10DevicesDesc": "Serial Original 2 Años",
+        "avastAntiTrackPremium": "Avast AntiTrack Premium",
+        "avastAntiTrackPremiumDesc": "Serial Original 2 Años",
+        "internetDownloadManager": "Internet Download Manager",
+        "internetDownloadManagerDesc": "Serial Original Permanente",
+        "ccleanerPremium": "CCleaner Premium",
+        "ccleanerPremiumDesc": "Serial Original 2 Años",
+        "windows10Pro": "Windows 10 Pro",
+        "windows10ProDesc": "14$ RETAIL Original Permanente",
+        "windows11Pro": "Windows 11 Pro",
+        "windows11ProDesc": "14$ RETAIL Original Permanente",
+        "microsoftOffice2019": "Microsoft Office 2019",
+        "microsoftOffice2019Desc": "Serial RETAIL BIND Original Permanente",
+        "microsoftOffice2021": "Microsoft Office 2021",
+        "microsoftOffice2021Desc": "Serial RETAIL BIND Original Permanente"
+      }
+    },
+    "whatOurClientsSay": {
+      "whatOurClientsSay": "Lo que dicen Nuestros Clientes"
+    },
+    "frequentQuestions": {
+      "frequentQuestions": "Preguntas Frecuentes",
+      "subHeading": "¿Tienes otra duda? Contáctanos y te atenderemos lo antes posible.",
+      "faq": {
+        "que1": "La licencia de Adobe Creative es original?",
+        "ans1": "Si es original, se factura el año completo. Tienes acceso a todas las aplicaciones + 100GB Adobe Cloud durante 1 año y la renovación es opcional.",
+        "que2": "Cómo hacen el formateo remoto?",
+        "ans2": "Lo unico que debes hacer es darnos acceso a tu equipo ya sea por Team Viewer o Anydesk y nosotros nos encargamos del resto. Dejamos tu equipo como nuevo! respaldamos la información, hacemos una instalación limpia e instalamos aplicaciones, drivers y demás... todo esto sin que tengas que transladarte y lo mejor de todo es que solo tardamos entre 20min a 1h dependiendo la velocidad de tu equipo.",
+        "que3": "Dan alguna garantía?",
+        "ans3": "Todos nuestros productos cuentan con garantía.",
+        "que4": "Pueden ayudarme si soy de otro pais?",
+        "ans4": "Si, no importa donde te encuentres. La ventaja de ser un servicio remoto es que lo único que necesitas tener es conexión a internet. Hemos trabajado con personas de distintos paises como México, Colombia, España, Francia, Canadá y Estados Unidos. Lo único que cambia es el método de pago.",
+        "que5": "Pueden optimizar mi equipo para que sea más rápido?",
+        "ans5": "Claro que sí, configuramos todo para que tu equipo de el mayor rendimiento y ademas te asesoramos en caso de que quieras actualizar algún componente.",
+        "que6": "Es seguro formatear en remoto?",
+        "ans6": "SI, tenemos varias técnicas propias para realizar ese procedimiento dependiendo de las caracteristicas de tu equipo, es 100% garantizado.",
+        "que7": "El soporte se paga antes o después?",
+        "ans7": "Todo servicio o producto se debe pagar antes.",
+        "que8": "Se puede a cualquier hora?",
+        "ans8": "Trabajamos de Lunes a Viernes de 8:00AM a 6:00PM."
+      }
+    }
   }
 }

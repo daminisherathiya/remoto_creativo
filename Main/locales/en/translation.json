@@ -1,13 +1,123 @@
 {
   "greeting": "Hello, welcome to our website!",
   "header": {
-      "home": "Home",
-      "remoteFormatting": "Remote Formatting",
-      "optimizePc": "Optimize PC",
-      "licensesAndSubscriptions": "Licenses And Subscriptions",
-      "isoCreativOs": "ISO CreativOS"
+    "home": "Home",
+    "remoteFormatting": "Remote Formatting",
+    "optimizePc": "Optimize PC",
+    "licensesAndSubscriptions": "Licenses And Subscriptions",
+    "isoCreativOs": "ISO CreativOS"
   },
   "remoteFormatting": {
     "title": "Remote Formatting"
+  },
+  "home": {
+    "banner": {
+      "heading": "Specialized Remote Support",
+      "description": "We offer specialized remote support for the audiovisual sector, sale of original licenses, installing applications and formatting devices remotely.",
+      "iNeedSupport": "I need support",
+      "seeLicenses": "See Licenses",
+      "slider": {
+        "satisfiedCustomers": "Satisfied customers",
+        "originalLicenses": "Original Licenses",
+        "graphicResources": "Graphic resources"
+      }
+    },
+    "whyChooseUs": {
+      "remoto": "REMOTE",
+      "creative": "CREATIVE",
+      "whyChooseUs": "Why choose us?",
+      "description": "We are a team of young experts in Graphic Design, Textile, 3D, Architecture, Editing software. Video, Audio and we are willing to provide you with quick and personalized attention to resolve any problem.",
+      "experience": "Experience",
+      "experienceDesc": "Advanced knowledge of Windows and macOS to solve any problem",
+      "quickAssistance": "Quick assistance",
+      "quickAssistanceDesc": "Equipment always fails when you least expect it, we help you when you need it"
+    },
+    "services": {
+      "services": "SERVICES",
+      "description": "Get the help you need",
+      "card": {
+        "clickHere": "👉 CLICK HERE",
+        "creativeIso": "Creative ISO",
+        "guaranteedSolution": "Guaranteed Solution",
+        "removeViruses": "Remove Viruses",
+        "forWindowsandMacOs": "For Windows and macOS",
+        "remoteFormatting": "Remote Formatting",
+        "dontWanttoFormat?": "Don't want to format?",
+        "pcOptimization": "PC Optimization",
+        "windowsandMacOS": "Windows and macOS",
+        "installProgram": "Install Program",
+        "originalSubscriptions": "Original Subscriptions",
+        "forDesigners": "For Designers"
+      }
+    },
+    "fastEasyRemote": {
+      "subHeading": "From the comfort of your home or office",
+      "heading": "Fast. Easy. Remote!",
+      "weHelpYou": "We help you?"
+    },
+    "guaranteedOriginalLicenses": {
+      "subHeading": "SECURE PAYMENT FROM PAYPAL",
+      "heading": "Guaranteed Original Licenses",
+      "card": {
+        "autodeskAllApps": "Autodesk All Apps",
+        "autodeskAllAppsDesc": "1 Year Original Subscription",
+        "adobeCreativeCloudAllApps": "Adobe Creative Cloud All Apps",
+        "adobeCreativeCloudAllAppsFee": "From $29",
+        "adobeCreativeCloudAllAppsDesc": "Up to $119 Original Subscription",
+        "esetInternetSecurity": "ESET Internet Security",
+        "esetInternetSecurityDesc": "Original Serial 1 Year",
+        "esetSmartSecurity": "ESET Smart Security",
+        "esetSmartSecurityDesc": "Original Serial 1 Year",
+        "kasperskyTotalSecurity": "Kaspersky Total Security",
+        "kasperskyTotalSecurityDesc": "Original Serial 1 Year",
+        "malwarebytesPremium": "Malwarebytes Premium",
+        "malwarebytesPremiumDesc": "Original Serial 1 Year",
+        "malwarebytesPrivacyVpn": "Malwarebytes Privacy VPN",
+        "malwarebytesPrivacyVpnDesc": "Original Serial 1 Year",
+        "avastPremiumSecurity": "Avast Premium Security",
+        "avastPremiumSecurityDesc": "Original Serial 2 Years",
+        "avastSecureLineVpn10Devices": "Avast SecureLine VPN-10Devices",
+        "avastSecureLineVpn10DevicesDesc": "Original Serial 2 Years",
+        "avastAntiTrackPremium": "Avast AntiTrack Premium",
+        "avastAntiTrackPremiumDesc": "Original Serial 2 Years",
+        "internetDownloadManager": "Internet Download Manager",
+        "internetDownloadManagerDesc": "Permanent Original Serial",
+        "ccleanerPremium": "CCleaner Premium",
+        "ccleanerPremiumDesc": "Original Serial 2 Years",
+        "windows10Pro": "Windows 10 Pro",
+        "windows10ProDesc": "14$ RETAIL Original Permanent",
+        "windows11Pro": "Windows 11 Pro",
+        "windows11ProDesc": "14$ RETAIL Original Permanent",
+        "microsoftOffice2019": "Microsoft Office 2019",
+        "microsoftOffice2019Desc": "Serial RETAIL BIND Original Permanent",
+        "microsoftOffice2021": "Microsoft Office 2021",
+        "microsoftOffice2021Desc": "Serial RETAIL BIND Original Permanent"
+      }
+    },
+    "whatOurClientsSay": {
+      "whatOurClientsSay": "What Our Clients Say"
+    },
+    "frequentQuestions": {
+      "frequentQuestions": "Frequent questions",
+      "subHeading": "Do you have another question? Contact us and we will assist you as soon as possible.",
+      "faq": {
+        "que1": "Is the Adobe Creative license original?",
+        "ans1": "If it is original, it is billed for the entire year. You have access to all applications + 100GB Adobe Cloud for 1 year and renewal is optional.",
+        "que2": "How do they do remote formatting?",
+        "ans2": "The only thing you have to do is give us access to your team either through Team Viewer or Anydesk and We take care of the rest. We leave your equipment like new! we support the information, we make a clean installation and we install applications, drivers and more... all this without you having to transfer you and the best of all is that it only takes between 20 minutes to 1 hour depending on the speed of your team.",
+        "que3": "Do they give any guarantee?",
+        "ans3": "All our products come with warranty.",
+        "que4": "Can you help me if I am from another country?",
+        "ans4": "Yes, it doesn't matter where you are. The advantage of being a remote service is that the only thing that you need to have an internet connection. We have worked with people from different countries such as Mexico, Colombia, Spain, France, Canada and the United States. The only thing that changes is the method of pay.",
+        "que5": "Can you optimize my computer to make it faster?",
+        "ans5": "Of course, we configure everything so that your team performs at its best and we also advise you. in case you want to update any component.",
+        "que6": "Is it safe to format remotely?",
+        "ans6": "YES, we have several own techniques to perform this procedure depending on the characteristics of your equipment, it is 100% guaranteed.",
+        "que7": "Is support paid before or after?",
+        "ans7": "All services or products must be paid in advance.",
+        "que8": "Is it possible at any time?",
+        "ans8": "We work Monday to Friday from 8:00AM to 6:00PM."
+      }
+    }
   }
 }
