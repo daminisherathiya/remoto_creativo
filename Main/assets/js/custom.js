@@ -298,4 +298,6 @@
         callback: callbackFunction
     });
 
+    // Set the year in copyright dynamically
+    $("#current-year").html(new Date().getFullYear());
 })(jQuery);
