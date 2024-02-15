@@ -120,8 +120,291 @@
       }
     }
   },
+  "licensesAndSubscriptions": {
+    "banner": {
+      "licensesandSubscriptions": "Licenses and Subscriptions",
+      "description": "Simple, buy your original license in a few steps ;)",
+      "seeRecommendations": "See recommendations",
+      "doubtsContactUs": "Doubts? Contact us"
+    },
+    "originalSubscriptions": {
+      "originalSubscriptions": "Original Subscriptions",
+      "originalSubscriptionsProduct": {
+        "adobeCcAllApps": {
+          "heading": "Adobe CC All Apps ( Original )",
+          "amount": "From $99,99",
+          "description": "Subscription to all Adobe Creative Cloud applications. Access from any Windows, macOS, Android, iOS, iPad device.",
+          "items": {
+            "item1": "1 Year Subscription (+100GB Adobe Cloud)"
+          }
+        },
+        "autodeskAllApps": {
+          "heading": "Autodesk All Apps ( Original )",
+          "amount": "From $15.99",
+          "description": "Original account access with all applications, compatible with any device, receive updates and print without watermarks.",
+          "items": {
+            "item1": "1 Year Subscription - All Applications",
+            "item2": "Suscripción 1 Año - Solo AutoCAD",
+            "item3": "1 Year Subscription - AutoCAD Only",
+            "item4": "1 Year Subscription - Civil 3D Only",
+            "item5": "1 Year Subscription - 3DsMAX Only",
+            "item6": "1 Year Subscription - Only MAYA",
+            "item7": "1 Year Subscription - Inventor Only"
+          }
+        },
+        "envatoElements": {
+          "heading": "Envato Elements",
+          "amount": "From $9.99",
+          "description": "Unlimited access to a library of templates, graphics, music and other resources for designers, video editors and web developers.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "canvaPro": {
+          "heading": "Canva Pro",
+          "amount": "From $2.99",
+          "description": "Online graphic design tool with exclusive templates and resources to create professional graphics and designs.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "freepik": {
+          "heading": "Freepik",
+          "amount": "From $9.99",
+          "description": "Access the largest library of high-quality vector images, photos, graphics and premium resources.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "flaticon": {
+          "heading": "Flaticon",
+          "amount": "From $9.99",
+          "description": "Download more than a million icons and stickers in any format and for any project.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "artgrid": {
+          "heading": "Artgrid",
+          "amount": "From $9.99",
+          "description": "Online platform for Filmmakers, unlimited downloads of cinematic quality videos in up to 8K resolution.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "artlist": {
+          "heading": "Artlist",
+          "amount": "From $9.99",
+          "description": "Extensive library of stock music for use in audiovisual productions and online content.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "motionArray": {
+          "heading": "Motion Array",
+          "amount": "From $9.99",
+          "description": "Unlimited downloads on the all-in-one platform for professional filmmakers.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "storyblocks": {
+          "heading": "Storyblocks",
+          "amount": "From $9.99",
+          "description": "Unlimited subscription to a library of stock images, vectors, photos, videos and music for use in design and multimedia projects.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "platzi": {
+          "heading": "Platzi",
+          "amount": "From $9.99",
+          "description": "Enhance your skills with the largest professional education platform in Latin America on programming, design, marketing and more...",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "crehana": {
+          "heading": "Crehana",
+          "amount": "From $7.99",
+          "description": "Take advantage of all the online courses on graphic design, web development, photography and other creative skills.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "creativeFactory": {
+          "heading": "Creative Factory",
+          "amount": "From $6.99",
+          "description": "Large selection of fonts, vector graphics, design patterns and resources for graphic designers and crafters.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "mega": {
+          "heading": "MEGA",
+          "amount": "From $2.99",
+          "description": "Download without waiting limits Mega.nz links and folders, remove all limits.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "scribd": {
+          "heading": "Scribd",
+          "amount": "From $6.99",
+          "description": "Unlimited subscription to an extensive library of e-books, audiobooks, magazines and other reading content.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        },
+        "grammarly": {
+          "heading": "Grammarly",
+          "amount": "From $6.99",
+          "description": "Online tool that helps improve grammar and clarity in writing.",
+          "items": {
+            "item1": "30 days",
+            "item2": "90 days",
+            "item3": "180 days",
+            "item4": "365 days"
+          }
+        }
+      },
+      "originalSerials": "Original Serials",
+      "originalSerialsProduct": {
+        "windows1011": {
+          "heading": "Windows 10 / 11",
+          "amount": "From $6.99",
+          "description": "Activate your Windows with Original Permanent License. Global Serial Online activation.",
+          "items": {
+            "item1": "Windows 10 Pro OEM - 1PC",
+            "item2": "Windows 10 Pro RETAIL - 1PC",
+            "item3": "Windows 11 Pro OEM - 1PC",
+            "item4": "Windows 11 Pro RETAIL - 1PC"
+          }
+        },
+        "officeProPlus20192021": {
+          "heading": "Office Pro plus 2019 / 2021",
+          "amount": "From $14.99",
+          "description": "Activate your Office with Original Permanent License. Global Serial version Windows and macOS.",
+          "items": {
+            "item1": "Office 2019 Pro Plus OEM - 1PC",
+            "item2": "Office 2019 Pro Plus RETAIL BIND - 1PC",
+            "item3": "Office 2019 Pro Plus RETAIL BIND - 1 macOS",
+            "item4": "Office 2021 Pro Plus OEM - 1PC",
+            "item5": "Office 2021 Pro Plus RETAIL BIND - 1PC",
+            "item6": "Office 2021 Pro Plus RETAIL BIND - 1 macOS"
+          }
+        },
+        "esetAntivirus": {
+          "heading": "ESET Antivirus",
+          "amount": "From $11.99",
+          "description": "Complete protection against all types of threats. Global Serial valid only for Windows.",
+          "items": {
+            "item1": "ESET Internet Security 1Year 1PC",
+            "item2": "ESET Smart Security 1Year 1PC"
+          }
+        },
+        "kasperskyAntivirus": {
+          "heading": "Kaspersky Antivirus",
+          "amount": "From $14.99",
+          "description": "Complete protection against all types of threats. Global Serial valid for Windows and macOS.",
+          "items": {
+            "item1": "Kaspersky Total Security 1Year 1PC"
+          }
+        },
+        "malwarebytesAntivirus": {
+          "heading": "Malwarebytes Antivirus",
+          "amount": "From $14.99",
+          "description": "Complete protection against all types of threats. Global Serial valid only for Windows.",
+          "items": {
+            "item1": "Malwarebytes Premium 1Year 1PC"
+          }
+        },
+        "avastPremiumSecurity": {
+          "heading": "Avast Premium Security",
+          "amount": "From $7.99",
+          "description": "Protection against all types of threats. Global Serial valid only for Windows.",
+          "items": {
+            "item1": "Avast Premium Security 2Years 1PC"
+          }
+        },
+        "malwarebytesVpn": {
+          "heading": "Malwarebytes VPN",
+          "amount": "From $9.99",
+          "description": "Protects your privacy online. Global Serial valid only for Windows.",
+          "items": {
+            "item1": "Malwarebytes Privacy VPN 1Year 1PC"
+          }
+        },
+        "avastVpn": {
+          "heading": "Avast VPN",
+          "amount": "From $9.99",
+          "description": "Protects your privacy online. Global Serial valid only for Windows.",
+          "items": {
+            "item1": "Avast Secureline VPN 2Years 10PC",
+            "item2": "Avast Antitrack Premium 2Years 1PC"
+          }
+        },
+        "internetDownloadManager": {
+          "heading": "Internet Download Manager",
+          "amount": "From $18.99",
+          "description": "Best download manager up to 5 times faster. Global Serial valid only for Windows.",
+          "items": {
+            "item1": "Internet Download Manager 1Year 1PC"
+          }
+        },
+        "ccleanerProfessional": {
+          "heading": "CCleaner Professional",
+          "amount": "From $11.99",
+          "description": "Clean and optimize the system. Global Serial valid only for Windows.",
+          "items": {
+            "item1": "CCleaner Professional 2 Years 1PC"
+          }
+        }
+      }
+    }
+  },
   "footer": {
     "copyrightStart": "Copyright",
-    "copyrightEnd": "Remote Creative. The trademarks and trade names mentioned herein are the property of their respective owners."
+    "copyrightEnd": "Remote Creative. The trademarks and trade names mentioned herein are the property of their respective owners.",
+    "termsAndConditions": "Terms and Conditions"
   }
 }
