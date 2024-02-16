@@ -698,7 +698,7 @@
   <template id="summary-item-template">
     <div class="row gx-0">
       <div class="col-6">
-        <p class="mb-0 item-name">Item name here</p>
+        <p class="mb-0 item-name" data-i18n="">Item name here</p>
       </div>
       <div class="col-6">
         <p class="mb-0 text-center item-price">Item price here</p>
@@ -756,13 +756,26 @@
       updateSummary();
     });
 
-    // On additional items selection change
-    $(".installation-and-formatting-box input").on("change", function () {
-      updateSummary();
-    });
-
     // The total price to show in the summary
     let totalPrice = 0;
+    // All the selected items currently
+    const selectedItems = [];
+
+    // On additional items selection change
+    $(".installation-and-formatting-box input").on("change", function () {
+      const itemI18n = $("label[for='" + $(this).attr('id') + "']").data("i18n");
+      const itemPrice = $(this).data("price");
+
+      if (this.checked) {
+        selectedItems.push([itemI18n, itemPrice]);
+      } else {
+        // Remove the element from selectedItems
+        const index = selectedItems.findIndex(item => item[0] === itemI18n && item[1] === itemPrice);
+        selectedItems.splice(index, 1);
+      }
+
+      updateSummary();
+    });
 
     function updateSummary() {
       // Clear #summary-items
@@ -771,28 +784,23 @@
 
       // Add the platform summary
       if ($("#Windows").prop("checked")) {
-        const itemName = "Remote Formatting " + $("label[for='Windows']").text().trim();
         const itemPrice = $("#Windows").data("price");
-        addSummaryItem(itemName, itemPrice);
+        addSummaryItem("remotFormat.summary.remoteFormattingWindows", itemPrice);
       }
       if ($("#macOs").prop("checked")) {
-        const itemName = "Remote Formatting " + $("label[for='macOs']").text().trim();
         const itemPrice = $("#macOs").data("price");
-        addSummaryItem(itemName, itemPrice);
+        addSummaryItem("remotFormat.summary.remoteFormattingMacOS", itemPrice);
       }
 
-      // Add the additional items summary
-      $(".installation-and-formatting-box input:checked").each(function (index, elem) {
-        const itemPrice = $(elem).data("price");
-        const itemName = $("label[for='" + $(elem).attr('id') + "']").text().trim();
-        addSummaryItem(itemName, itemPrice);
+      selectedItems.forEach(function(item) {
+        addSummaryItem(...item);
       });
 
       // Set the total price
       $(".total .amount").text("$" + totalPrice);
     }
 
-    function addSummaryItem(itemName, itemPrice) {
+    function addSummaryItem(itemI18n, itemPrice) {
       // Add the itemPrice to totalPrice
       totalPrice += itemPrice;
 
@@ -800,13 +808,23 @@
       const $clone = $("#summary-item-template").contents().clone();
 
       // Dynamic values for item name and item price
-      $clone.find(".item-name").text(itemName);
+      $clone.find(".item-name").text(i18next.t(itemI18n));
+      $clone.find(".item-name").data("i18n", itemI18n);
       $clone.find(".item-price").text(itemPrice);
 
       // Append the new entry to #summary-items
       $("#summary-items").append($clone);
     }
 
+    function initializeItemsSelectedByDefault(){
+      $(".installation-and-formatting-box input:checked").each(function () {
+        const itemI18n = $("label[for='" + $(this).attr('id') + "']").data("i18n");
+        const itemPrice = $(this).data("price");
+        selectedItems.push([itemI18n, itemPrice]);
+      });
+    }
+
+    initializeItemsSelectedByDefault();  // Add the items selected by defualt
     updateSummary();  // To show proper initial summary
   </script>
 </body>

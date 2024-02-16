@@ -495,6 +495,8 @@
       "summary": "Resumen",
       "summaryDesc": "¡Selecciona todo lo que necesitas!",
       "description": "Descripción",
+      "remoteFormattingWindows": "Formateo remoto de Windows",
+      "remoteFormattingMacOS": "Formateo remoto de MacOs",
       "price": "Precio",
       "total": "Total",
       "customizeYours": "Personaliza el tuyo"
