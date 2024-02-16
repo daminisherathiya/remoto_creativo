@@ -42,7 +42,7 @@
         "removeViruses": "Eliminar Virus",
         "forWindowsandMacOs": "Para Windows y macOS",
         "remoteFormatting": "Formateo Remoto",
-        "dontWanttoFormat?": "¿No quieres formatear?",
+        "dontWanttoFormat": "¿No quieres formatear?",
         "pcOptimization": "Optimización PC",
         "windowsandMacOS": "Windows y macOS",
         "installProgram": "Instalar Programa",
@@ -430,12 +430,12 @@
     "option2": "Opción 2",
     "option2Desc": "Optimización avanzada de PC",
     "option3": "Opción 3",
-    "option3DescS": "Jugador de PC",
-    "option3DescE": "Mejoramiento",
+    "option3DescS": "Optimización de streaming",
+    "option3DescE": "y jugadores de PC",
     "getStarted": "Empezar",
     "chatAndFixPc": "¡Chateemos y arreglemos tu PC hoy!",
     "chatAndFixPcDesc": "Soporte remoto experto para sus necesidades informáticas. Comuníquese con cualquier pregunta.",
-    "LetsChatNow": "charlemos ahora"
+    "letsChatNow": "charlemos ahora"
   },
   "remotFormat": {
     "remotFormat": "Formateo remoto",
@@ -499,7 +499,7 @@
       "remoteFormattingMacOS": "Formateo remoto de MacOs",
       "price": "Precio",
       "total": "Total",
-      "customizeYours": "Personaliza el tuyo"
+      "letsStartNow": "Comencemos ahora"
     }
   },
   "footer": {

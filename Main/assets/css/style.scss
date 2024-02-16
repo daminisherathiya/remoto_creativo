@@ -248,6 +248,12 @@ Default Btn Style
       width: 135%;
       background-color: $main-color;
     }
+    &.hover-blue {
+      color: $main-color !important;
+      &::before {
+        background-color: #ffffff;
+      }
+    }
   }
 }
 .btn-bg-one {
@@ -1464,14 +1470,13 @@ About Area
   background-color: $optional-color-2;
 }
 .about-img-2 {
-  margin-bottom: 1.875rem;
   img {
     width: 39.953125rem;
     border-radius: 0.9375rem;
   }
 }
 .about-content-2 {
-  margin-bottom: 1.875rem;
+  // margin-bottom: 1.875rem;
   .section-title {
     h2 {
       color: $color-white;
@@ -3936,7 +3941,7 @@ Faq Area
         text-decoration: none;
         position: relative;
         display: block;
-        font-size: 1.125rem;
+        font-size: 1.2rem;
         font-weight: 600;
         i {
           position: absolute;
@@ -3973,7 +3978,7 @@ Faq Area
         p {
           margin-top: -0.375rem;
           line-height: 1.8;
-          font-size: 0.9375rem;
+          font-size: 1rem;
           margin-bottom: 0.1875rem;
         }
         &.show {
@@ -5003,14 +5008,14 @@ img[src*="stars-"] {
   height: 1.25rem;
 }
 
-#productos {
-  padding-top: 15.625rem;
-}
-
 #remotocreativo,
 #servicios,
-#nosotros {
-  padding-top: 12.5rem;
+#nosotros,
+#productos,
+#preguntas,
+.brand-area-two,
+.clients-area {
+  padding: 6.3rem 0;
 }
 
 .main-nav {
@@ -5058,6 +5063,7 @@ internal css of licenses-and-subscriptions.html
     padding: 0.625rem;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 50%);
+    font-size: 1.07rem;
     &::before {
       margin-right: 0.3125rem;
       color: #fff;
@@ -5097,7 +5103,7 @@ internal css of licenses-and-subscriptions.html
 
   .card {
     img {
-      width: 6.25rem;
+      width: 7.25rem;
     }
   }
 
@@ -5156,23 +5162,34 @@ licenses-and-subscriptions page
   .section-title {
     padding-top: 6.875rem;
     color: $color-white;
-    font-size: 1.625rem;
+    font-size: 1.857rem;
     font-weight: 500;
   }
   .custom-card {
+    border-radius: 0.57rem;
     .title {
-      font-size: 1.25rem;
+      font-size: 1.43rem;
       margin-bottom: 0.75rem;
     }
-    .badge.bg-primary {
-      background-color: #2c7be5 !important;
+    .card-text.description {
+      font-size: 1.07rem;
+    }
+    .badge {
+      font-size: 0.814rem;
+      border-radius: 0.4rem;
+      &.bg-primary {
+        background-color: #2c7be5 !important;
+      }
     }
     .btn-primary {
       background-color: #2c7be5;
       border-color: #2c7be5;
+      font-size: 1.07rem;
     }
     .lead {
-      font-size: 1.125rem;
+      font-size: 1.3rem;
+      color: #2c7be5 !important;
+      font-weight: 400;
     }
   }
 }
@@ -5353,7 +5370,6 @@ licenses-and-subscriptions page
     p {
       font-size: 1.125rem;
       color: $color-white;
-      text-transform: capitalize;
     }
   }
   .pricing-table {
@@ -5366,7 +5382,7 @@ licenses-and-subscriptions page
       display: none; /* Safari and Chrome */
     }
     .pt-title {
-      max-width: 19.79rem;
+      max-width: 18.79rem;
       background-color: #ffffff;
       padding: 2rem 0 3.3rem 1rem;
       border-radius: 1.5rem 0 0 1.5rem;
@@ -5666,6 +5682,7 @@ licenses-and-subscriptions page
         .heading {
           font-weight: 600;
           font-size: 0.9375rem;
+          background-color: #f8f8f8;
         }
         .row {
           .col-6 {
@@ -5675,7 +5692,7 @@ licenses-and-subscriptions page
               padding: 0.98125rem 0.6875rem 0.98125rem 1.1875rem;
             }
           }
-          &:nth-child(2n + 1) {
+          &:nth-child(2n) {
             .col-6 {
               background-color: #f8f8f8;
             }
@@ -5697,6 +5714,46 @@ licenses-and-subscriptions page
         }
       }
     }
+  }
+}
+// carousel
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+// payment-modal
+.payment-modal {
+  .left-part {
+    background-color: #fafafa;
+    padding: 5.7125rem 1.75rem;
+    .product-img {
+      width: 6.25rem;
+      margin: 0 auto 0.8rem auto;
+    }
+    .product-name {
+      font-size: 1.25rem;
+      color: #1d1f2c;
+    }
+    .licence-type {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .prev-price {
+      font-size: 1.125rem;
+      color: #c8dff4;
+      font-weight: 600;
+      text-decoration: line-through;
+      font-family: Roboto;
+    }
+    .current-price {
+      font-size: 2.5rem; font-weight: bold; color: #0071DC; line-height: 2.25rem;
+    }
+  }
+  .right-part {
+    position: absolute;
+    padding: 4.2125rem 1.75rem;
+    left: 50%;
+    max-height: 100%;
   }
 }
 

@@ -42,7 +42,7 @@
         "removeViruses": "Remove Viruses",
         "forWindowsandMacOs": "For Windows and macOS",
         "remoteFormatting": "Remote Formatting",
-        "dontWanttoFormat?": "Don't want to format?",
+        "dontWanttoFormat": "Don't want to format?",
         "pcOptimization": "PC Optimization",
         "windowsandMacOS": "Windows and macOS",
         "installProgram": "Install Program",
@@ -430,12 +430,12 @@
     "option2": "Option 2",
     "option2Desc": "Advanced PC optimization",
     "option3": "Option 3",
-    "option3DescS": "PC Gamer",
+    "option3DescS": "PC Gamer & Streaming",
     "option3DescE": "Optimization",
-    "GetStarted": "Get started",
+    "getStarted": "Get started",
     "chatAndFixPc": "Let's chat and fix your PC today!",
     "chatAndFixPcDesc": "Expert remote support for your computer needs. Reach out with any questions.",
-    "LetsChatNow": "Let's chat now"
+    "letsChatNow": "Let's chat now"
   },
   "remotFormat": {
     "remotFormat": "Remote Formatting",
@@ -499,7 +499,7 @@
       "remoteFormattingMacOS": "Remote Formatting MacOs",
       "price": "Price",
       "total": "Total",
-      "customizeYours": "Customize yours"
+      "letsStartNow": "Let's start now"
     }
   },
   "footer": {
