@@ -498,8 +498,8 @@ Navbar Area
             font-size: 1.125rem;
             color: $paragraph-color;
           }
-          &:hover,&.active
-          :focus {
+          &:hover,
+          &.active :focus {
             color: $optional-color-2 !important;
             &::before {
               opacity: 1;
