@@ -12,6 +12,10 @@
       }
     }
   }
+  .play-btn-area {
+    padding-top: 12.75rem;
+    padding-bottom: 12.75rem;
+  }
 }
 @media only screen and (max-width: 991px) {
   .licenses-and-subscriptions {
@@ -31,7 +35,7 @@
         tbody {
           tr {
             td {
-              padding: 0 0.5rem;
+              padding: 0.1875rem 0.5rem;
               // min-width: 11.74rem;
               .get-started {
                 padding: 2rem 0.5rem 1.25rem 0.5rem;
@@ -68,9 +72,6 @@
   .clients-area {
     padding: 4.64rem 0;
   }
-  .banner-area-two .banner-content p {
-    max-width: none;
-  }
   #nosotros .about-img-2 img,
   .banner-area-two .banner-img > img {
     width: 100%;
@@ -98,6 +99,10 @@
   }
   .mean-container .mean-nav ul li a {
     font-size: 1rem;
+  }
+  .play-btn-area {
+    padding-top: 10.75rem;
+    padding-bottom: 10.75rem;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -979,15 +984,6 @@
   }
   /* Footer Area End */
 
-  // internal css of index.html
-  // #remotocreativo,
-  // #servicios,
-  // #productos,
-  // #nosotros {
-  //   padding-top: 6.25rem;
-  // }
-  // internal css of index.html End
-
   // licenses-and-subscriptions page
   .licenses-and-subscriptions {
     // internal css of licenses-and-subscriptions.html
@@ -1013,7 +1009,6 @@
       padding: 2rem 1.75rem;
     }
     .right-part {
-      position: static;
       padding: 2rem 1.75rem;
     }
   }
@@ -1178,6 +1173,12 @@
   .brand-area-two,
   .clients-area {
     padding: 3.64rem 0;
+  }
+  // payment-modal
+  .payment-modal {
+    .right-part {
+      position: static;
+    }
   }
   footer {
     .footer-logo {

@@ -45,7 +45,7 @@ html {
   font-size: max(14px, 0.833vw);
 }
 body {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 1.6;
   font-family: $body-font;
   color: $paragraph-color;
@@ -1156,7 +1156,7 @@ Main Banner Area
   background-color: $color-white;
   border-radius: 0.9375rem;
   padding: 0.9375rem 0.625rem 0.9375rem 10rem;
-  max-width: 21.875rem;
+  max-width: 23.875rem;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 0.9375rem rgba(0, 0, 0, 0.05);
@@ -4929,7 +4929,7 @@ Brand Area End
 }
 
 /*==================================
-internal css of index.html
+Internal css of index.html
 =================================*/
 
 .review-card {
@@ -5023,11 +5023,11 @@ img[src*="stars-"] {
   backdrop-filter: blur(0.5rem);
 }
 /*==================================
-internal css of index.html End
+Internal css of index.html End
 =================================*/
 
 /*==================================
-internal css of licenses-and-subscriptions.html
+Internal css of licenses-and-subscriptions.html
 =================================*/
 .licenses-and-subscriptions {
   background-color: #0071dc;
@@ -5113,11 +5113,7 @@ internal css of licenses-and-subscriptions.html
   }
 }
 div#paypal-button-container {
-  // max-height: 60vh;
   overflow-y: auto;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
 }
 #floating-wpp {
   position: fixed;
@@ -5135,15 +5131,12 @@ div#paypal-button-container {
   }
 }
 /*==================================
-internal css of licenses-and-subscriptions.html End
+Internal css of licenses-and-subscriptions.html End
 =================================*/
 
 /*==================================
-licenses-and-subscriptions page
+Licenses-and-subscriptions page
 =================================*/
-.fw-medium {
-  font-weight: 500;
-}
 .licenses-and-subscriptions {
   .main-heading {
     text-align: center;
@@ -5193,8 +5186,13 @@ licenses-and-subscriptions page
     }
   }
 }
+/*==================================
+Licenses-and-subscriptions page End
+=================================*/
 
-// custom select
+/*==================================
+Custom select
+=================================*/
 
 .select-menu {
   position: relative;
@@ -5250,6 +5248,9 @@ licenses-and-subscriptions page
         font-size: 0.875rem;
         color: #1d1f2ccc;
       }
+      &:not(.selected) img.selected-img {
+        display: none;
+      }
     }
   }
   &.active {
@@ -5268,9 +5269,6 @@ licenses-and-subscriptions page
       -webkit-animation-fill-mode: both;
     }
   }
-}
-.select-menu .option:not(.selected) img.selected-img {
-  display: none;
 }
 
 @keyframes fadeInUp {
@@ -5292,8 +5290,13 @@ licenses-and-subscriptions page
     opacity: 0;
   }
 }
+/*==================================
+Custom select End
+=================================*/
 
-// custom select End
+/*==================================
+Common
+=================================*/
 
 .img-md {
   width: 1.25rem;
@@ -5308,12 +5311,20 @@ licenses-and-subscriptions page
   width: 1.5625rem;
 }
 .no-scroll {
-  overflow: hidden; /* Prevents scrolling */
-  height: 100%; /* Full height */
-  width: 100%; /* Full width */
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
+.fw-medium {
+  font-weight: 500;
+}
+/*==================================
+Common End
+=================================*/
 
-// popup
+/*==================================
+Popup product feature
+=================================*/
 .product-feature {
   font-size: 1rem;
   color: #4a4c56;
@@ -5324,9 +5335,50 @@ licenses-and-subscriptions page
     color: #1d1f2c;
   }
 }
+.payment-modal {
+  .left-part {
+    background-color: #fafafa;
+    padding: 5.7125rem 1.75rem;
+    .product-img {
+      width: 6.25rem;
+      margin: 0 auto 0.8rem auto;
+    }
+    .product-name {
+      font-size: 1.25rem;
+      color: #1d1f2c;
+    }
+    .licence-type {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .prev-price {
+      font-size: 1.125rem;
+      color: #c8dff4;
+      font-weight: 600;
+      text-decoration: line-through;
+      font-family: Roboto;
+    }
+    .current-price {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #0071dc;
+      line-height: 2.25rem;
+    }
+  }
+  .right-part {
+    position: absolute;
+    padding: 4.2125rem 1.75rem;
+    left: 50%;
+    max-height: 100%;
+  }
+}
+/*==================================
+Popup product feature End
+=================================*/
 
-// optimize-pc
-
+/*==================================
+Optimize-pc page
+=================================*/
 .custom-btn {
   padding: 0.851rem 1.804rem;
   font-weight: 500;
@@ -5390,7 +5442,7 @@ licenses-and-subscriptions page
             text-align: center;
             // max-width: 10.79rem;
             p {
-              min-height: 4rem;
+              min-height: 3.62rem;
               font-size: 1rem;
               font-weight: 500;
               color: #101828;
@@ -5438,7 +5490,7 @@ licenses-and-subscriptions page
           vertical-align: top;
           &:nth-child(2) {
             width: 21.97%;
-            min-width: 11.75rem;
+            min-width: 13.75rem;
           }
           &:nth-child(3) {
             width: 25.18rem;
@@ -5486,7 +5538,7 @@ licenses-and-subscriptions page
         td {
           background-color: #ffffff;
           border-bottom: none;
-          padding: 0 1.5rem;
+          padding: 0.1875rem 1.5rem;
         }
         &:last-child {
           td {
@@ -5523,8 +5575,13 @@ licenses-and-subscriptions page
     }
   }
 }
+/*==================================
+Optimize-pc page End
+=================================*/
 
-// remote-formatting
+/*==================================
+Remote-formatting page
+=================================*/
 .remote-formatting {
   .banner {
     padding: 4.8125rem 0 24.375rem 0;
@@ -5755,52 +5812,24 @@ licenses-and-subscriptions page
     }
   }
 }
-// carousel
+/*==================================
+Remote-formatting page End
+=================================*/
+
+/*==================================
+Carousel
+=================================*/
 .owl-carousel .owl-stage {
   display: flex;
   align-items: center;
 }
-// payment-modal
-.payment-modal {
-  .left-part {
-    background-color: #fafafa;
-    padding: 5.7125rem 1.75rem;
-    .product-img {
-      width: 6.25rem;
-      margin: 0 auto 0.8rem auto;
-    }
-    .product-name {
-      font-size: 1.25rem;
-      color: #1d1f2c;
-    }
-    .licence-type {
-      font-size: 1rem;
-      font-weight: 500;
-    }
-    .prev-price {
-      font-size: 1.125rem;
-      color: #c8dff4;
-      font-weight: 600;
-      text-decoration: line-through;
-      font-family: Roboto;
-    }
-    .current-price {
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #0071dc;
-      line-height: 2.25rem;
-    }
-  }
-  .right-part {
-    position: absolute;
-    padding: 4.2125rem 1.75rem;
-    left: 50%;
-    max-height: 100%;
-  }
-}
+/*==================================
+Carousel End
+=================================*/
 
-// mobile navigation
-
+/*==================================
+Mobile navigation
+=================================*/
 .mobile-nav {
   .mobile-select-menu.select-menu {
     z-index: 999;
@@ -5825,3 +5854,6 @@ licenses-and-subscriptions page
     }
   }
 }
+/*==================================
+Mobile navigation End
+=================================*/

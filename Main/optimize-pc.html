@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
   <meta name="description"
-    content="Te ofrecemos soporte remoto especializado en el sector audiovisual, venta de licencias originales, instalación de aplicaciones y formateo de equipos a distancia. ">
+    content="We offer you specialized remote support in the audiovisual sector, sale of original licenses, installation of applications and formatting of equipment remotely.">
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -82,7 +82,6 @@
               src="assets/images/usa-flag.svg" alt="USA flag"><span>English</span></span>
           <img class="lang-arrow" src="assets/images/dropdown-arrow.svg" alt="arrow">
         </div>
-
         <ul class="options">
           <li class="option selected" data-language="en">
             <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
@@ -108,49 +107,41 @@
             <a class="navbar-brand flex-shrink-0" href="./">
               <img src="assets/images/logos/logo-2.svg" alt="Logo">
             </a>
-
             <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
               <ul class="navbar-nav m-auto">
-
                 <li class="nav-item">
                   <a href="./" class="nav-link" data-i18n="header.home">
                     Home
                   </a>
                 </li>
-
                 <li class="nav-item">
                   <a href="./remote-formatting.html" class="nav-link" data-i18n="header.remoteFormatting">
                     Remote Formatting
                   </a>
                 </li>
-
                 <li class="nav-item">
                   <a href="./optimize-pc.html" class="nav-link active" data-i18n="header.optimizePc">
                     Optimize PC
                   </a>
                 </li>
-
                 <li class="nav-item">
                   <a href="./licenses-and-subscriptions.html" class="nav-link"
                     data-i18n="header.licensesAndSubscriptions">
                     Licenses and Subscriptions
                   </a>
                 </li>
-
                 <li class="nav-item">
                   <a href="#" class="nav-link" data-i18n="header.isoCreativOs">
                     ISO CreativOS
                   </a>
                 </li>
               </ul>
-
               <div class="language-switcher select-menu d-none d-lg-block">
                 <div class="select-btn default-btn">
                   <span class="sBtn-text d-flex align-items-center me-3"><img class="img-lg me-2"
                       src="assets/images/usa-flag.svg" alt="USA flag">English</span>
                   <img class="lang-arrow" src="assets/images/dropdown-arrow.svg" alt="arrow">
                 </div>
-
                 <ul class="options">
                   <li class="option selected" data-language="en">
                     <span class="d-flex justify-content-between align-items-center w-100 option-text"><span
@@ -166,16 +157,6 @@
                   </li>
                 </ul>
               </div>
-
-              <!-- <div class="nav-side d-display nav-side-mt">
-            <div class="nav-side-item">
-              <div class="get-btn">
-                <a href="https://m.me/Remotocreativo" target="_blank" rel="nofollow"
-                  class="default-btn btn-bg-two border-radius-50">Pregúntanos : ) <i
-                    class='bx bx-chevron-right'></i></a>
-              </div>
-            </div>
-          </div> -->
             </div>
           </nav>
         </div>
@@ -184,7 +165,6 @@
 
     <div class="side-nav-responsive">
       <div class="container-max">
-
         <div class="container">
           <div class="side-nav-inner">
             <div class="side-nav justify-content-center align-items-center">
@@ -662,26 +642,6 @@
   <script src="assets/js/contact-form-script.js"></script>
   <!-- Custom JS -->
   <script src="assets/js/custom.js"></script>
-  <!-- custom select -->
-  <script>
-    const optionMenu = document.querySelector(".select-menu"),
-      selectBtn = optionMenu.querySelector(".select-btn"),
-      options = optionMenu.querySelectorAll(".option"),
-      sBtn_text = optionMenu.querySelector(".sBtn-text");
-
-    selectBtn.addEventListener("click", () =>
-      optionMenu.classList.toggle("active")
-    );
-
-    options.forEach((option) => {
-      option.addEventListener("click", () => {
-        let selectedOption = option.querySelector(".option-text").innerText;
-        sBtn_text.innerText = selectedOption;
-
-        optionMenu.classList.remove("active");
-      });
-    });
-  </script>
 
 </body>
 

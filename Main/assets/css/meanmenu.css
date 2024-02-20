@@ -11,10 +11,14 @@
 }
 .mean-container a.meanmenu-reveal {
     width: 2.1875rem;
-    height: 1.875rem;
-    padding: 0.75rem 0.9375rem 0 0;
+    height: 1.675rem;
     position: absolute;
     right: 0;
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 0.9375rem;
     cursor: pointer;
     color: #0071dc;
     text-decoration: none;
@@ -24,6 +28,11 @@
     font-size: 0.0625rem;
     display: block;
     font-weight: 700;
+}
+.mean-container a.meanmenu-reveal.meanclose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .mean-container a.meanmenu-reveal span {
     display: block;
@@ -304,10 +313,10 @@
         background-color: #ffffff;
         padding: 0;
     }
-    .mean-container a.meanmenu-reveal {
+    /* .mean-container a.meanmenu-reveal {
         padding: 1.25rem 0.9375rem 0 0;
         margin-top: 0.1875rem;
-    }
+    } */
     .mobile-nav nav .navbar-nav {
         height: auto;
         overflow-y: scroll;

@@ -8,6 +8,10 @@
   .licenses-and-subscriptions .custom-card .card-text.description {
     font-size: 1rem;
   }
+  .play-btn-area {
+    padding-top: 12.75rem;
+    padding-bottom: 12.75rem;
+  }
 }
 @media only screen and (max-width: 991px) {
   .licenses-and-subscriptions .main-heading {
@@ -20,7 +24,7 @@
     padding: 9.07rem 0 4.64rem 0;
   }
   .optimize-pc .pricing-table table tbody tr td {
-    padding: 0 0.5rem;
+    padding: 0.1875rem 0.5rem;
   }
   .optimize-pc .pricing-table table tbody tr td .get-started {
     padding: 2rem 0.5rem 1.25rem 0.5rem;
@@ -49,9 +53,6 @@
 .clients-area {
     padding: 4.64rem 0;
   }
-  .banner-area-two .banner-content p {
-    max-width: none;
-  }
   #nosotros .about-img-2 img,
 .banner-area-two .banner-img > img {
     width: 100%;
@@ -77,6 +78,10 @@
   }
   .mean-container .mean-nav ul li a {
     font-size: 1rem;
+  }
+  .play-btn-area {
+    padding-top: 10.75rem;
+    padding-bottom: 10.75rem;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -843,7 +848,6 @@
     padding: 2rem 1.75rem;
   }
   .payment-modal .right-part {
-    position: static;
     padding: 2rem 1.75rem;
   }
   .optimize-pc .banner h1 {
@@ -970,6 +974,9 @@
 .brand-area-two,
 .clients-area {
     padding: 3.64rem 0;
+  }
+  .payment-modal .right-part {
+    position: static;
   }
   footer .footer-logo img {
     width: 9.6875rem;
