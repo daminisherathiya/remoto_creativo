@@ -678,7 +678,7 @@
   <template id="summary-item-template">
     <div class="row gx-0">
       <div class="col-6">
-        <p class="mb-0 item-name" data-i18n="">Item name here</p>
+        <p class="mb-0 item-name text-capitalize" data-i18n="">Item name here</p>
       </div>
       <div class="col-6">
         <p class="mb-0 text-center item-price">Item price here</p>
@@ -718,94 +718,100 @@
   <script src="assets/js/custom.js"></script>
   <!-- Page specific JS -->
   <script>
-    // Summary and pricing logic
+    (function($) {
+      // "use strict";
 
-    // On platform selection change
-    $(".platform-switches input").on("change", function () {
-      const $this = $(this); // Current toggle that was changed
-      const $other = $(".platform-switches input").not($this); // The other toggle
+      // Summary and pricing logic
 
-      if ($this.is(":checked")) {
-        // If the current toggle is checked, uncheck the other one
-        $other.prop("checked", false);
-      } else {
-        // If the current toggle is unchecked, check the other one
-        $other.prop("checked", true);
-      }
+      // On platform selection change
+      $(".platform-switches input").on("change", function () {
+        const $this = $(this); // Current toggle that was changed
+        const $other = $(".platform-switches input").not($this); // The other toggle
 
-      updateSummary();
-    });
+        if ($this.is(":checked")) {
+          // If the current toggle is checked, uncheck the other one
+          $other.prop("checked", false);
+        } else {
+          // If the current toggle is unchecked, check the other one
+          $other.prop("checked", true);
+        }
 
-    // The total price to show in the summary
-    let totalPrice = 0;
-    // All the selected items currently
-    const selectedItems = [];
-
-    // On additional items selection change
-    $(".installation-and-formatting-box input").on("change", function () {
-      const itemI18n = $("label[for='" + $(this).attr('id') + "']").data("i18n");
-      const itemPrice = $(this).data("price");
-
-      if (this.checked) {
-        selectedItems.push([itemI18n, itemPrice]);
-      } else {
-        // Remove the element from selectedItems
-        const index = selectedItems.findIndex(item => item[0] === itemI18n && item[1] === itemPrice);
-        selectedItems.splice(index, 1);
-      }
-
-      updateSummary();
-    });
-
-    function updateSummary() {
-      // Clear #summary-items
-      $("#summary-items").empty();
-      totalPrice = 0;
-
-      // Add the platform summary
-      if ($("#Windows").prop("checked")) {
-        const itemPrice = $("#Windows").data("price");
-        addSummaryItem("remotFormat.summary.remoteFormattingWindows", itemPrice);
-      }
-      if ($("#macOs").prop("checked")) {
-        const itemPrice = $("#macOs").data("price");
-        addSummaryItem("remotFormat.summary.remoteFormattingMacOS", itemPrice);
-      }
-
-      selectedItems.forEach(function (item) {
-        addSummaryItem(...item);
+        updateSummary();
       });
 
-      // Set the total price
-      $(".total .amount").text("$" + totalPrice);
-    }
+      // The total price to show in the summary
+      let totalPrice = 0;
+      // All the selected items currently
+      const selectedItems = [];
 
-    function addSummaryItem(itemI18n, itemPrice) {
-      // Add the itemPrice to totalPrice
-      totalPrice += itemPrice;
-
-      // Create a new entry from the template
-      const $clone = $("#summary-item-template").contents().clone();
-
-      // Dynamic values for item name and item price
-      $clone.find(".item-name").text(i18next.t(itemI18n));
-      $clone.find(".item-name").data("i18n", itemI18n);
-      $clone.find(".item-price").text(itemPrice);
-
-      // Append the new entry to #summary-items
-      $("#summary-items").append($clone);
-    }
-
-    function initializeItemsSelectedByDefault() {
-      $(".installation-and-formatting-box input:checked").each(function () {
+      // On additional items selection change
+      $(".installation-and-formatting-box input").on("change", function () {
         const itemI18n = $("label[for='" + $(this).attr('id') + "']").data("i18n");
         const itemPrice = $(this).data("price");
-        selectedItems.push([itemI18n, itemPrice]);
-      });
-    }
 
-    initializeItemsSelectedByDefault();  // Add the items selected by defualt
-    updateSummary();  // To show proper initial summary
+        if (this.checked) {
+          selectedItems.push([itemI18n, itemPrice]);
+        } else {
+          // Remove the element from selectedItems
+          const index = selectedItems.findIndex(item => item[0] === itemI18n && item[1] === itemPrice);
+          selectedItems.splice(index, 1);
+        }
+
+        updateSummary();
+      });
+
+      function updateSummary() {
+        // Clear #summary-items
+        $("#summary-items").empty();
+        totalPrice = 0;
+
+        // Add the platform summary
+        if ($("#Windows").prop("checked")) {
+          const itemPrice = $("#Windows").data("price");
+          addSummaryItem("remotFormat.summary.remoteFormattingWindows", itemPrice);
+        }
+        if ($("#macOs").prop("checked")) {
+          const itemPrice = $("#macOs").data("price");
+          addSummaryItem("remotFormat.summary.remoteFormattingMacOS", itemPrice);
+        }
+
+        selectedItems.forEach(function (item) {
+          addSummaryItem(...item);
+        });
+
+        // Set the total price
+        $(".total .amount").text("$" + totalPrice);
+      }
+
+      function addSummaryItem(itemI18n, itemPrice) {
+        // Add the itemPrice to totalPrice
+        totalPrice += itemPrice;
+
+        // Create a new entry from the template
+        const $clone = $("#summary-item-template").contents().clone();
+
+        // Dynamic values for item name and item price
+        $clone.find(".item-name").text(i18next.t(itemI18n));
+        $clone.find(".item-name").data("i18n", itemI18n);
+        $clone.find(".item-price").text(itemPrice);
+
+        // Append the new entry to #summary-items
+        $("#summary-items").append($clone);
+      }
+
+      function initializeItemsSelectedByDefault() {
+        $(".installation-and-formatting-box input:checked").each(function () {
+          const itemI18n = $("label[for='" + $(this).attr('id') + "']").data("i18n");
+          const itemPrice = $(this).data("price");
+          selectedItems.push([itemI18n, itemPrice]);
+        });
+      }
+
+      $(document).ready(function() {
+        initializeItemsSelectedByDefault();  // Add the items selected by defualt
+        updateSummary();  // To show proper initial summary
+      });
+    })(jQuery);
   </script>
 </body>
 

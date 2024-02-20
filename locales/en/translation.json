@@ -1,5 +1,4 @@
 {
-  "greeting": "Hello, welcome to our website!",
   "header": {
     "home": "Home",
     "remoteFormatting": "Remote Formatting",
@@ -144,8 +143,8 @@
           "description": "Original account access with all applications, compatible with any device, receive updates and print without watermarks.",
           "items": {
             "item1": "1 Year Subscription - All Applications",
-            "item2": "Suscripción 1 Año - Solo AutoCAD",
-            "item3": "1 Year Subscription - AutoCAD Only",
+            "item2": "1 Year Subscription - AutoCAD Only",
+            "item3": "1 Year Subscription - Revit Only",
             "item4": "1 Year Subscription - Civil 3D Only",
             "item5": "1 Year Subscription - 3DsMAX Only",
             "item6": "1 Year Subscription - Only MAYA",

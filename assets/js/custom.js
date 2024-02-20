@@ -3,7 +3,6 @@
 
     // Function to update the content based on the current language
     function updateContent() {
-        console.log(i18next.t("greeting"));
         $("[data-i18n]").each(function() {
             var key = $(this).data("i18n");
             $(this).text(i18next.t(key));
@@ -53,7 +52,7 @@
         .use(i18nextHttpBackend)
         .init({
             fallbackLng: "en",
-            debug: true,
+            debug: false,
             backend: {
                 loadPath: "./locales/{{lng}}/translation.json"
             },
@@ -224,7 +223,6 @@
 
     // Preloader JS
     $(window).on('load',function(){
-        console.log("$(window).on('load',function(){");
         $(".preloader").fadeOut(500);
     });
 
