@@ -57,7 +57,7 @@
                 loadPath: "./locales/{{lng}}/translation.json"
             },
         }, function(err, t) {
-            selectLanguageAndUpdateContent(i18next.language.split('-')[0]);
+            selectLanguageAndUpdateContent(["en", "es"].includes(i18next.language.split('-')[0]) ? i18next.language.split('-')[0] : "en");
         });
 })(jQuery);
 
