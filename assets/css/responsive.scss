@@ -295,7 +295,6 @@
   .banner-content {
     padding-top: 7.5rem;
     margin-top: 0;
-    margin-left: 0.5625rem;
     h1 {
       font-size: 2.1875rem;
       max-width: 100%;
@@ -1212,9 +1211,12 @@
     min-width: 4.26875rem;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .default-btn {
     padding: 0.8375rem 1.2rem;
+  }
+  .small-default-btn {
+    padding: 0.5rem 0.99rem;
   }
 }
 

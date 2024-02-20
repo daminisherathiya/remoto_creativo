@@ -45,16 +45,16 @@
     padding: 3.6875rem 3.5rem;
   }
   #remotocreativo,
-#servicios,
-#nosotros,
-#productos,
-#preguntas,
-.brand-area-two,
-.clients-area {
+  #servicios,
+  #nosotros,
+  #productos,
+  #preguntas,
+  .brand-area-two,
+  .clients-area {
     padding: 4.64rem 0;
   }
   #nosotros .about-img-2 img,
-.banner-area-two .banner-img > img {
+  .banner-area-two .banner-img > img {
     width: 100%;
   }
   .mobile-nav .mobile-select-menu.select-menu .options {
@@ -70,7 +70,7 @@
     margin-top: -13.625rem;
   }
   .remote-formatting .how-it-works,
-.remote-formatting .customize-remote-formating {
+  .remote-formatting .customize-remote-formating {
     padding: 4.64rem 0;
   }
   .remote-formatting .play-btn-area {
@@ -257,7 +257,6 @@
   .banner-content {
     padding-top: 7.5rem;
     margin-top: 0;
-    margin-left: 0.5625rem;
   }
   .banner-content h1 {
     font-size: 2.1875rem;
@@ -954,28 +953,28 @@
     font-size: 2rem;
   }
   .remote-formatting .how-it-works,
-.remote-formatting .customize-remote-formating {
+  .remote-formatting .customize-remote-formating {
     padding: 3.64rem 0;
   }
   .remote-formatting .how-it-works h3,
-.remote-formatting .customize-remote-formating h3 {
+  .remote-formatting .customize-remote-formating h3 {
     font-size: 2rem;
     margin-bottom: 3.0625rem;
   }
   .remote-formatting .how-it-works .steps-card,
-.remote-formatting .customize-remote-formating .steps-card {
+  .remote-formatting .customize-remote-formating .steps-card {
     padding: 2rem;
   }
   .remote-formatting .play-btn-area {
     margin-bottom: 3.64rem;
   }
   #remotocreativo,
-#servicios,
-#nosotros,
-#productos,
-#preguntas,
-.brand-area-two,
-.clients-area {
+  #servicios,
+  #nosotros,
+  #productos,
+  #preguntas,
+  .brand-area-two,
+  .clients-area {
     padding: 3.64rem 0;
   }
   .payment-modal .right-part {
@@ -999,9 +998,12 @@
     min-width: 4.26875rem;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .default-btn {
     padding: 0.8375rem 1.2rem;
+  }
+  .small-default-btn {
+    padding: 0.5rem 0.99rem;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1116,7 +1118,7 @@
     margin-left: -0.9375rem;
   }
   .about-content-2 .section-title h2,
-.about-content-2 .section-title p {
+  .about-content-2 .section-title p {
     max-width: 100%;
   }
   /* Navbar Area CSS  */
