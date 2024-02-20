@@ -5397,59 +5397,95 @@ licenses-and-subscriptions page
   color: #ffffff;
 }
 .optimize-pc .pricing-table {
-  margin-top: 2.5rem;
-  overflow-x: auto;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
 }
 .optimize-pc .pricing-table::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
-.optimize-pc .pricing-table .pt-title {
-  max-width: 18.79rem;
-  background-color: #ffffff;
-  padding: 2rem 0 3.3rem 1rem;
-  border-radius: 1.5rem 0 0 1.5rem;
+.optimize-pc .pricing-table table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 2.5rem;
+  padding: 0 1rem;
 }
-.optimize-pc .pricing-table .pt-title p {
-  padding: 0 1.5rem;
+.optimize-pc .pricing-table table tbody tr td {
+  vertical-align: middle;
+  text-align: center;
+}
+.optimize-pc .pricing-table table tbody tr td p {
   min-height: 4rem;
   font-size: 1rem;
   font-weight: 500;
   color: #101828;
+  line-height: 1.1875rem;
+  margin-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 0;
-  line-height: 1.1875rem;
+  text-align: left;
 }
-.optimize-pc .pricing-table .pt-title p:nth-child(2n) {
+.optimize-pc .pricing-table table tbody tr td:first-child, .optimize-pc .pricing-table table tbody tr td:last-child {
+  width: 2.23%;
+  min-width: 1rem;
+  padding: 0;
+  background-color: #ffffff !important;
+}
+.optimize-pc .pricing-table table tbody tr td span.not-available {
+  border-bottom: 0.125rem solid #98a2b3;
+  width: 0.729375rem;
+}
+.optimize-pc .pricing-table table tbody tr td .get-started {
+  padding: 2rem 1.5rem 1.25rem 1.5rem;
+}
+.optimize-pc .pricing-table table tbody tr td .get-started .get-started-btn {
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 100%;
+  padding-top: 0.700625rem;
+  padding-bottom: 0.700625rem;
+}
+.optimize-pc .pricing-table table tbody tr:nth-child(2n+1) td {
   background-color: #fafafa;
 }
-.optimize-pc .pricing-table .pt-title p.spacing {
-  min-height: 13.181875rem;
-}
-.optimize-pc .pricing-table .pt-options {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+.optimize-pc .pricing-table table tr th {
   background-color: #ffffff;
-  padding: 2rem 1rem 3.3rem 0;
-  border-radius: 0 1.5rem 1.5rem 0;
+  border-bottom: none;
+  padding: 2rem 0 0 0;
+  vertical-align: top;
 }
-.optimize-pc .pricing-table .pt-options .pt-option {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+.optimize-pc .pricing-table table tr th:nth-child(2) {
+  width: 21.97%;
+  min-width: 11.75rem;
 }
-.optimize-pc .pricing-table .pt-options .pt-option .heading {
+.optimize-pc .pricing-table table tr th:nth-child(3) {
+  width: 25.18rem;
+}
+.optimize-pc .pricing-table table tr th:nth-child(4) {
+  width: 25.18rem;
+}
+.optimize-pc .pricing-table table tr th:nth-child(5) {
+  width: 25.18rem;
+}
+.optimize-pc .pricing-table table tr th:first-child {
+  border-top-left-radius: 1.5rem;
+  width: 1rem;
+  padding: 0;
+}
+.optimize-pc .pricing-table table tr th:last-child {
+  border-top-right-radius: 1.5rem;
+  width: 1rem;
+  padding: 0;
+}
+.optimize-pc .pricing-table table tr th .heading {
   padding: 2.5625rem 1.5rem 0.5625rem 1.5rem;
   min-height: 13.1875rem;
 }
-.optimize-pc .pricing-table .pt-options .pt-option .heading .badge {
+.optimize-pc .pricing-table table tr th .heading .badge {
   color: #4a4c56;
   font-size: 1rem;
   background-color: rgba(0, 113, 220, 0.1019607843);
@@ -5458,44 +5494,26 @@ licenses-and-subscriptions page
   padding: 0.4375rem 0.764375rem;
   margin-bottom: 0.5625rem;
 }
-.optimize-pc .pricing-table .pt-options .pt-option .heading h6 {
+.optimize-pc .pricing-table table tr th .heading p.pricing {
   color: #0071dc;
   font-weight: 600;
   font-size: 3rem;
 }
-.optimize-pc .pricing-table .pt-options .pt-option .heading p.sub-title {
+.optimize-pc .pricing-table table tr th .heading p.sub-title {
   color: #475467;
   font-size: 1rem;
   margin-bottom: 0;
 }
-.optimize-pc .pricing-table .pt-options .pt-option p.pt-row {
+.optimize-pc .pricing-table table tr td {
+  background-color: #ffffff;
+  border-bottom: none;
   padding: 0 1.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 0;
-  min-height: 4rem;
 }
-.optimize-pc .pricing-table .pt-options .pt-option p.pt-row:nth-child(2n) {
-  background-color: #fafafa;
+.optimize-pc .pricing-table table tr:last-child td:first-child {
+  border-bottom-left-radius: 1.5rem;
 }
-.optimize-pc .pricing-table .pt-options .pt-option p.pt-row span.not-available {
-  border-bottom: 0.125rem solid #98a2b3;
-  width: 0.729375rem;
-}
-.optimize-pc .pricing-table .pt-options .pt-option .get-started {
-  padding: 2rem 1.5rem 1.25rem 1.5rem;
-}
-.optimize-pc .pricing-table .pt-options .pt-option .get-started .get-started-btn {
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  font-weight: 600;
-  width: 100%;
-  padding-top: 0.700625rem;
-  padding-bottom: 0.700625rem;
+.optimize-pc .pricing-table table tr:last-child td:last-child {
+  border-bottom-right-radius: 1.5rem;
 }
 .optimize-pc .chat-and-fix-pc {
   background-color: #fafafa;
@@ -5789,7 +5807,7 @@ licenses-and-subscriptions page
 .payment-modal .left-part .current-price {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #0071DC;
+  color: #0071dc;
   line-height: 2.25rem;
 }
 .payment-modal .right-part {

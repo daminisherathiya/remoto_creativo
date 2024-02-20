@@ -19,10 +19,16 @@
   .optimize-pc .banner {
     padding: 9.07rem 0 4.64rem 0;
   }
-  .optimize-pc .pricing-table .pt-options .pt-option .heading {
-    padding: 1.5rem 0rem 0.5625rem 0rem;
+  .optimize-pc .pricing-table table tbody tr td {
+    padding: 0 0.5rem;
   }
-  .optimize-pc .pricing-table .pt-options .pt-option .heading h6 {
+  .optimize-pc .pricing-table table tbody tr td .get-started {
+    padding: 2rem 0.5rem 1.25rem 0.5rem;
+  }
+  .optimize-pc .pricing-table table tr th .heading {
+    padding: 1.5rem 0.5rem 0.5625rem 0.5rem;
+  }
+  .optimize-pc .pricing-table table tr th .heading p.pricing {
     font-size: 2.5rem;
   }
   .optimize-pc .it-support {
@@ -849,37 +855,23 @@
   .optimize-pc .it-support h3 {
     font-size: 2rem;
   }
-  .optimize-pc .pricing-table {
-    padding: 0 1rem;
+  .optimize-pc .pricing-table table tbody tr td p {
+    font-size: 0.98rem;
   }
-  .optimize-pc .pricing-table .pt-options .pt-option .heading p.sub-title {
-    font-size: 0.9rem;
+  .optimize-pc .pricing-table table tr th {
+    padding: 0 0.5rem;
   }
-  .optimize-pc .pricing-table .pt-options .pt-option .heading h6 {
+  .optimize-pc .pricing-table table tr th:nth-child(2) {
+    min-width: 13.75rem;
+  }
+  .optimize-pc .pricing-table table tr th .heading p.sub-title {
+    font-size: 0.98rem;
+  }
+  .optimize-pc .pricing-table table tr th .heading p.pricing {
     font-size: 2rem;
   }
-  .optimize-pc .pricing-table .pt-options .pt-option .heading .badge {
-    font-size: 0.9rem;
-  }
-  .optimize-pc .pricing-table .pt-options .pt-option .get-started {
-    padding: 2rem 0.5rem 1.25rem 0.5rem;
-  }
-  .optimize-pc .pricing-table .pt-options .pt-option p.pt-row {
-    padding: 0 0.5rem;
-  }
-  .optimize-pc .pricing-table .pt-options .pt-option p.pt-row:last-of-type {
-    min-height: 6rem;
-  }
-  .optimize-pc .pricing-table .pt-title {
-    min-width: 11.75rem;
-    max-width: none;
-  }
-  .optimize-pc .pricing-table .pt-title p {
-    font-size: 0.9rem;
-    padding: 0 0.5rem;
-  }
-  .optimize-pc .pricing-table .pt-title p:last-of-type {
-    min-height: 6rem;
+  .optimize-pc .pricing-table table tr th .heading .badge {
+    font-size: 0.98rem;
   }
   .optimize-pc .chat-and-fix-pc .chat-box {
     padding: 3.6875rem 2rem;
