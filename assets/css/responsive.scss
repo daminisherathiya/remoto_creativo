@@ -1,14 +1,8 @@
 @media only screen and (max-width: 1199px) {
   .licenses-and-subscriptions {
-    .card img {
-      width: 6.25rem;
-    }
     .custom-card {
       .title {
-        font-size: 1.2rem;
-      }
-      .card-text.description {
-        font-size: 1rem;
+        font-size: 1.3rem;
       }
     }
   }
@@ -24,6 +18,9 @@
     }
     .section-title {
       padding-top: 4.64rem;
+    }
+    .card img {
+      width: 7rem;
     }
   }
   .optimize-pc {
@@ -1100,10 +1097,6 @@
 
   // licenses-and-subscriptions page
   .licenses-and-subscriptions {
-    .card img {
-      width: 5rem;
-    }
-
     .button_Act {
       margin-top: 1rem;
     }
@@ -1199,6 +1192,10 @@
       iframe {
         height: 28.125rem;
       }
+    }
+
+    .card img {
+      width: 6rem;
     }
   }
   .mobile-nav .mobile-select-menu.select-menu .options {

@@ -5686,6 +5686,7 @@ Remote-formatting page
 }
 .remote-formatting .customize-remote-formating {
   padding: 5.4375rem 0 6.25rem 0;
+  scroll-margin-top: 11.375rem;
   background-color: #fafafa;
 }
 .remote-formatting .customize-remote-formating h3 {

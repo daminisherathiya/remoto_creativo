@@ -1,16 +1,18 @@
+@media only screen and (max-width: 1500px) {
+  footer .footer-logo img {
+    width: 15.956rem;
+  }
+}
 @media only screen and (max-width: 1199px) {
-  .licenses-and-subscriptions .card img {
-    width: 6.25rem;
-  }
   .licenses-and-subscriptions .custom-card .title {
-    font-size: 1.2rem;
-  }
-  .licenses-and-subscriptions .custom-card .card-text.description {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .play-btn-area {
     padding-top: 12.75rem;
     padding-bottom: 12.75rem;
+  }
+  footer .footer-logo img {
+    width: 13.956rem;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -19,6 +21,9 @@
   }
   .licenses-and-subscriptions .section-title {
     padding-top: 4.64rem;
+  }
+  .licenses-and-subscriptions .card img {
+    width: 7rem;
   }
   .optimize-pc .banner {
     padding: 9.07rem 0 4.64rem 0;
@@ -209,7 +214,7 @@
     top: auto;
     bottom: 3.4375rem;
     -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
   }
   .banner-slider-area .owl-dots .owl-dot span {
     margin: 0.4375rem 0.4375rem;
@@ -723,7 +728,7 @@
     top: auto;
     position: inherit;
     -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
     left: 0;
     font-size: 1.25rem !important;
     bottom: -1.875rem;
@@ -736,7 +741,7 @@
     top: auto;
     position: inherit;
     -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
     right: 0;
     font-size: 1.25rem !important;
     bottom: -1.875rem;
@@ -907,9 +912,6 @@
   .review-card .consumer-name .review-text {
     font-size: 0.875rem;
   }
-  .licenses-and-subscriptions .card img {
-    width: 5rem;
-  }
   .licenses-and-subscriptions .button_Act {
     margin-top: 1rem;
   }
@@ -987,6 +989,9 @@
 @media only screen and (max-width: 480px) {
   .licenses-and-subscriptions .containerv iframe {
     height: 28.125rem;
+  }
+  .licenses-and-subscriptions .card img {
+    width: 6rem;
   }
   .mobile-nav .mobile-select-menu.select-menu .options {
     left: -48%;
@@ -1143,7 +1148,7 @@
     top: auto;
     bottom: 3.4375rem;
     -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
   }
   .banner-item-content {
     padding-top: 13.75rem;
@@ -1336,7 +1341,7 @@
     font-size: 1.25rem !important;
     bottom: -1.875rem;
     -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
     width: 2.1875rem;
     height: 2.1875rem;
     border-radius: 3.125rem;
@@ -1346,7 +1351,7 @@
     top: auto;
     position: inherit;
     -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
     font-size: 1.25rem !important;
     bottom: -1.875rem;
     width: 2.1875rem;
