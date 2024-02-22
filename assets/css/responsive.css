@@ -1,8 +1,3 @@
-@media only screen and (max-width: 1500px) {
-  footer .footer-logo img {
-    width: 15.956rem;
-  }
-}
 @media only screen and (max-width: 1199px) {
   .licenses-and-subscriptions .custom-card .title {
     font-size: 1.3rem;
@@ -10,9 +5,6 @@
   .play-btn-area {
     padding-top: 12.75rem;
     padding-bottom: 12.75rem;
-  }
-  footer .footer-logo img {
-    width: 13.956rem;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -50,16 +42,16 @@
     padding: 3.6875rem 3.5rem;
   }
   #remotocreativo,
-  #servicios,
-  #nosotros,
-  #productos,
-  #preguntas,
-  .brand-area-two,
-  .clients-area {
+#servicios,
+#nosotros,
+#productos,
+#preguntas,
+.brand-area-two,
+.clients-area {
     padding: 4.64rem 0;
   }
   #nosotros .about-img-2 img,
-  .banner-area-two .banner-img > img {
+.banner-area-two .banner-img > img {
     width: 100%;
   }
   .mobile-nav .mobile-select-menu.select-menu .options {
@@ -75,8 +67,9 @@
     margin-top: -13.625rem;
   }
   .remote-formatting .how-it-works,
-  .remote-formatting .customize-remote-formating {
+.remote-formatting .customize-remote-formating {
     padding: 4.64rem 0;
+    scroll-margin-top: 4.4rem;
   }
   .remote-formatting .play-btn-area {
     margin-bottom: 4.64rem;
@@ -87,6 +80,9 @@
   .play-btn-area {
     padding-top: 10.75rem;
     padding-bottom: 10.75rem;
+  }
+  footer .footer-logo img {
+    width: 12.0375rem;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -214,7 +210,7 @@
     top: auto;
     bottom: 3.4375rem;
     -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+            transform: translateY(0%);
   }
   .banner-slider-area .owl-dots .owl-dot span {
     margin: 0.4375rem 0.4375rem;
@@ -728,7 +724,7 @@
     top: auto;
     position: inherit;
     -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+            transform: translateY(0%);
     left: 0;
     font-size: 1.25rem !important;
     bottom: -1.875rem;
@@ -741,7 +737,7 @@
     top: auto;
     position: inherit;
     -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+            transform: translateY(0%);
     right: 0;
     font-size: 1.25rem !important;
     bottom: -1.875rem;
@@ -893,9 +889,6 @@
   .container {
     max-width: 640px;
   }
-  footer .footer-logo {
-    padding: 2.1875rem 1rem;
-  }
   footer .footer-logo img {
     width: 10.9375rem;
   }
@@ -955,28 +948,28 @@
     font-size: 2rem;
   }
   .remote-formatting .how-it-works,
-  .remote-formatting .customize-remote-formating {
+.remote-formatting .customize-remote-formating {
     padding: 3.64rem 0;
   }
   .remote-formatting .how-it-works h3,
-  .remote-formatting .customize-remote-formating h3 {
+.remote-formatting .customize-remote-formating h3 {
     font-size: 2rem;
     margin-bottom: 3.0625rem;
   }
   .remote-formatting .how-it-works .steps-card,
-  .remote-formatting .customize-remote-formating .steps-card {
+.remote-formatting .customize-remote-formating .steps-card {
     padding: 2rem;
   }
   .remote-formatting .play-btn-area {
     margin-bottom: 3.64rem;
   }
   #remotocreativo,
-  #servicios,
-  #nosotros,
-  #productos,
-  #preguntas,
-  .brand-area-two,
-  .clients-area {
+#servicios,
+#nosotros,
+#productos,
+#preguntas,
+.brand-area-two,
+.clients-area {
     padding: 3.64rem 0;
   }
   .payment-modal .right-part {
@@ -1123,7 +1116,7 @@
     margin-left: -0.9375rem;
   }
   .about-content-2 .section-title h2,
-  .about-content-2 .section-title p {
+.about-content-2 .section-title p {
     max-width: 100%;
   }
   /* Navbar Area CSS  */
@@ -1148,7 +1141,7 @@
     top: auto;
     bottom: 3.4375rem;
     -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+            transform: translateY(0%);
   }
   .banner-item-content {
     padding-top: 13.75rem;
@@ -1341,7 +1334,7 @@
     font-size: 1.25rem !important;
     bottom: -1.875rem;
     -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+            transform: translateY(0%);
     width: 2.1875rem;
     height: 2.1875rem;
     border-radius: 3.125rem;
@@ -1351,7 +1344,7 @@
     top: auto;
     position: inherit;
     -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+            transform: translateY(0%);
     font-size: 1.25rem !important;
     bottom: -1.875rem;
     width: 2.1875rem;

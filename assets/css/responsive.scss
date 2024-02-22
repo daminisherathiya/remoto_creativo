@@ -89,6 +89,7 @@
     .how-it-works,
     .customize-remote-formating {
       padding: 4.64rem 0;
+      scroll-margin-top: 4.4rem;
     }
     .play-btn-area {
       margin-bottom: 4.64rem;
@@ -100,6 +101,9 @@
   .play-btn-area {
     padding-top: 10.75rem;
     padding-bottom: 10.75rem;
+  }
+  footer .footer-logo img {
+    width: 12.0375rem;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1071,7 +1075,6 @@
   }
   footer {
     .footer-logo {
-      padding: 2.1875rem 1rem;
       img {
         width: 10.9375rem;
       }
