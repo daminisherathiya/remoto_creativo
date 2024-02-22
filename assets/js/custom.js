@@ -54,7 +54,7 @@
             fallbackLng: "en",
             debug: false,
             backend: {
-                loadPath: "../locales/{{lng}}/translation.json"
+                loadPath: pathPrefix + "locales/{{lng}}/translation.json"
             },
         }, function (err, t) {
             selectLanguageAndUpdateContent(["en", "es"].includes(i18next.language.split('-')[0]) ? i18next.language.split('-')[0] : "en");
