@@ -7,6 +7,15 @@
             var key = $(this).data("i18n");
             $(this).text(i18next.t(key));
         });
+
+        $("a[data-i18n-link]").each(function () {
+            var key = $(this).data("i18n-link");
+            $(this).attr("href", i18next.t(key));
+        });
+        $("button[data-i18n-link]").each(function () {
+            var key = $(this).data("i18n-link");
+            $(this).attr("data-href", i18next.t(key));
+        });
     }
 
     // Function to update the language of the dropdown based on the given language
