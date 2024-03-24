@@ -5674,8 +5674,7 @@ Remote-formatting page
       max-width: 22.0625rem;
       margin-bottom: 3.875rem;
       img {
-        filter: brightness(0) saturate(100%) invert(0%) sepia(9%)
-          saturate(7500%) hue-rotate(73deg) brightness(100%) contrast(108%);
+        filter: brightness(0) saturate(100%) invert(0%) sepia(9%) saturate(7500%) hue-rotate(73deg) brightness(100%) contrast(108%);
       }
       p {
         font-size: 1.125rem;
@@ -5857,4 +5856,825 @@ Mobile navigation
 }
 /*==================================
 Mobile navigation End
+=================================*/
+
+/*==================================
+ISO CreativOS Start
+=================================*/
+@font-face {
+  font-family: "Airwaves";
+  src: url("../fonts/airwaves/Airwaves-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Airwaves";
+  src: url("../fonts/airwaves/Airwaves-Oblique.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+.bg-black {
+  background-color: #000000;
+}
+
+.dark-theme {
+  font-family: "Airwaves";
+  .navbar .nav-item .nav-link {
+    font-family: "Airwaves";
+    font-style: italic;
+  }
+
+  .main-nav nav .navbar-nav .nav-item a:hover,
+  .main-nav nav .navbar-nav .nav-item a.active :focus,
+  .main-nav nav .navbar-nav .nav-item a.active,
+  .main-nav nav .navbar-nav .nav-item:hover a {
+    color: white !important;
+  }
+  .main-nav nav .navbar-nav .nav-item a::before {
+    background-color: white !important;
+  }
+  .iso-creativos {
+    background-color: #0c0a1f;
+    .banner {
+      background-image: url(../images/iso-creativos/speed-lines.png);
+      background-repeat: no-repeat;
+      background-size: 100% 36.4285714286rem;
+      padding: 5.143rem 0;
+
+      .creativos {
+        padding: 9.8rem 0 5.3rem 0;
+        p.gaming-and-streming {
+          font-size: 1.8571428571rem;
+          letter-spacing: 0.5714285714rem;
+          z-index: 2;
+        }
+        .creativos-text {
+          img {
+            width: 38.2857142857rem;
+          }
+          &.with-bg {
+            z-index: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+          }
+          &.with-border {
+            position: relative;
+            z-index: 2;
+          }
+        }
+        p.optimization {
+          font-size: 1.2857142857rem;
+          letter-spacing: 0.1428571429rem;
+          z-index: 2;
+          font-family: "roboto";
+          margin-bottom: 3rem;
+        }
+        .character {
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          img {
+            width: 30.2142857143rem;
+          }
+          z-index: 1;
+        }
+      }
+    }
+
+    .cut-border-btn {
+      position: relative;
+      z-index: 2;
+      overflow: hidden;
+      &:hover:after {
+        left: 120%;
+        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+      }
+      &:after {
+        content: "";
+        height: 155px;
+        left: -75px;
+        opacity: 0.2;
+        position: absolute;
+        top: -50px;
+        transform: rotate(35deg);
+        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+        width: 50px;
+        z-index: 4;
+      }
+      span {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 1.4285714286rem;
+        padding: 0.4642857143rem 1rem;
+        position: relative;
+        text-decoration: none;
+        margin: 0.3571428571rem;
+        min-width: 11.2857142857rem;
+        max-width: 100%;
+      }
+      &.b-purple {
+        background: linear-gradient(-312deg, #9d51f9 0.6428571429rem, transparent 0px);
+        border: 0.07142857143rem solid #9d51f9;
+        color: #fff;
+        span {
+          background: linear-gradient(-312deg, transparent 0.4285714286rem, #9d51f9 0px);
+        }
+        &::after {
+          background: #fff;
+        }
+      }
+      &.b-white {
+        background: linear-gradient(228deg, #fff 0.6428571429rem, transparent 0px);
+        border: 0.07142857143rem solid #fff;
+        color: #000;
+        span {
+          background: linear-gradient(228deg, transparent 0.4285714286rem, #fff 0px);
+        }
+        &::after {
+          background: #9d51f9;
+        }
+      }
+    }
+
+    .blury-effect {
+      z-index: 3;
+      width: 100%;
+      bottom: 0;
+      background: #0d0c1d;
+      filter: blur(20px);
+      height: 5.5rem;
+    }
+
+    .banner-video {
+      padding-bottom: 2.5rem;
+      .workstation-video {
+        width: 39.792vw;
+        height: 17.083vw;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2.8571428571rem;
+        overflow: hidden;
+        video {
+          // height: auto;
+          width: 100%;
+        }
+      }
+    }
+
+    .creative-os-vs-stock-windows {
+      .features {
+        margin-bottom: 7.8rem;
+        p {
+          font-family: "roboto";
+          font-size: 1.2142857143rem;
+          line-height: 1.6742857143rem;
+        }
+        img {
+          height: 3.9rem;
+          margin-right: 20px;
+        }
+        & > div {
+          padding: 0 34px;
+        }
+        .scale-1 {
+          transform: scaleY(-1);
+        }
+      }
+      .benckmark {
+        width: 71.2857142857rem;
+      }
+    }
+
+    .how-get-creativ-os {
+      padding: 9.5rem 0 13rem 0;
+      h2 {
+        font-size: 3.4285714286rem;
+        font-weight: 400;
+        margin-bottom: 2.7142857143rem;
+        span {
+          font-size: 4.07142857143rem;
+        }
+      }
+      .creativos-bg {
+        background-image: url(../images/iso-creativos/creativ-os-bg.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .step {
+        font-family: "roboto";
+        .number {
+          height: 4.8571428571rem;
+          max-width: none;
+        }
+        h6 {
+          font-size: 1.7142857143rem;
+        }
+        p {
+          font-size: 1.4285714286rem;
+        }
+      }
+    }
+    .choose-your-os {
+      h3 {
+        letter-spacing: 0.2142857143rem;
+        font-size: 6.8571428571rem;
+        line-height: 7.1428571429rem;
+        margin-bottom: 3rem;
+        span {
+          color: #0d0c1d;
+          text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+        }
+      }
+      .progamer {
+        h6 {
+          font-size: 2.8571428571rem;
+          border-bottom: 0.14285714285714285rem solid white;
+        }
+        p {
+          font-family: "roboto";
+          line-height: 2rem;
+          font-size: 1.5714285714rem;
+        }
+      }
+      .cross-box {
+        clip-path: polygon(16% 0, 100% 0%, 84% 100%, 0 100%);
+        margin-left: -2.357142857142857rem;
+        div {
+          background-color: #151924;
+          padding: 0.7142857142857143rem;
+          font-size: 2.857142857142857rem;
+          letter-spacing: -0.1142857142857143rem;
+        }
+      }
+      .hashtag {
+        padding: 4.714285714285714rem 0 9.214285714285714rem 0;
+        p {
+          font-size: 1.2857142857142858rem;
+          font-family: "roboto";
+          font-weight: 300;
+        }
+        h5 {
+          font-size: 2.5rem;
+          letter-spacing: 0.15rem;
+        }
+      }
+    }
+    .how-to-install {
+      background-image: url(../images/iso-creativos/how-to-install-bg.png);
+      background-repeat: no-repeat;
+      background-position: top;
+      padding: 5.714285714285714rem 0;
+      .purple-box {
+        background-color: #9d51f9;
+        font-size: 2.857142857142857rem;
+        width: 30.928571428571427rem;
+        padding: 0.21428571428571427rem 1.7857142857142858rem;
+        top: -1.5rem;
+        z-index: 2;
+        span {
+          font-size: 3.2142857142857144rem;
+        }
+      }
+      h5 {
+        margin: 7rem 0 0.42857142857142855rem 0;
+        font-size: 2.2857142857142856rem;
+      }
+      p {
+        font-size: 1rem;
+        font-family: "roboto";
+        line-height: 1.7142857142857142rem;
+        color: #eeeeee;
+      }
+      .visible-step img {
+        height: 24.5rem;
+      }
+      .step-btn {
+        img {
+          width: 13.857142857142858rem;
+          height: 7.571428571428571rem;
+        }
+      }
+      .nav.nav-pills button {
+        background-color: transparent;
+        &.active img {
+          border: 2px solid white;
+        }
+      }
+    }
+    .app {
+      background-image: url(../images/iso-creativos/app-bg.png);
+      background-repeat: no-repeat;
+      background-position: top;
+      padding: 4rem 0 13.3rem 0;
+      h2 {
+        font-size: 72px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin: 0 0 20px 0;
+      }
+      .app-desc {
+        font-family: "roboto";
+        font-size: 24px;
+        margin-top: 33px;
+        p {
+          line-height: normal;
+        }
+        .number {
+          transform: rotate(-90deg);
+        }
+        .desc {
+          padding-left: 33px;
+          .title {
+            margin-bottom: 14px;
+          }
+        }
+      }
+    }
+    .creativeos-themes {
+      background-image: url(../images/iso-creativos/themes-bg.png);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: contain;
+      padding: 4.1rem 0 13rem 0;
+      h2 {
+        font-size: 40px;
+        letter-spacing: 7px;
+        margin-bottom: 35px;
+        span.themes {
+          letter-spacing: 12px;
+          padding-left: 7px;
+        }
+        .os {
+          font-size: 47px;
+        }
+      }
+      .frame {
+        z-index: 2;
+        top: 132px;
+        left: 50%;
+        transform: translateX(-50%);
+        pointer-events: none;
+        img {
+          width: 57.847vw;
+        }
+      }
+      .owl-carousel {
+        .owl-nav {
+          width: 67.847vw;
+          position: absolute;
+          left: 50%;
+          top: 41%;
+          transform: translate(-50%, -50%);
+          [class*="owl-"]:hover {
+            background: none;
+          }
+          button {
+            position: absolute;
+            top: 50%;
+            img {
+              height: 70px;
+            }
+            &.owl-prev {
+              left: 0;
+            }
+            &.owl-next {
+              right: 0;
+            }
+          }
+        }
+
+        .owl-dots {
+          position: absolute;
+          right: 151px;
+          top: -84px;
+          .owl-dot {
+            background: url("../images/iso-creativos/rectangle.svg") no-repeat center center;
+            span {
+              display: none;
+            }
+            width: 32px;
+            height: 36px;
+            border: none;
+            &.active {
+              background: url("../images/iso-creativos/current-screen.svg") no-repeat center center;
+              width: 44px;
+              height: 36px;
+            }
+          }
+        }
+      }
+    }
+    .extended-menu {
+      background-image: url(../images/iso-creativos/menu-bg.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: cover;
+      padding: 110px 0;
+      h2 {
+        font-size: 64px;
+        letter-spacing: 4px;
+      }
+      p {
+        font-family: "roboto";
+        font-size: 16px;
+        color: #b2b2b2;
+        margin-bottom: 14px;
+      }
+      .menu-shadow {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.18);
+      }
+      .cut-border-btn span {
+        min-width: 8.8rem;
+        padding: 0.15rem 1rem;
+      }
+    }
+    .what-you-get {
+      .monitor {
+        margin-top: -41px;
+      }
+      .description {
+        top: 126px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      h2 {
+        font-size: 48px;
+        line-height: 64px;
+        margin-bottom: 40px;
+      }
+      h6 {
+        letter-spacing: 2px;
+        font-size: 24px;
+      }
+      p {
+        color: #cdcdcd;
+        font-size: 20px;
+        font-family: "roboto";
+        margin-bottom: 25px;
+      }
+    }
+    .review {
+      padding: 141px 0;
+      h2 {
+        font-size: 60px;
+        margin-bottom: 58px;
+      }
+    }
+    .products {
+      background-image: url(../images/iso-creativos/product-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      padding: 59px 0;
+      h2 {
+        font-size: 42px;
+        letter-spacing: 5.35px;
+      }
+      p {
+        font-family: "roboto";
+        font-size: 20px;
+        margin-bottom: 114px;
+      }
+      .absolute-img {
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+      }
+      .programer-atropos {
+        .product-shadow {
+          // box-shadow: 0 0 20px 5px #f11d0a;
+          box-shadow: 0 0 70px 20px #cb1e0e;
+        }
+      }
+      .workstation-atropos {
+        .product-shadow {
+          box-shadow: 0 0 70px 20px #10a9c6;
+        }
+      }
+      .game-box-t {
+        top: -8px;
+        transform: translateZ(-32px) rotateX(90deg);
+        transform-origin: center top;
+        width: calc(100% + 8px);
+        height: 32px;
+        background: white;
+        left: 0;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        position: absolute;
+      }
+      .game-box-r {
+        right: -8px;
+        transform: translateZ(-32px) rotateY(90deg);
+        transform-origin: right center;
+        width: 32px;
+        height: calc(100% + 16px);
+        background: white;
+        top: -8px;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        position: absolute;
+      }
+      .game-box-b {
+        width: calc(100% + 8px);
+        height: 32px;
+        background: white;
+        left: 0;
+        bottom: -8px;
+        transform: translateZ(-32px) rotateX(-90deg);
+        transform-origin: center bottom;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        position: absolute;
+      }
+      .game-box-l {
+        width: 32px;
+        height: calc(100% + 16px);
+        background: white;
+        top: -8px;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        position: absolute;
+        left: 0;
+        transform: translateZ(-32px) rotateY(-90deg);
+        transform-origin: left center;
+        overflow: hidden;
+        &:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 10.4%;
+          background: black;
+          left: 0;
+          top: 9px;
+        }
+      }
+      .game-box {
+        aspect-ratio: 526 / 656;
+        width: 340px;
+        .atropos-rotate {
+          &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: calc(100% + 8px);
+            height: calc(100% + 16px);
+            top: -8px;
+            background: white;
+          }
+          .game-box-bg {
+            left: -5%;
+            top: -5%;
+            width: 110%;
+            height: 110%;
+            max-width: none;
+            position: relative;
+          }
+
+          .build-play.popup-btn {
+            z-index: 2;
+            position: absolute;
+            width: 65px;
+            height: 65px;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+            z-index: 2;
+          }
+        }
+      }
+      .atropos-inner .form-check-label {
+        width: 340px;
+      }
+      .actual-price {
+        font-size: 24px;
+        &.strikethrough {
+          position: relative;
+          &:before {
+            position: absolute;
+            content: "";
+            left: 50%;
+            top: 47%;
+            right: 0;
+            width: 145%;
+            border-top: 2px solid;
+            border-color: inherit;
+            -webkit-transform: translateX(-50%) rotate(20deg);
+            -moz-transform: translateX(-50%) rotate(20deg);
+            -ms-transform: translateX(-50%) rotate(20deg);
+            -o-transform: translateX(-50%) rotate(20deg);
+            transform: translateX(-50%) rotate(20deg);
+          }
+        }
+      }
+      .current-price {
+        font-size: 60px;
+        line-height: 85px;
+      }
+      .discount {
+        font-family: "roboto";
+        font-size: 15px;
+        background-color: #ffda44;
+        color: #000000;
+        padding: 0 5px;
+      }
+      $background-color_1: #000;
+
+      .radio-as-checkbox {
+        display: none;
+        + {
+          label {
+            cursor: pointer;
+            padding-left: 36px;
+            position: relative;
+            &::before {
+              content: "";
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              border: 1px solid white;
+              position: absolute;
+              border-radius: 2px;
+              left: 0;
+              top: 0;
+              background-color: $background-color_1;
+            }
+          }
+        }
+        &:checked {
+          + {
+            label {
+              &::after {
+                content: "";
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                line-height: 20px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-image: url(../images/iso-creativos/check-solid.svg);
+                background-size: 10px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+
+      .select-iso {
+        font-family: "roboto";
+        line-height: 20px;
+        font-size: 18px;
+      }
+      .countdown {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        p {
+          font-size: 26px;
+          font-family: "roboto";
+        }
+        .time {
+          span {
+            font-family: "roboto";
+            border: 3px solid white;
+            border-radius: 8px;
+            font-size: 48px;
+            padding: 5px 8px;
+            letter-spacing: 2px;
+          }
+          div {
+            font-family: "roboto";
+            font-size: 16px;
+          }
+        }
+      }
+      .progamer-video-player {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        border: 4px solid #ffffff;
+        border-radius: 3px;
+        &::before {
+          background-image: url(../images/iso-creativos/progamer-video-cover.png);
+          border-radius: 1px;
+        }
+        .build-play {
+          &::before {
+            width: 5rem;
+            height: 5rem;
+          }
+          .play {
+            width: 1.8rem;
+          }
+        }
+      }
+      .progamer-img {
+        border: 4px solid #ffffff;
+        border-radius: 3px;
+      }
+      .tab-content .tab-pane {
+        margin-top: 60px;
+        margin-bottom: 100px;
+      }
+    }
+    .faq {
+      background: linear-gradient(180deg, #9d51f9 0%, #53a2ff 100%);
+      padding-bottom: 50px;
+      &::before {
+        content: "";
+        background-image: url(../images/iso-creativos/faq-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;
+        display: block;
+        position: absolute;
+        height: 452px;
+        bottom: 0;
+      }
+      font-family: "roboto";
+      h2 {
+        font-size: 56px;
+        font-family: "Airwaves";
+        letter-spacing: 0.7px;
+      }
+      p {
+        font-size: 16px;
+      }
+      .accordion-button {
+        font-weight: 500;
+        font-size: 20px;
+        font-family: "roboto";
+        padding-left: 30px;
+        letter-spacing: 0.4px;
+        &:not(.collapsed)::after {
+          transform: translateY(-50%) rotate(0deg);
+        }
+        &::after {
+          left: 0;
+          top: 50%;
+          position: absolute;
+          height: 1rem;
+          background-size: 1rem;
+          transform: translateY(-50%) rotate(-90deg);
+          background-image: url(../images/dropdown-arrow.svg);
+          background-position: center;
+        }
+      }
+      .accordion-collapse {
+        font-size: 16px;
+        .accordion-body {
+          padding: 0 0 0 29px;
+          line-height: 20px;
+          color: #eeeeee;
+          letter-spacing: 0.2px;
+          a {
+            line-height: 20px;
+            color: #eeeeee;
+            letter-spacing: 0.2px;
+          }
+        }
+      }
+    }
+    .install-creativos {
+      background-image: url(../images/iso-creativos/install-creativos-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 305px 0 252px 0;
+      h2 {
+        letter-spacing: 10px;
+        font-size: 56px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-family: "roboto";
+        font-size: 20px;
+        margin-bottom: 20px;
+        span {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+  footer {
+    .footer-logo {
+      background-color: #0c0a1f;
+    }
+    .copyright {
+      font-family: "Livvic";
+      background-color: #0c0a1f;
+    }
+  }
+}
+/*==================================
+ISO CreativOS End
 =================================*/
