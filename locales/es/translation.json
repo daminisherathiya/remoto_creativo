@@ -1,0 +1,510 @@
+{
+  "trustpilotReviewsLink": "https://es.trustpilot.com/review/remotocreativo.com",
+  "header": {
+    "home": "Hogar",
+    "remoteFormatting": "Formateo remoto",
+    "optimizePc": "Optimizar PC",
+    "licensesAndSubscriptions": "Licencias y suscripciones",
+    "isoCreativOs": "ISO CreativOS"
+  },
+  "remoteFormatting": {
+    "title": "Formateo remoto"
+  },
+  "home": {
+    "banner": {
+      "heading": "Soporte Remoto Especializado",
+      "description": "Ofrecemos soporte remoto especializado para el sector audiovisual, venta de licencias originales, instalación de aplicaciones y formateo de equipos a distancia.",
+      "iNeedSupport": "Necesito Soporte",
+      "seeLicenses": "Ver Licencias",
+      "slider": {
+        "satisfiedCustomers": "Clientes Satisfechos",
+        "originalLicenses": "Licencias Originales",
+        "graphicResources": "Recursos Gráficos"
+      }
+    },
+    "whyChooseUs": {
+      "remoto": "REMOTO",
+      "creative": "CREATIVO",
+      "whyChooseUs": "¿Por qué elegirnos?",
+      "description": "Somos un equipo de jovenes expertos en software de Diseño Gráfico, Textil, 3D, Arquitectura, Edición de Video, Audio y estamos dispuestos a brindarte una atención rápida y personalizada para resolver cualquier problema.",
+      "experience": "Experiencia",
+      "experienceDesc": "Conocimientos avanzados en Windows y macOS para resolver cualquier problema",
+      "quickAssistance": "Asistencia rápida",
+      "quickAssistanceDesc": "Los equipos siempre fallan cuando menos te lo esperas, nosotros te ayudamos cuando lo necesites"
+    },
+    "services": {
+      "services": "SERVICIOS",
+      "description": "Obtén la ayuda que necesitas",
+      "card": {
+        "clickHere": "👉 HAZ CLIC AQUÍ",
+        "creativeIso": "ISO CreativOS",
+        "guaranteedSolution": "Solución Garantizada",
+        "removeViruses": "Eliminar Virus",
+        "forWindowsandMacOs": "Para Windows y macOS",
+        "remoteFormatting": "Formateo Remoto",
+        "dontWanttoFormat": "¿No quieres formatear?",
+        "pcOptimization": "Optimización PC",
+        "windowsandMacOS": "Windows y macOS",
+        "installProgram": "Instalar Programa",
+        "originalSubscriptions": "Suscripciones Originales",
+        "forDesigners": "Para Diseñadores"
+      }
+    },
+    "fastEasyRemote": {
+      "subHeading": "Desde la comodidad de tu casa u oficina",
+      "heading": "Rápido. Fácil. Remoto!",
+      "weHelpYou": "¿Te Ayudamos?"
+    },
+    "guaranteedOriginalLicenses": {
+      "subHeading": "PAGO SEGURO DESDE PAYPAL",
+      "heading": "Licencias Originales Garantizadas",
+      "card": {
+        "autodeskAllApps": "Autodesk All Apps",
+        "autodeskAllAppsDesc": "1 Año Suscripción Original",
+        "adobeCreativeCloudAllApps": "Adobe Creative Cloud All Apps",
+        "adobeCreativeCloudAllAppsFee": "Desde $29",
+        "adobeCreativeCloudAllAppsDesc": "Hasta $119 Suscripción Original",
+        "esetInternetSecurity": "ESET Internet Security",
+        "esetInternetSecurityDesc": "Serial Original 1 Año",
+        "esetSmartSecurity": "ESET Smart Security",
+        "esetSmartSecurityDesc": "Serial Original 1 Año",
+        "kasperskyTotalSecurity": "Kaspersky Total Security",
+        "kasperskyTotalSecurityDesc": "Serial Original 1 Año",
+        "malwarebytesPremium": "Malwarebytes Premium",
+        "malwarebytesPremiumDesc": "Serial Original 1 Año",
+        "malwarebytesPrivacyVpn": "Malwarebytes Privacy VPN",
+        "malwarebytesPrivacyVpnDesc": "Serial Original 1 Año",
+        "avastPremiumSecurity": "Avast Premium Security",
+        "avastPremiumSecurityDesc": "Serial Original 2 Años",
+        "avastSecureLineVpn10Devices": "Avast SecureLine VPN-10Devices",
+        "avastSecureLineVpn10DevicesDesc": "Serial Original 2 Años",
+        "avastAntiTrackPremium": "Avast AntiTrack Premium",
+        "avastAntiTrackPremiumDesc": "Serial Original 2 Años",
+        "internetDownloadManager": "Internet Download Manager",
+        "internetDownloadManagerDesc": "Serial Original Permanente",
+        "ccleanerPremium": "CCleaner Premium",
+        "ccleanerPremiumDesc": "Serial Original 2 Años",
+        "windows10Pro": "Windows 10 Pro",
+        "windows10ProDesc": "14$ RETAIL Original Permanente",
+        "windows11Pro": "Windows 11 Pro",
+        "windows11ProDesc": "14$ RETAIL Original Permanente",
+        "microsoftOffice2019": "Microsoft Office 2019",
+        "microsoftOffice2019Desc": "Serial RETAIL BIND Original Permanente",
+        "microsoftOffice2021": "Microsoft Office 2021",
+        "microsoftOffice2021Desc": "Serial RETAIL BIND Original Permanente"
+      }
+    },
+    "whatOurClientsSay": {
+      "whatOurClientsSay": "Lo que dicen Nuestros Clientes"
+    },
+    "frequentQuestions": {
+      "frequentQuestions": "Preguntas Frecuentes",
+      "subHeading": "¿Tienes otra duda? Contáctanos y te atenderemos lo antes posible.",
+      "faq": {
+        "que1": "La licencia de Adobe Creative es original?",
+        "ans1": "Si es original, se factura el año completo. Tienes acceso a todas las aplicaciones + 100GB Adobe Cloud durante 1 año y la renovación es opcional.",
+        "que2": "Cómo hacen el formateo remoto?",
+        "ans2": "Lo unico que debes hacer es darnos acceso a tu equipo ya sea por Team Viewer o Anydesk y nosotros nos encargamos del resto. Dejamos tu equipo como nuevo! respaldamos la información, hacemos una instalación limpia e instalamos aplicaciones, drivers y demás... todo esto sin que tengas que transladarte y lo mejor de todo es que solo tardamos entre 20min a 1h dependiendo la velocidad de tu equipo.",
+        "que3": "Dan alguna garantía?",
+        "ans3": "Todos nuestros productos cuentan con garantía.",
+        "que4": "Pueden ayudarme si soy de otro pais?",
+        "ans4": "Si, no importa donde te encuentres. La ventaja de ser un servicio remoto es que lo único que necesitas tener es conexión a internet. Hemos trabajado con personas de distintos paises como México, Colombia, España, Francia, Canadá y Estados Unidos. Lo único que cambia es el método de pago.",
+        "que5": "Pueden optimizar mi equipo para que sea más rápido?",
+        "ans5": "Claro que sí, configuramos todo para que tu equipo de el mayor rendimiento y ademas te asesoramos en caso de que quieras actualizar algún componente.",
+        "que6": "Es seguro formatear en remoto?",
+        "ans6": "SI, tenemos varias técnicas propias para realizar ese procedimiento dependiendo de las caracteristicas de tu equipo, es 100% garantizado.",
+        "que7": "El soporte se paga antes o después?",
+        "ans7": "Todo servicio o producto se debe pagar antes.",
+        "que8": "Se puede a cualquier hora?",
+        "ans8": "Trabajamos de Lunes a Viernes de 8:00AM a 6:00PM."
+      }
+    }
+  },
+  "licensesAndSubscriptions": {
+    "banner": {
+      "licensesandSubscriptions": "Licencias y Suscripciones",
+      "description": "Simple, compra tu licencia original en pocos pasos ;)",
+      "seeRecommendations": "Ver recomendaciones",
+      "doubtsContactUs": "¿Dudas? Contáctanos"
+    },
+    "originalSubscriptions": {
+      "originalSubscriptions": "Suscripciones Originales",
+      "originalSubscriptionsProduct": {
+        "adobeCcAllApps": {
+          "heading": "Adobe CC All Apps ( Original )",
+          "amount": "Desde $99,99",
+          "description": "Suscripcion de todas las aplicaciones Adobe Creative Cloud. Accede desde cualquier dispositivo Windows, macOS, Android, iOS, iPad.",
+          "items": {
+            "item1": "Suscripción 1 Año (+100GB Adobe Cloud)"
+          }
+        },
+        "autodeskAllApps": {
+          "heading": "Autodesk All Apps ( Original )",
+          "amount": "Desde $15.99",
+          "description": "Acceso a cuenta original con todas las aplicaciones, compatible con cualquier dispositivo, reciba actualizaciones e imprima sin marcas de agua.",
+          "items": {
+            "item1": "Suscripción 1 Año - Todas las Applicaciones",
+            "item2": "Suscripción 1 Año - Solo AutoCAD",
+            "item3": "Suscripción 1 Año - Solo Revit",
+            "item4": "Suscripción 1 Año - Solo Civil 3D",
+            "item5": "Suscripción 1 Año - Solo 3DsMAX",
+            "item6": "Suscripción 1 Año - Solo MAYA",
+            "item7": "Suscripción 1 Año - Solo Inventor"
+          }
+        },
+        "envatoElements": {
+          "heading": "Envato Elements",
+          "amount": "Desde $9.99",
+          "description": "Acceso ilimitado a una biblioteca de plantillas, gráficos, música y otros recursos para diseñadores, editores de video y desarrolladores web.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "canvaPro": {
+          "heading": "Canva Pro",
+          "amount": "Desde $2.99",
+          "description": "Herramienta en línea de diseño gráfico con plantillas y recursos exclusivos para crear gráficos y diseños profesionales.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "freepik": {
+          "heading": "Freepik",
+          "amount": "Desde $9.99",
+          "description": "Accede a la biblioteca más amplia de imágenes vectoriales, fotos, gráficos y recursos premium de alta calidad.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "flaticon": {
+          "heading": "Flaticon",
+          "amount": "Desde $9.99",
+          "description": "Descarga más de un millón de iconos y stickers en cualquier formato y para cualquier proyecto.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "artgrid": {
+          "heading": "Artgrid",
+          "amount": "Desde $9.99",
+          "description": "Plataforma en línea para Filmmakers, descargas ilimitadas de videos de calidad cinematografica y en una resolución de hasta 8K.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "artlist": {
+          "heading": "Artlist",
+          "amount": "Desde $9.99",
+          "description": "Amplia biblioteca de música de stock para uso en producciones audiovisuales y contenidos en línea.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "motionArray": {
+          "heading": "Motion Array",
+          "amount": "Desde $9.99",
+          "description": "Descargas ilimitadas en la plataforma todo en uno para cineastas profesionales.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "storyblocks": {
+          "heading": "Storyblocks",
+          "amount": "Desde $9.99",
+          "description": "Suscripción ilimitada a una biblioteca de imágenes, vectores, fotos, vídeos y música de stock para uso en proyectos de diseño y multimedia.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "platzi": {
+          "heading": "Platzi",
+          "amount": "Desde $9.99",
+          "description": "Potencia tus habilidades con la plataforma de educacion profesional mas grande de america latina sobre programación, diseño, marketing y más...",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "crehana": {
+          "heading": "Crehana",
+          "amount": "Desde $7.99",
+          "description": "Aprovecha todos los cursos online sobre diseño grafico, desarrollo web, fotografia y otras habilidades creativas.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "creativeFactory": {
+          "heading": "Creative Fabrica",
+          "amount": "Desde $6.99",
+          "description": "Amplia selección de fuentes, gráficos vectoriales, patrones de diseño y recursos para diseñadores gráficos y artesanos.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "mega": {
+          "heading": "MEGA",
+          "amount": "Desde $2.99",
+          "description": "Descarga sin limites de espera enlaces y carpetas de Mega.nz, quita todos los limites.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "scribd": {
+          "heading": "Scribd",
+          "amount": "Desde $6.99",
+          "description": "Suscripción ilimitada a una amplia biblioteca de libros electrónicos, audiolibros, revistas y otros contenidos de lectura.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        },
+        "grammarly": {
+          "heading": "Grammarly",
+          "amount": "Desde $6.99",
+          "description": "Herramienta en línea que ayuda a mejorar la gramática y la claridad en el escrito.",
+          "items": {
+            "item1": "30 dias",
+            "item2": "90 dias",
+            "item3": "180 dias",
+            "item4": "365 dias"
+          }
+        }
+      },
+      "originalSerials": "Seriales Originales",
+      "originalSerialsProduct": {
+        "windows1011": {
+          "heading": "Windows 10 / 11",
+          "amount": "Desde $6.99",
+          "description": "Activa tu Windows con Licencia Original Permanente. Serial Global Activación en linea.",
+          "items": {
+            "item1": "Windows 10 Pro OEM - 1PC",
+            "item2": "Windows 10 Pro RETAIL - 1PC",
+            "item3": "Windows 11 Pro OEM - 1PC",
+            "item4": "Windows 11 Pro RETAIL - 1PC"
+          }
+        },
+        "officeProPlus20192021": {
+          "heading": "Office Pro plus 2019 / 2021",
+          "amount": "Desde $14.99",
+          "description": "Activa tu Office con Licencia Original Permanente. Serial Global versión Windows y macOS.",
+          "items": {
+            "item1": "Office 2019 Pro Plus OEM - 1PC",
+            "item2": "Office 2019 Pro Plus RETAIL BIND - 1PC",
+            "item3": "Office 2019 Pro Plus RETAIL BIND - 1 macOS",
+            "item4": "Office 2021 Pro Plus OEM - 1PC",
+            "item5": "Office 2021 Pro Plus RETAIL BIND - 1PC",
+            "item6": "Office 2021 Pro Plus RETAIL BIND - 1 macOS"
+          }
+        },
+        "esetAntivirus": {
+          "heading": "Antivirus ESET",
+          "amount": "Desde $11.99",
+          "description": "Protección completa contra todo tipo de amenazas. Serial Global válido solo para Windows.",
+          "items": {
+            "item1": "ESET Internet Security 1Año 1PC",
+            "item2": "ESET Smart Security 1Año 1PC"
+          }
+        },
+        "kasperskyAntivirus": {
+          "heading": "Antivirus Kaspersky",
+          "amount": "Desde $14.99",
+          "description": "Protección completa contra todo tipo de amenazas. Serial Global válido para Windows y macOS.",
+          "items": {
+            "item1": "Kaspersky Total Security 1Año 1PC"
+          }
+        },
+        "malwarebytesAntivirus": {
+          "heading": "Antivirus Malwarebytes",
+          "amount": "Desde $14.99",
+          "description": "Protección completa contra todo tipo de amenazas. Serial Global válido solo para Windows.",
+          "items": {
+            "item1": "Malwarebytes Premium 1Año 1PC"
+          }
+        },
+        "avastPremiumSecurity": {
+          "heading": "Avast Premium Security",
+          "amount": "Desde $7.99",
+          "description": "Protección contra todo tipo de amenazas. Serial Global válido solo para Windows.",
+          "items": {
+            "item1": "Avast Premium Security 2Años 1PC"
+          }
+        },
+        "malwarebytesVpn": {
+          "heading": "VPN Malwarebytes",
+          "amount": "Desde $9.99",
+          "description": "Protege su privacidad en línea. Serial Global válido solo para Windows.",
+          "items": {
+            "item1": "Malwarebytes Privacy VPN 1Año 1PC"
+          }
+        },
+        "avastVpn": {
+          "heading": "VPN Avast",
+          "amount": "Desde $9.99",
+          "description": "Protege su privacidad en línea. Serial Global válido solo para Windows.",
+          "items": {
+            "item1": "Avast Secureline VPN 2Años 10PC",
+            "item2": "Avast Antitrack Premium 2Años 1PC"
+          }
+        },
+        "internetDownloadManager": {
+          "heading": "Internet Download Manager",
+          "amount": "Desde $18.99",
+          "description": "Mejor gestor de descargas hasta 5 veces más rápido. Serial Global válido solo para Windows.",
+          "items": {
+            "item1": "Internet Download Manager 1Año 1PC"
+          }
+        },
+        "ccleanerProfessional": {
+          "heading": "CCleaner Profesional",
+          "amount": "Desde $11.99",
+          "description": "Limpia y optimiza el sistema. Serial Global válido solo para Windows.",
+          "items": {
+            "item1": "CCleaner Profesional 2Años 1PC"
+          }
+        }
+      }
+    }
+  },
+  "optiPc": {
+    "howCanWeHelpYou": "¿Como podemos ayudarte?",
+    "getHelpNow": "Consigue ayuda ahora",
+    "seeReviews": "Ver reseñas",
+    "itSupport": "El mejor soporte informático remoto",
+    "itSupportDesc": "Reparamos y optimizamos tu PC sin formatear",
+    "feature1": "Solución de problemas",
+    "feature2": "Reparación o instalación de programas Windows/mac",
+    "feature3": "Eliminación de virus",
+    "feature4": "Limpieza general del sistema.",
+    "feature5": "Optimización de la velocidad del sistema",
+    "feature6": "Instalación antivirus incluida",
+    "feature7": "Instalación y actualización de controladores.",
+    "feature8": "Diagnóstico y solución de problemas",
+    "feature9": "Eliminación de software innecesario (debloating)",
+    "feature10": "Configuración del registro",
+    "feature11": "Deshabilite completamente la telemetría de Windows",
+    "feature12": "Ajustes para mejorar el rendimiento general de los juegos de PC",
+    "feature13": "Optimización de servicios para juegos",
+    "feature14": "Optimización de la configuración de la tarjeta gráfica NVIDIA o AMD",
+    "feature15": "Optimizaciones para reducir el retraso de entrada",
+    "feature16": "Optimizaciones para estabilizar FPS",
+    "feature17": "Optimizaciones para mejorar la respuesta del mouse (según el hardware) y más....",
+    "option1": "Opción 1",
+    "option1Desc": "Soporte remoto básico",
+    "option2": "Opción 2",
+    "option2Desc": "Optimización avanzada de PC",
+    "option3": "Opción 3",
+    "option3DescS": "Optimización de streaming",
+    "option3DescE": "y jugadores de PC",
+    "getStarted": "Empezar",
+    "chatAndFixPc": "¡Chateemos y arreglemos tu PC hoy!",
+    "chatAndFixPcDesc": "Soporte remoto experto para sus necesidades informáticas. Comuníquese con cualquier pregunta.",
+    "letsChatNow": "charlemos ahora"
+  },
+  "remotFormat": {
+    "remotFormat": "Formateo remoto",
+    "remotFormatDescS": "Servicio personalizado desde cualquier lugar. En minutos, un profesional formateará remotamente su computadora, dejándola",
+    "remotFormatDescE": "perfectamente ajustado a tus preferencias y necesidades.",
+    "customizeBtn": "Personaliza el tuyo",
+    "howItWorks": "Cómo funciona",
+    "step1": "Paso 1",
+    "step1Heading": "Personalizarlo",
+    "step1Desc": "Calcula el precio. Su computadora estará configurada tal como usted desea",
+    "step2": "Paso 2",
+    "step2Heading": "Descargar Visor de Equipo",
+    "step2DescS": "bastante fácil",
+    "step2DescE": "eso es todo lo que tienes que hacer",
+    "step3": "Paso 3",
+    "step3Heading": "Formateamos tu PC de forma remota",
+    "step3Desc": "Un profesional de TI remoto se encargará de todo el proceso, solo espere unos minutos.",
+    "customizeHeading": "Personaliza tu formateo remoto",
+    "remoFormatInc": {
+      "remoFormatInc": "El formateo remoto incluye :",
+      "incl1": "Incluye instalación de antivirus",
+      "incl2": "Incluye editor y lector de PDF",
+      "incl3": "Incluye Microsoft Office",
+      "incl4": "Incluye todos los controladores necesarios.",
+      "incl5": "Instalación de complementos y códecs",
+      "incl6": "Instalación del navegador",
+      "incl7": "Copia de seguridad antes de formatear",
+      "incl8": "Instalar impresora o escáner",
+      "incl9": "Configurar carpeta de red o impresora",
+      "incl10": "Personalizar particiones de disco",
+      "incl11": "Optimización del sistema para Windows"
+    },
+    "installAddlPrograms": "Instalar programas adicionales:",
+    "programs": {
+      "prog1": "Adobe Photoshop",
+      "prog2": "Adobe Illustrator",
+      "prog3": "Adobe Lightroom",
+      "prog4": "Adobe Premiere Pro",
+      "prog5": "Adobe After Effects",
+      "prog6": "Cinema 4D",
+      "prog7": "Davinci Resolve",
+      "prog8": "Final Cut Pro",
+      "prog9": "Filmora",
+      "prog10": "Corel Draw",
+      "prog11": "Cinema 4D",
+      "prog12": "AutoCAD",
+      "prog13": "Revit",
+      "prog14": "Lumion",
+      "prog15": "ArchiCAD",
+      "prog16": "Optitex",
+      "prog17": "Wilcom",
+      "prog18": "Wasatch",
+      "prog19": "FlexiSign",
+      "prog20": "Audaces"
+    },
+    "summary": {
+      "summary": "Resumen",
+      "summaryDesc": "¡Selecciona todo lo que necesitas!",
+      "description": "Descripción",
+      "remoteFormattingWindows": "Formateo remoto de Windows",
+      "remoteFormattingMacOS": "Formateo remoto de MacOs",
+      "price": "Precio",
+      "total": "Total",
+      "letsStartNow": "Comencemos ahora"
+    }
+  },
+  "footer": {
+    "copyrightStart": "Derechos de autor",
+    "copyrightEnd": "Creativo remoto. Las marcas comerciales y los nombres comerciales mencionados en este documento son propiedad de sus respectivos dueños.",
+    "termsAndConditions": "Términos y condiciones"
+  }
+}

@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("../fonts/flaticon.ttf?c6b2e6c0490ba6fa3e8c3f279dad745b") format("truetype"),
+url("../fonts/flaticon.woff?c6b2e6c0490ba6fa3e8c3f279dad745b") format("woff"),
+url("../fonts/flaticon.woff2?c6b2e6c0490ba6fa3e8c3f279dad745b") format("woff2"),
+url("../fonts/flaticon.eot?c6b2e6c0490ba6fa3e8c3f279dad745b#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?c6b2e6c0490ba6fa3e8c3f279dad745b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "update": "\f101",
+    "computer": "\f102",
+    "hard-drive": "\f103",
+    "automobile-with-wrench": "\f104",
+    "computer-1": "\f105",
+    "protection": "\f106",
+    "help": "\f107",
+    "gems": "\f108",
+);
+
+.flaticon-update:before {
+    content: map-get($flaticon-map, "update");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-hard-drive:before {
+    content: map-get($flaticon-map, "hard-drive");
+}
+.flaticon-automobile-with-wrench:before {
+    content: map-get($flaticon-map, "automobile-with-wrench");
+}
+.flaticon-computer-1:before {
+    content: map-get($flaticon-map, "computer-1");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon-map, "protection");
+}
+.flaticon-help:before {
+    content: map-get($flaticon-map, "help");
+}
+.flaticon-gems:before {
+    content: map-get($flaticon-map, "gems");
+}
