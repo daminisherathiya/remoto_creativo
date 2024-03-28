@@ -6,6 +6,39 @@
     padding-top: 12.75rem;
     padding-bottom: 12.75rem;
   }
+  .dark-theme .iso-creativos .choose-your-os h3 {
+    letter-spacing: 0.2142857143rem;
+    font-size: 4.857143rem;
+    line-height: 5.142857rem;
+    margin-bottom: 2rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .progamer p,
+.dark-theme .iso-creativos .choose-your-os .workstation p {
+    font-size: 1.3714285714rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .progamer h6,
+.dark-theme .iso-creativos .choose-your-os .workstation h6 {
+    font-size: 2.3571428571rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .cross-box div.title {
+    padding: 0.6142857143rem;
+    font-size: 2.3571428571rem;
+    letter-spacing: -0.01rem;
+  }
+  .dark-theme .iso-creativos .how-get-creativ-os {
+    padding: 7.5rem 0 11rem 0;
+  }
+  .dark-theme .iso-creativos .choose-your-os .hashtag h5 {
+    font-size: 2rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .hashtag {
+    padding: 3.714286rem 0 6rem 0;
+  }
+  .dark-theme .iso-creativos .how-to-install .purple-box {
+    font-size: 2.4rem;
+    width: 25rem;
+    padding: 0.2142857143rem 1.3857142857rem;
+  }
 }
 @media only screen and (max-width: 991px) {
   .licenses-and-subscriptions .main-heading {
@@ -83,6 +116,53 @@
   }
   footer .footer-logo img {
     width: 12.0375rem;
+  }
+  .dark-theme .iso-creativos .banner .creativos {
+    padding: 9.8rem 0 2.3rem 0;
+  }
+  .dark-theme .iso-creativos .how-get-creativ-os .step .number {
+    height: 3.857143rem;
+    min-width: 3rem;
+  }
+  .dark-theme .iso-creativos .how-get-creativ-os .step h6 {
+    font-size: 1.42rem;
+  }
+  .dark-theme .iso-creativos .how-get-creativ-os .step p {
+    font-size: 1.15rem;
+  }
+  .dark-theme .iso-creativos .how-get-creativ-os h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .dark-theme .iso-creativos .how-get-creativ-os h2 span {
+    font-size: 3.5rem;
+  }
+  .dark-theme .iso-creativos .how-get-creativ-os {
+    padding: 6.5rem 0 6rem 0;
+  }
+  .dark-theme .iso-creativos .how-to-install .nav.nav-pills button {
+    margin: 0 1rem;
+  }
+  .dark-theme .iso-creativos .how-to-install .step-btn img {
+    width: auto;
+    height: auto;
+  }
+  .dark-theme .iso-creativos .how-to-install h5 {
+    margin: 6rem 0 0.4285714286rem 0;
+  }
+  .dark-theme .iso-creativos .how-to-install .purple-box {
+    font-size: 2.2rem;
+    width: 23rem;
+  }
+  .dark-theme .iso-creativos .how-to-install .purple-box span {
+    font-size: 2.8rem;
+  }
+  .dark-theme .iso-creativos .how-to-install h5 {
+    margin: 5rem 0 0.4285714286rem 0;
+    font-size: 2rem;
+  }
+  .dark-theme .iso-creativos .how-to-install p {
+    line-height: 1.5142857143rem;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -892,6 +972,82 @@
   footer .footer-logo img {
     width: 10.9375rem;
   }
+  .dark-theme .iso-creativos .banner-video .workstation-video {
+    width: 60.8vw;
+    height: 26.5vw;
+    top: 4.3vw;
+  }
+  .dark-theme .iso-creativos .banner .creativos .creativos-text img {
+    width: 28.285714rem;
+  }
+  .dark-theme .iso-creativos .banner .creativos p.gaming-and-streming {
+    font-size: 1.4571428571rem;
+    letter-spacing: 0.4714285714rem;
+  }
+  .dark-theme .iso-creativos .banner .creativos p.optimization {
+    font-size: 1.0857142857rem;
+  }
+  .dark-theme .iso-creativos .cut-border-btn span {
+    font-size: 1.3rem;
+  }
+  .dark-theme .iso-creativos .banner .creativos {
+    padding: 9.8rem 0 0 0;
+  }
+  .dark-theme .iso-creativos .creative-os-vs-stock-windows .features img {
+    height: 2.9rem;
+    margin-right: 1rem;
+  }
+  .dark-theme .iso-creativos .creative-os-vs-stock-windows .features > div {
+    padding: 0 1.3rem;
+  }
+  .dark-theme .iso-creativos .creative-os-vs-stock-windows .features p {
+    font-size: 1rem;
+    line-height: 1.3742857143rem;
+  }
+  .dark-theme .iso-creativos .banner-video {
+    padding-bottom: 1.5rem;
+  }
+  .dark-theme .iso-creativos .creative-os-vs-stock-windows .features {
+    margin-bottom: 5rem;
+  }
+  .dark-theme .iso-creativos .banner {
+    padding: 7.143rem 0;
+  }
+  .dark-theme .iso-creativos .banner .blury-effect:last-child {
+    height: 0;
+  }
+  .dark-theme .iso-creativos .choose-your-os h3 {
+    font-size: 4.5rem;
+    line-height: 4.142857rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .progamer p,
+.dark-theme .iso-creativos .choose-your-os .workstation p {
+    font-size: 1.3rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .progamer h6,
+.dark-theme .iso-creativos .choose-your-os .workstation h6 {
+    font-size: 2.1rem;
+  }
+  .dark-theme .iso-creativos .how-to-install .nav.nav-pills button {
+    margin: 0 0.5rem;
+  }
+  .dark-theme .iso-creativos .how-to-install .purple-box {
+    font-size: 2rem;
+    width: 21rem;
+  }
+  .dark-theme .iso-creativos .how-to-install .purple-box span {
+    font-size: 2.4rem;
+  }
+  .dark-theme .iso-creativos .how-to-install h5 {
+    margin: 4rem 0 0.4285714286rem 0;
+    font-size: 1.8rem;
+  }
+  .dark-theme .iso-creativos .how-to-install .visible-step img {
+    height: 18.5rem;
+  }
+  .dark-theme .iso-creativos .how-to-install {
+    padding: 2.714286rem 0;
+  }
 }
 @media only screen and (max-width: 575px) {
   .banner-item-content {
@@ -978,6 +1134,48 @@
   footer .footer-logo img {
     width: 9.6875rem;
   }
+  .dark-theme .mobile-nav .mobile-select-menu.select-menu .select-btn {
+    width: auto;
+  }
+  .dark-theme .iso-creativos .creative-os-vs-stock-windows .features .border-start,
+.dark-theme .iso-creativos .creative-os-vs-stock-windows .features .border-end {
+    border: none !important;
+  }
+  .dark-theme .iso-creativos .blury-effect {
+    height: 3.5rem;
+  }
+  .dark-theme .iso-creativos .banner {
+    padding: 7.143rem 0 4.143rem 0;
+  }
+  .dark-theme .iso-creativos .choose-your-os h3 {
+    font-size: 4rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .cross-box div.title {
+    font-size: 1.8rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .progamer p,
+.dark-theme .iso-creativos .choose-your-os .workstation p {
+    font-size: 1.2rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .progamer h6,
+.dark-theme .iso-creativos .choose-your-os .workstation h6 {
+    font-size: 2rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .hashtag p {
+    font-size: 1.1rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .hashtag h5 {
+    font-size: 1.5rem;
+  }
+  .dark-theme .iso-creativos .choose-your-os .hashtag {
+    padding: 3rem 0 2rem 0;
+  }
+  .dark-theme .iso-creativos .how-to-install .visible-step img {
+    height: auto;
+  }
+  .dark-theme .iso-creativos .how-to-install {
+    padding: 4.714286rem 0;
+  }
 }
 @media only screen and (max-width: 480px) {
   .licenses-and-subscriptions .containerv iframe {
@@ -995,6 +1193,16 @@
   .select-menu {
     min-width: 4.26875rem;
   }
+  .dark-theme .iso-creativos .banner .creativos .creativos-text img {
+    width: 28.285714rem;
+    padding: 0 2.1428571429rem;
+  }
+  .dark-theme .iso-creativos .banner .creativos {
+    padding: 7.8rem 0 0 0;
+  }
+  .dark-theme .iso-creativos .choose-your-os .cross-box div.title {
+    font-size: 1.4rem;
+  }
 }
 @media only screen and (max-width: 376px) {
   .default-btn {
@@ -1002,6 +1210,13 @@
   }
   .small-default-btn {
     padding: 0.5rem 0.99rem;
+  }
+  .dark-theme .iso-creativos .banner .creativos {
+    padding: 5.8rem 0 0 0;
+  }
+  .dark-theme .iso-creativos .banner .creativos p.gaming-and-streming {
+    font-size: 1.4571428571rem;
+    letter-spacing: 0.3714285714rem;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {

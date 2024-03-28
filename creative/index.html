@@ -64,14 +64,14 @@
       <!-- Menu For Mobile Device -->
       <div class="mobile-nav">
         <a href="../" class="logo">
-          <img src="../assets/images/logos/logo-2.svg" alt="Logo" />
+          <img src="../assets/images/logos/dark-theme-logo.svg" alt="Logo" />
         </a>
         <div class="language-switcher select-menu mobile-select-menu d-lg-none">
-          <div class="select-btn px-3 default-btn">
-            <span class="sBtn-text d-flex align-items-center me-2 me-sm-3"><img class="img-lg me-sm-2" src="../assets/images/usa-flag.svg" alt="USA flag" /><span>English</span></span>
-            <img class="lang-arrow" src="../assets/images/dropdown-arrow.svg" alt="arrow" />
+          <div class="select-btn px-3 bg-white rounded-0">
+            <span class="sBtn-text d-flex align-items-center me-2 me-sm-3 text-dark"><img class="img-lg me-sm-2" src="../assets/images/usa-flag.svg" alt="USA flag" /><span>English</span></span>
+            <img class="lang-arrow" src="../assets/images/dark-theme-dropdown-arrow.svg" alt="arrow" />
           </div>
-          <ul class="options">
+          <ul class="options rounded-0">
             <li class="option selected" data-language="en">
               <span class="d-flex justify-content-between align-items-center w-100 option-text"
                 ><span class="d-flex align-items-center"><img class="img-lg me-2" src="../assets/images/usa-flag.svg" alt="USA flag" /><span>English</span></span
@@ -115,7 +115,7 @@
                   </li>
                 </ul>
                 <div class="language-switcher select-menu d-none d-lg-block">
-                  <div class="select-btn bg-light rounded-0">
+                  <div class="select-btn bg-white rounded-0">
                     <span class="sBtn-text d-flex align-items-center me-3 text-dark"><img class="img-lg me-2" src="../assets/images/usa-flag.svg" alt="USA flag" />English</span>
                     <img class="lang-arrow" src="../assets/images/dark-theme-dropdown-arrow.svg" alt="arrow" />
                   </div>
@@ -173,12 +173,12 @@
                 <div class="creativos-text with-border"><img src="../assets/images/iso-creativos/creativos-with-border.svg" alt="creativos" /></div>
                 <p class="optimization text-white position-relative mt-3 fst-italic">MORE THAN JUST OPTIMIZATION</p>
                 <div class="row justify-content-center">
-                  <div class="col-6">
+                  <div class="col-md-6">
                     <div class="row">
-                      <div class="col-6 text-end">
+                      <div class="col-sm-6 text-sm-end mb-sm-0 mb-4">
                         <button class="cut-border-btn b-purple"><span>BUY NOW</span></button>
                       </div>
-                      <div class="col-6 text-start">
+                      <div class="col-sm-6 text-sm-start">
                         <button class="cut-border-btn b-white"><span>See Prices</span></button>
                       </div>
                     </div>
@@ -192,10 +192,13 @@
       </section>
 
       <div class="banner-video position-relative">
-        <div><img class="w-100" src="../assets/images/iso-creativos/monitor-1.png" alt="" /></div>
-        <!-- <iframe class="position-absolute" width="573" height="246" src="https://www.youtube.com/embed/smp-om-pWBg?autoplay=1&mute=1&controls=0&showinfo=0" title="CreativOS Workstation [V2 - 2023] - Windows Optimizado para Equipos Gama Alta / Media" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+        <picture>
+          <source media="(min-width:767px)" srcset="../assets/images/iso-creativos/monitor-1.png">
+          <img class="w-100" src="../assets/images/iso-creativos/mobile-monitor-1.png" alt="" />
+        </picture>
+        <!-- <div><img class="w-100" src="../assets/images/iso-creativos/monitor-1.png" alt="" /></div> -->
         <div class="position-absolute workstation-video">
-          <video autoplay muted loop>
+          <video muted loop>
             <source src="../assets/images/iso-creativos/workstation-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -206,14 +209,14 @@
       <section class="creative-os-vs-stock-windows">
         <div class="container">
           <div class="row">
-            <div class="col-12">
-              <div class="d-flex justify-content-center features">
+            <div class="col-12 text-center">
+              <div class="d-sm-flex d-inline-block justify-content-center features">
                 <div class="d-flex align-items-center">
                   <div>
                     <img class="scale-1" src="../assets/images/iso-creativos/automatic-optimization.svg" alt="AUTOMATIC OPTIMIZATION" />
                   </div>
                   <p class="text-white mb-0">
-                    AUTOMATIC<br />
+                    AUTOMATIC<br class="d-none d-sm-block" />
                     OPTIMIZATION
                   </p>
                 </div>
@@ -222,7 +225,7 @@
                     <img src="../assets/images/iso-creativos/maximize-fps.svg" alt="MAXIMIZE FPS" />
                   </div>
                   <p class="text-white mb-0">
-                    MAXIMIZE<br />
+                    MAXIMIZE<br class="d-none d-sm-block" />
                     FPS
                   </p>
                 </div>
@@ -235,7 +238,7 @@
                     />
                   </div>
                   <p class="text-white mb-0">
-                    LOWER<br />
+                    LOWER<br class="d-none d-sm-block" />
                     USAGE
                   </p>
                 </div>
@@ -252,30 +255,30 @@
             <div class="col-12">
               <h2 class="fst-italic text-white">HOW TO GET Creativ<span>OS</span>?</h2>
               <div class="row">
-                <div class="col-4">
-                  <div class="d-flex step">
+                <div class="col-md-4">
+                  <div class="d-flex step mb-md-0 mb-2">
                     <div><img class="number" src="../assets/images/iso-creativos/number-1.svg" alt="Step 1" /></div>
-                    <div class="ps-4 ms-1">
+                    <div class="ps-3 ps-lg-4 ms-xl-1">
                       <h6 class="text-white fw-bold">Make the payment</h6>
-                      <p class="text-white pe-lg-3">Make the payment through PayPal or contact us</p>
+                      <p class="text-white pe-xl-3">Make the payment through PayPal or contact us</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-4">
-                  <div class="d-flex step">
+                <div class="col-md-4">
+                  <div class="d-flex step mb-md-0 mb-2">
                     <div><img class="number" src="../assets/images/iso-creativos/number-2.svg" alt="Step 2" /></div>
-                    <div class="ps-4 ms-1">
+                    <div class="ps-3 ps-lg-4 ms-xl-1">
                       <h6 class="text-white fw-bold">You receive the ISO</h6>
-                      <p class="text-white pe-lg-3">Contact us to receive the download link by email</p>
+                      <p class="text-white pe-xl-3">Contact us to receive the download link by email</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-4">
-                  <div class="d-flex step">
+                <div class="col-md-4">
+                  <div class="d-flex step mb-md-0 mb-2">
                     <div><img class="number" src="../assets/images/iso-creativos/number-3.svg" alt="Step 3" /></div>
-                    <div class="ps-4 ms-1">
+                    <div class="ps-3 ps-lg-4 ms-xl-1">
                       <h6 class="text-white fw-bold">Have the license</h6>
-                      <p class="text-white pe-lg-3">We send you a serial to reinstall as many times as you like!</p>
+                      <p class="text-white pe-xl-3">We send you a serial to reinstall as many times as you like!</p>
                     </div>
                   </div>
                 </div>
@@ -289,23 +292,43 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <div class="row">
-                <div class="col-3 mx-auto">
+              <div class="row justify-content-center justify-content-lg-start">
+                <div class="col-lg-3 mx-auto">
                   <h3 class="text-white">Choose <span>your OS</span></h3>
                   <div class="progamer">
                     <h6 class="text-white fw-normal pb-2 mb-2">Progamer</h6>
-                    <p class="text-white text-break pt-1 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="text-white text-break pt-1 mb-5 mb-lg-0">Progamer Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div class="workstation d-none">
+                    <h6 class="text-white fw-normal pb-2 mb-2">Workstation</h6>
+                    <p class="text-white text-break pt-1 mb-5 mb-lg-0">
+                      Workstation Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
                   </div>
                 </div>
-                <div class="col-7">
-                  <div class="d-flex">
-                    <div class="position-relative cross-box">
-                      <div class="text-uppercase text-white text-center fst-italic ms-5">progamer</div>
-                      <img class="position-relative" src="../assets/images/iso-creativos/progamer.jpg" alt="progamer" />
+                <div class="col-9 col-sm-10 col-md-9 col-lg-7">
+                  <div class="row gx-lg-0">
+                    <div class="col-6">
+                      <div class="position-relative cross-box">
+                        <div class="text-uppercase text-white text-center fst-italic ms-4 ms-lg-5 title">progamer</div>
+                        <div class="position-relative">
+                          <img class="progamer-cover-img" src="../assets/images/iso-creativos/progamer.jpg" alt="progamer" />
+                          <video class="position-absolute" preload="none" muted loop playsinline>
+                            <source src="https://gaming-cdn.com/videos/products/10138/800x450/nightingale-pc-game-steam-preview.webm?v=1692778021" type="video/mp4" />
+                          </video>
+                        </div>
+                      </div>
                     </div>
-                    <div class="position-relative cross-box">
-                      <div class="text-uppercase text-white text-center fst-italic ms-5">workstation</div>
-                      <img class="position-relative" src="../assets/images/iso-creativos/workstation.jpg" alt="workstation" />
+                    <div class="col-6">
+                      <div class="position-relative cross-box">
+                        <div class="text-uppercase text-white text-center fst-italic ms-4 ms-lg-5 title">workstation</div>
+                        <div class="position-relative">
+                          <img class="progamer-cover-img" src="../assets/images/iso-creativos/workstation.jpg" alt="workstation" />
+                          <video class="position-absolute" preload="none" muted loop playsinline>
+                            <source src="https://gaming-cdn.com/videos/products/10138/800x450/nightingale-pc-game-steam-preview.webm?v=1692778021" type="video/mp4" />
+                          </video>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -322,12 +345,12 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <div class="d-flex align-items-start h-100 position-relative">
+              <div class="d-lg-flex align-items-start h-100 position-relative">
                 <div class="purple-box text-white position-absolute">HOW TO INSTALL CREATIV<span>OS</span></div>
                 <div class="tab-content" id="v-pills-tabContent">
                   <div class="tab-pane fade show active" id="step-1" role="tabpanel" aria-labelledby="step-1-tab" tabindex="0">
                     <div class="row">
-                      <div class="col-5">
+                      <div class="col-md-5">
                         <div class="ps-4">
                           <h5 class="text-white">Lorem ipsum 1</h5>
                           <p class="mb-0">
@@ -336,14 +359,14 @@
                           </p>
                         </div>
                       </div>
-                      <div class="col-7 ps-0">
-                        <div class="pe-4 visible-step"><img class="w-100" src="../assets/images/iso-creativos/how-to-install-step.png" alt="step" /></div>
+                      <div class="col-md-7 ps-lg-0">
+                        <div class="pe-lg-4 visible-step my-md-0 my-4"><img class="w-100" src="../assets/images/iso-creativos/how-to-install-step.png" alt="step" /></div>
                       </div>
                     </div>
                   </div>
                   <div class="tab-pane fade" id="step-2" role="tabpanel" aria-labelledby="step-2-tab" tabindex="0">
                     <div class="row">
-                      <div class="col-5">
+                      <div class="col-md-5">
                         <div class="ps-4">
                           <h5 class="text-white">Lorem ipsum 2</h5>
                           <p class="mb-0">
@@ -352,14 +375,14 @@
                           </p>
                         </div>
                       </div>
-                      <div class="col-7 ps-0">
-                        <div class="pe-4 visible-step"><img class="w-100" src="../assets/images/iso-creativos/how-to-install-step.png" alt="step" /></div>
+                      <div class="col-md-7 ps-lg-0">
+                        <div class="pe-lg-4 visible-step my-md-0 my-4"><img class="w-100" src="../assets/images/iso-creativos/how-to-install-step.png" alt="step" /></div>
                       </div>
                     </div>
                   </div>
                   <div class="tab-pane fade" id="step-3" role="tabpanel" aria-labelledby="step-3-tab" tabindex="0">
                     <div class="row">
-                      <div class="col-5">
+                      <div class="col-md-5">
                         <div class="ps-4">
                           <h5 class="text-white">Lorem ipsum 3</h5>
                           <p class="mb-0">
@@ -368,13 +391,13 @@
                           </p>
                         </div>
                       </div>
-                      <div class="col-7 ps-0">
-                        <div class="pe-4 visible-step"><img class="w-100" src="../assets/images/iso-creativos/how-to-install-step.png" alt="step" /></div>
+                      <div class="col-md-7 ps-lg-0">
+                        <div class="pe-lg-4 visible-step my-md-0 my-4"><img class="w-100" src="../assets/images/iso-creativos/how-to-install-step.png" alt="step" /></div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="nav flex-column nav-pills flex-shrink-0 justify-content-between h-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <div class="nav flex-lg-column nav-pills flex-shrink-0 justify-content-between flex-nowrap" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                   <button
                     class="nav-link step-btn p-0 border-0 rounded-0 mb-2 active"
                     id="step-1-tab"
@@ -426,7 +449,7 @@
           </div>
         </div>
         <div class="owl-carousel owl-carouseltemp owl-theme">
-          <div class="item" style="width: 729px">
+          <div class="item" style="width: 52.07142857143rem">
             <a class="d-block" href="">
               <div><img src="../assets/images/iso-creativos/app1.png" alt="" /></div>
               <div class="d-flex align-items-start app-desc">
@@ -438,7 +461,7 @@
               </div>
             </a>
           </div>
-          <div class="item" style="width: 729px">
+          <div class="item" style="width: 52.07142857143rem">
             <a class="d-block" href="">
               <div><img src="../assets/images/iso-creativos/app2.png" alt="" /></div>
               <div class="d-flex align-items-start app-desc">
@@ -450,7 +473,7 @@
               </div>
             </a>
           </div>
-          <div class="item" style="width: 729px">
+          <div class="item" style="width: 52.07142857143rem">
             <a class="d-block" href="">
               <div><img src="../assets/images/iso-creativos/app1.png" alt="" /></div>
               <div class="d-flex align-items-start app-desc">
@@ -462,7 +485,7 @@
               </div>
             </a>
           </div>
-          <div class="item" style="width: 729px">
+          <div class="item" style="width: 52.07142857143rem">
             <a class="d-block" href="">
               <div><img src="../assets/images/iso-creativos/app2.png" alt="" /></div>
               <div class="d-flex align-items-start app-desc">
@@ -474,7 +497,7 @@
               </div>
             </a>
           </div>
-          <div class="item" style="width: 729px">
+          <div class="item" style="width: 52.07142857143rem">
             <a class="d-block" href="">
               <div><img src="../assets/images/iso-creativos/app1.png" alt="" /></div>
               <div class="d-flex align-items-start app-desc">
@@ -534,11 +557,11 @@
               </div>
 
               <div class="d-flex align-items-end mt-5">
-                <div class="menu-animation animated delay-400ms"><img src="../assets/images/iso-creativos/menu3-left.png" alt="" /></div>
-                <div class="menu-shadow menu-animation animated delay-400ms"><img src="../assets/images/iso-creativos/menu2-left.png" alt="" /></div>
-                <div class="menu-shadow menu-animation animated delay-400ms"><img src="../assets/images/iso-creativos/menu-center.png" alt="" /></div>
-                <div class="menu-shadow menu-animation animated delay-400ms"><img src="../assets/images/iso-creativos/menu2-right.png" alt="" /></div>
-                <div class="menu-animation animated delay-400ms"><img src="../assets/images/iso-creativos/menu3-right.png" alt="" /></div>
+                <div class="menu-animation animated delay-400ms w-100"><img class="w-100" src="../assets/images/iso-creativos/menu3-left.png" alt="" /></div>
+                <div class="menu-shadow menu-animation animated delay-400ms w-100"><img class="w-100" src="../assets/images/iso-creativos/menu2-left.png" alt="" /></div>
+                <div class="menu-shadow menu-animation animated delay-400ms w-100"><img class="w-100" src="../assets/images/iso-creativos/menu-center.png" alt="" /></div>
+                <div class="menu-shadow menu-animation animated delay-400ms w-100"><img class="w-100" src="../assets/images/iso-creativos/menu2-right.png" alt="" /></div>
+                <div class="menu-animation animated delay-400ms w-100"><img class="w-100" src="../assets/images/iso-creativos/menu3-right.png" alt="" /></div>
               </div>
             </div>
           </div>
@@ -546,7 +569,7 @@
       </section>
 
       <section class="what-you-get position-relative">
-        <div class="monitor"><img src="../assets/images/iso-creativos/monitor.png" alt="" /></div>
+        <div class="monitor"><img class="w-100" src="../assets/images/iso-creativos/monitor.png" alt="" /></div>
         <div class="container position-absolute description">
           <div class="row justify-content-end">
             <div class="col-4">
@@ -588,7 +611,7 @@
             </div>
             <div class="col-8">
               <div class="nav nav-pills justify-content-between">
-                <div id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+                <div id="progamer-tab" data-bs-toggle="pill" data-bs-target="#progamer" role="tab" aria-controls="progamer" aria-selected="true">
                   <div class="atropos game-box programer-atropos">
                     <!-- scale container (required) -->
                     <div class="atropos-scale">
@@ -624,7 +647,7 @@
                     </div>
                   </div>
                 </div>
-                <div id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+                <div id="workstation-tab" data-bs-toggle="pill" data-bs-target="#workstation" role="tab" aria-controls="workstation" aria-selected="false">
                   <div class="atropos game-box workstation-atropos">
                     <!-- scale container (required) -->
                     <div class="atropos-scale">
@@ -685,7 +708,7 @@
             </div>
             <div class="col-12">
               <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade text-white" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="tab-pane fade text-white" id="progamer" role="tabpanel" aria-labelledby="progamer-tab" tabindex="0">
                   <div class="row">
                     <div class="col-6">
                       <div class="play-btn-area progamer-video-player mb-0">
@@ -702,7 +725,23 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">mmm</div>
+                <div class="tab-pane fade" id="workstation" role="tabpanel" aria-labelledby="workstation-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="play-btn-area progamer-video-player mb-0">
+                        <a href="https://player.vimeo.com/video/870040408?h=9370a58ebb" class="build-play popup-btn"><img class="play" src="../assets/images/home/play-black.svg" alt="" /></a>
+                      </div>
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-between">
+                      <div class="progamer-img"><img class="w-100" src="../assets/images/iso-creativos/progamer-img2.png" alt="" /></div>
+                      <div class="progamer-img"><img class="w-100" src="../assets/images/iso-creativos/progamer-img4.png" alt="" /></div>
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-between">
+                      <div class="progamer-img"><img class="w-100" src="../assets/images/iso-creativos/progamer-img1.png" alt="" /></div>
+                      <div class="progamer-img"><img class="w-100" src="../assets/images/iso-creativos/progamer-img3.png" alt="" /></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1115,7 +1154,9 @@
             <div class="col-12">
               <h2 class="fw-normal text-center text-white">Are you ready?</h2>
               <p class="text-white fw-bold text-center">INSTALL CREATIV<span>OS</span> NOW!</p>
-              <div class="text-center"><button class="cut-border-btn b-purple"><span>BUY NOW</span></button></div>
+              <div class="text-center">
+                <button class="cut-border-btn b-purple"><span>BUY NOW</span></button>
+              </div>
             </div>
           </div>
         </div>
@@ -1254,71 +1295,88 @@
       });
     </script>
     <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animations = {
+          "menu-animation": "slideInUp",
+          "review-animation": "fadeIn",
+          "title-animation": "fadeInRight",
+        };
+
+        const handleEntry = ({ isIntersecting, target }) => {
+          if (isIntersecting) {
+            const animationClass = Object.keys(animations).find((className) => target.classList.contains(className));
+
+            if (animationClass) {
+              target.classList.add(animations[animationClass]);
+            }
+
+            if (target.tagName.toLowerCase() === "video") {
+              target.play();
+            } else {
+              observer.unobserve(target);
+            }
+          } else {
+            if (target.tagName.toLowerCase() === "video") {
+              target.pause();
+            }
+          }
+        };
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach(handleEntry);
+          },
+          { root: null, threshold: 0 }
+        );
+
+        document.querySelectorAll(".animated, video").forEach((target) => observer.observe(target));
+      });
+    </script>
+    <script>
       document.addEventListener("DOMContentLoaded", function () {
-        var observer = new IntersectionObserver(function (entries, observer) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              if (entry.target.classList.contains("menu-animation")) {
-                entry.target.classList.add("slideInUp");
-              } else if (entry.target.classList.contains("review-animation")) {
-                entry.target.classList.add("fadeIn");
-              }else if (entry.target.classList.contains("title-animation")) {
-                entry.target.classList.add("fadeInRight");
-              }
-              observer.unobserve(entry.target);
+        document.querySelectorAll('[data-bs-toggle="pill"]').forEach(function (pill) {
+          pill.addEventListener("click", function (event) {
+            const radioButton = pill.querySelector('.form-check-input[type="radio"]');
+            if (radioButton) {
+              radioButton.checked = true;
+              radioButton.dispatchEvent(new Event("change"));
             }
           });
         });
-        var targets = document.querySelectorAll(".animated");
-        targets.forEach(function (target) {
-          observer.observe(target);
+        document.querySelectorAll('.form-check-input[type="radio"]').forEach(function (radio) {
+          radio.addEventListener("change", function () {
+            document.querySelectorAll(".atropos-rotate").forEach(function (el) {
+              el.classList.remove("product-shadow");
+            });
+            if (radio.checked) {
+              const atroposRotateContainer = radio.closest('[data-bs-toggle="pill"]').querySelector(".atropos-rotate");
+              if (atroposRotateContainer) {
+                atroposRotateContainer.classList.add("product-shadow");
+              }
+            }
+          });
         });
       });
     </script>
-    <!-- <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const radios = document.querySelectorAll('.form-check-input[name="flexRadioDefault"]');
 
-        radios.forEach(function (radio) {
-          radio.addEventListener("change", function () {
-            document.querySelectorAll(".atropos-rotate").forEach(function (rotateEl) {
-              rotateEl.classList.remove("product-shadow");
-            });
-            if (radio.checked) {
-              const containerClass = radio.id;
-              const correspondingContainer = document.querySelector("." + containerClass + " .atropos-rotate");
-              if (correspondingContainer) {
-                correspondingContainer.classList.add("product-shadow");
-              }
-            }
-          });
-        });
-      });
-    </script> -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        const clickableLabels = document.querySelectorAll(".nav.nav-pills label.form-check-label");
+        var boxes = document.querySelectorAll(".cross-box");
 
-        clickableLabels.forEach(function (label) {
-          label.addEventListener("click", function () {
-            const forAttribute = label.getAttribute("for");
-            if (forAttribute) {
-              const radioButton = document.getElementById(forAttribute);
-              if (radioButton) {
-                radioButton.checked = true;
-                radioButton.dispatchEvent(new Event("change"));
-                document.querySelectorAll(".atropos-rotate").forEach(function (el) {
-                  el.classList.remove("product-shadow");
-                });
-                const parentTab = label.closest('.nav-pills [data-bs-toggle="pill"]');
-                if (parentTab) {
-                  const atroposRotateContainer = parentTab.querySelector(".atropos-rotate");
-                  if (atroposRotateContainer) {
-                    atroposRotateContainer.classList.add("product-shadow");
-                  }
-                }
-              }
-            }
+        boxes.forEach(function (box, index) {
+          var video = box.querySelector("video");
+
+          box.addEventListener("mouseenter", function () {
+            video.play();
+            const classToShow = index === 0 ? "progamer" : "workstation";
+            const classToHide = index === 0 ? "workstation" : "progamer";
+
+            document.querySelector("." + classToShow).classList.remove("d-none");
+            document.querySelector("." + classToHide).classList.add("d-none");
+          });
+
+          box.addEventListener("mouseleave", function () {
+            video.pause();
           });
         });
       });

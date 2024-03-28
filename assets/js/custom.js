@@ -81,7 +81,7 @@
     // Navbar Area
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 150) {
-            $('.navbar-area').addClass("sticky-nav");
+            // $('.navbar-area').addClass("sticky-nav");
         }
         else {
             $('.navbar-area').removeClass("sticky-nav");

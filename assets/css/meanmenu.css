@@ -327,4 +327,17 @@
     .main-nav {
         display: none !important;
     }
+    .dark-theme .mean-container .mean-bar, .dark-theme .mean-container .mean-nav {
+        background-color: #000;
+    }
+    .dark-theme .mean-container a.meanmenu-reveal span {
+        background-color: #fff;
+    }
+    .dark-theme .mean-container .mean-nav ul li a {
+        border-top: 0.0625rem solid #3b4953;
+    }
+    .dark-theme .mean-container a.meanmenu-reveal.meanclose {
+        font-family: "roboto";
+        color: #fff;
+    }
 }
